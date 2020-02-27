@@ -85,13 +85,13 @@
 					<a name="compatibleasync" class="tsd-anchor"></a>
 					<h3>compatible<wbr>Async</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">compatible<wbr>Async&lt;T, Param, R&gt;<span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Param</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Param extends Promise&lt;T&gt; ? Promise&lt;R&gt; : R</span></li>
+						<li class="tsd-signature tsd-kind-icon">compatible<wbr>Async&lt;T, Param, R&gt;<span class="tsd-signature-symbol">(</span>res<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Param</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Param</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">R</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/compatibleAsync.ts#L10">src/module/async/compatibleAsync.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/compatibleAsync.ts#L10">src/module/async/compatibleAsync.ts:10</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -129,13 +129,13 @@
 									</div>
 								</li>
 								<li>
-									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<h5>callback: <span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">R</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>同步/异步结果的回调函数</p>
 									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-siganture">
-											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+											<ul class="tsd-signatures tsd-kind-type-literal">
 												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>r<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">R</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
@@ -153,7 +153,7 @@
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Param extends Promise&lt;T&gt; ? Promise&lt;R&gt; : R</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Param</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">R</span></h4>
 							<p>处理后的结果，如果是同步的，则返回结果是同步的，否则为异步的</p>
 						</li>
 					</ul>

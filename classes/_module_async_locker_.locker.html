@@ -118,13 +118,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Locker<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_module_async_locker_.locker.html" class="tsd-signature-type">Locker</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Locker<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timeout<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_module_async_locker_.locker.html" class="tsd-signature-type">Locker</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L29">src/module/async/Locker.ts:29</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L29">src/module/async/Locker.ts:29</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -132,7 +132,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-symbol">{ </span>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timeout<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {}</span></h5>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter">
 											<h5>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
@@ -156,7 +156,7 @@
 					<div class="tsd-signature tsd-kind-icon">limit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L25">src/module/async/Locker.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L25">src/module/async/Locker.ts:25</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -168,10 +168,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="timeout" class="tsd-anchor"></a>
 					<h3>timeout</h3>
-					<div class="tsd-signature tsd-kind-icon">timeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><a href="../modules/_module_async_locker_.html#predicate" class="tsd-signature-type">Predicate</a></div>
+					<div class="tsd-signature tsd-kind-icon">timeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L29">src/module/async/Locker.ts:29</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L29">src/module/async/Locker.ts:29</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -193,7 +193,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L44">src/module/async/Locker.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L44">src/module/async/Locker.ts:44</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -210,13 +210,13 @@
 					<a name="lock" class="tsd-anchor"></a>
 					<h3>lock</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">lock<span class="tsd-signature-symbol">(</span>timeout<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">lock<span class="tsd-signature-symbol">(</span>timeout<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L52">src/module/async/Locker.ts:52</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L52">src/module/async/Locker.ts:52</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -227,7 +227,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> timeout: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol"> =&nbsp;this.timeout</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> timeout: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = this.timeout</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>超时时间，默认为全局 timeout</p>
 									</div>
@@ -248,7 +248,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/async/Locker.ts#L74">src/module/async/Locker.ts:74</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/async/Locker.ts#L74">src/module/async/Locker.ts:74</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">

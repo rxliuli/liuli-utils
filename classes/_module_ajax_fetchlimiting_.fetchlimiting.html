@@ -75,9 +75,6 @@
 						<p>限制并发请求数量的 fetch 封装</p>
 					</div>
 					<dl class="tsd-comment-tags">
-						<dt>class</dt>
-						<dd><p>FetchLimiting</p>
-						</dd>
 						<dt>example</dt>
 						<dd><p>const fetchLimiting = new FetchLimiting()
 								fetchLimiting._fetch(&#39;/&#39;)
@@ -132,13 +129,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Fetch<wbr>Limiting<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_module_ajax_fetchlimiting_.fetchlimiting.html" class="tsd-signature-type">FetchLimiting</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Fetch<wbr>Limiting<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timeout<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_module_ajax_fetchlimiting_.fetchlimiting.html" class="tsd-signature-type">FetchLimiting</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L26">src/module/ajax/FetchLimiting.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L26">src/module/ajax/FetchLimiting.ts:26</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -149,7 +146,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-symbol">{ </span>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>timeout<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {}</span></h5>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter">
 											<h5>limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></h5>
@@ -173,7 +170,7 @@
 					<div class="tsd-signature tsd-kind-icon">exec<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L25">src/module/ajax/FetchLimiting.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L25">src/module/ajax/FetchLimiting.ts:25</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -183,7 +180,7 @@
 					<div class="tsd-signature tsd-kind-icon">limit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L24">src/module/ajax/FetchLimiting.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L24">src/module/ajax/FetchLimiting.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -193,7 +190,7 @@
 					<div class="tsd-signature tsd-kind-icon">timeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L23">src/module/ajax/FetchLimiting.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L23">src/module/ajax/FetchLimiting.ts:23</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -203,7 +200,7 @@
 					<div class="tsd-signature tsd-kind-icon">wait<wbr>Arr<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">RequestInfo</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">RequestInit</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L26">src/module/ajax/FetchLimiting.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L26">src/module/ajax/FetchLimiting.ts:26</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -220,7 +217,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/ajax/FetchLimiting.ts#L63">src/module/ajax/FetchLimiting.ts:63</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/ajax/FetchLimiting.ts#L63">src/module/ajax/FetchLimiting.ts:63</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">

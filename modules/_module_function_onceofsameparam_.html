@@ -85,13 +85,13 @@
 					<a name="onceofsameparam" class="tsd-anchor"></a>
 					<h3>once<wbr>OfSame<wbr>Param</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">once<wbr>OfSame<wbr>Param&lt;Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span>, identity<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+						<li class="tsd-signature tsd-kind-icon">once<wbr>OfSame<wbr>Param&lt;Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span>, identity<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>clear<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>keys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>origin<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> }</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/function/onceOfSameParam.ts#L9">src/module/function/onceOfSameParam.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/function/onceOfSameParam.ts#L9">src/module/function/onceOfSameParam.ts:9</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -102,7 +102,7 @@
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
 								<li>
-									<h4>Fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span></h4>
+									<h4>Fn<span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_function_curry_.irfunc.html#function" class="tsd-signature-type">Function</a></h4>
 								</li>
 							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -114,16 +114,13 @@
 									</div>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> identity: <span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol"> =&nbsp;(args: any[]) &#x3D;&gt;&#x60;onceOfSameParam-${fn.toString()}-${JSON.stringify(args)}&#x60;</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> identity: <span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol"> = (args: any[]) &#x3D;&gt;&#x60;onceOfSameParam-${fn.toString()}-${JSON.stringify(args)}&#x60;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>参数转换的函数，参数为需要包装函数的参数</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
-								<span class="tsd-signature-symbol"> &amp; </span>
-								<span class="tsd-signature-type">object</span>
-							</h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>clear<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>keys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">; </span>origin<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> }</span></h4>
 							<p>需要被包装的函数</p>
 						</li>
 					</ul>

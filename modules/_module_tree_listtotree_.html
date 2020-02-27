@@ -91,13 +91,13 @@
 					<a name="listtotree" class="tsd-anchor"></a>
 					<h3>list<wbr>ToTree</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">list<wbr>ToTree&lt;T&gt;<span class="tsd-signature-symbol">(</span>list<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, __namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></li>
+						<li class="tsd-signature tsd-kind-icon">list<wbr>ToTree&lt;T&gt;<span class="tsd-signature-symbol">(</span>list<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, __namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>bridge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">; </span>isRoot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/tree/listToTree.ts#L25">src/module/tree/listToTree.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/tree/listToTree.ts#L25">src/module/tree/listToTree.ts:25</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -121,13 +121,13 @@
 									</div>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> =&nbsp;{}</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-symbol">{ </span>bridge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">; </span>isRoot<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {}</span></h5>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter">
-											<h5>bridge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span></h5>
+											<h5>bridge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a></h5>
 											<ul class="tsd-parameters">
 												<li class="tsd-parameter-siganture">
-													<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-is-not-exported">
+													<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable">
 														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a></li>
 													</ul>
 													<ul class="tsd-descriptions">
@@ -146,14 +146,14 @@
 										</li>
 										<li class="tsd-parameter">
 											<h5>is<wbr>Root<span class="tsd-signature-symbol">: </span>function</h5>
-											<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-type-literal tsd-is-not-exported">
+											<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-type-literal">
 												<li class="tsd-signature tsd-kind-icon">is<wbr>Root<span class="tsd-signature-symbol">(</span>node<span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 											</ul>
 											<ul class="tsd-descriptions">
 												<li class="tsd-description">
 													<aside class="tsd-sources">
 														<ul>
-															<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/7e3e271/src/module/tree/listToTree.ts#L29">src/module/tree/listToTree.ts:29</a></li>
+															<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/85133ff/src/module/tree/listToTree.ts#L29">src/module/tree/listToTree.ts:29</a></li>
 														</ul>
 													</aside>
 													<h4 class="tsd-parameters-title">Parameters</h4>
@@ -164,16 +164,12 @@
 													</ul>
 													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 												</li>
-										</ul>        </li>
+											</ul>
+										</li>
 									</ul>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a>
-								<span class="tsd-signature-symbol"> | </span>
-								<a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">[]</span>
-								<span class="tsd-signature-symbol"> | </span>
-								<span class="tsd-signature-type">object</span>
-							</h4>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol"> | </span><a href="../interfaces/_module_tree_inode_.inode.html" class="tsd-signature-type">INode</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></h4>
 							<p>树节点，或是树节点列表</p>
 						</li>
 					</ul>
