@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1582810029435" clover="3.2.0">
-  <project timestamp="1582810029436" name="All files">
-    <metrics statements="2231" coveredstatements="1884" conditionals="734" coveredconditionals="546" methods="597" coveredmethods="473" elements="3562" coveredelements="2903" complexity="0" loc="2231" ncloc="2231" packages="17" files="167" classes="167"/>
+<coverage generated="1585408619739" clover="3.2.0">
+  <project timestamp="1585408619739" name="All files">
+    <metrics statements="2282" coveredstatements="1930" conditionals="755" coveredconditionals="564" methods="617" coveredmethods="491" elements="3654" coveredelements="2985" complexity="0" loc="2282" ncloc="2282" packages="17" files="171" classes="171"/>
     <package name="src">
       <metrics statements="283" coveredstatements="283" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="D:\Text\nodejs\rx-util\src\index.ts">
@@ -492,11 +492,15 @@
       </file>
     </package>
     <package name="src.module.array">
-      <metrics statements="307" coveredstatements="256" conditionals="85" coveredconditionals="65" methods="94" coveredmethods="79"/>
+      <metrics statements="311" coveredstatements="260" conditionals="85" coveredconditionals="65" methods="95" coveredmethods="80"/>
       <file name="ArrayUtil.ts" path="D:\Text\nodejs\rx-util\src\module\array\ArrayUtil.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
       </file>
       <file name="ArrayValidator.ts" path="D:\Text\nodejs\rx-util\src\module\array\ArrayValidator.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
@@ -748,9 +752,9 @@
       </file>
       <file name="getKFn.ts" path="D:\Text\nodejs\rx-util\src\module\array\getKFn.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="19" type="stmt"/>
-        <line num="10" count="19" type="stmt"/>
-        <line num="11" count="66" type="cond" truecount="2" falsecount="0"/>
+        <line num="1" count="20" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
+        <line num="11" count="70" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="groupBy.ts" path="D:\Text\nodejs\rx-util\src\module\array\groupBy.ts">
         <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
@@ -792,7 +796,7 @@
         <line num="8" count="19" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="55" type="stmt"/>
         <line num="10" count="55" type="stmt"/>
-        <line num="11" count="385" type="stmt"/>
+        <line num="11" count="383" type="stmt"/>
         <line num="13" count="55" type="stmt"/>
       </file>
       <file name="segmentation.ts" path="D:\Text\nodejs\rx-util\src\module\array\segmentation.ts">
@@ -807,34 +811,34 @@
       </file>
       <file name="sortBy.ts" path="D:\Text\nodejs\rx-util\src\module\array\sortBy.ts">
         <metrics statements="28" coveredstatements="28" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="15" count="16" type="stmt"/>
-        <line num="18" count="20" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="12" type="stmt"/>
-        <line num="22" count="8" type="stmt"/>
-        <line num="23" count="8" type="stmt"/>
-        <line num="24" count="8" type="stmt"/>
-        <line num="25" count="8" type="stmt"/>
-        <line num="26" count="8" type="stmt"/>
-        <line num="27" count="26" type="cond" truecount="2" falsecount="0"/>
-        <line num="28" count="8" type="stmt"/>
-        <line num="30" count="18" type="stmt"/>
-        <line num="31" count="18" type="cond" truecount="2" falsecount="0"/>
-        <line num="32" count="11" type="stmt"/>
-        <line num="34" count="7" type="stmt"/>
-        <line num="37" count="8" type="stmt"/>
-        <line num="41" count="4" type="stmt"/>
-        <line num="42" count="18" type="stmt"/>
-        <line num="43" count="18" type="stmt"/>
-        <line num="44" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="15" count="27" type="stmt"/>
+        <line num="18" count="34" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="21" type="stmt"/>
+        <line num="22" count="13" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="25" count="13" type="stmt"/>
+        <line num="26" count="13" type="stmt"/>
+        <line num="27" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="13" type="stmt"/>
+        <line num="30" count="26" type="stmt"/>
+        <line num="31" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="15" type="stmt"/>
+        <line num="34" count="11" type="stmt"/>
+        <line num="37" count="13" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="26" type="stmt"/>
+        <line num="43" count="26" type="stmt"/>
+        <line num="44" count="26" type="cond" truecount="2" falsecount="0"/>
         <line num="45" count="3" type="stmt"/>
-        <line num="46" count="15" type="cond" truecount="2" falsecount="0"/>
-        <line num="47" count="8" type="stmt"/>
-        <line num="49" count="7" type="stmt"/>
-        <line num="51" count="16" type="stmt"/>
+        <line num="46" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="12" type="stmt"/>
+        <line num="49" count="11" type="stmt"/>
+        <line num="51" count="27" type="stmt"/>
       </file>
       <file name="toObject.ts" path="D:\Text\nodejs\rx-util\src\module\array\toObject.ts">
         <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
@@ -869,17 +873,17 @@
       <file name="Locker.ts" path="D:\Text\nodejs\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="171" type="stmt"/>
+        <line num="8" count="189" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="90" type="stmt"/>
+        <line num="45" count="104" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="76" type="stmt"/>
-        <line num="60" count="76" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="90" type="stmt"/>
+        <line num="60" count="90" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="76" type="stmt"/>
+        <line num="63" count="90" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
@@ -907,11 +911,11 @@
         <line num="43" count="10" type="stmt"/>
         <line num="46" count="14" type="stmt"/>
         <line num="48" count="14" type="stmt"/>
-        <line num="49" count="100" type="stmt"/>
-        <line num="51" count="100" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="90" type="stmt"/>
+        <line num="51" count="90" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="10" type="stmt"/>
         <line num="53" count="10" type="stmt"/>
-        <line num="55" count="100" type="stmt"/>
+        <line num="55" count="90" type="stmt"/>
         <line num="57" count="10" type="stmt"/>
       </file>
       <file name="compatibleAsync.ts" path="D:\Text\nodejs\rx-util\src\module\async\compatibleAsync.ts">
@@ -997,7 +1001,7 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="459" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="481" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
@@ -1622,10 +1626,10 @@
       </file>
       <file name="extractField.ts" path="D:\Text\nodejs\rx-util\src\module\function\extractField.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
-        <line num="1" count="19" type="stmt"/>
-        <line num="2" count="19" type="stmt"/>
-        <line num="3" count="19" type="stmt"/>
-        <line num="10" count="19" type="stmt"/>
+        <line num="1" count="20" type="stmt"/>
+        <line num="2" count="20" type="stmt"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="10" count="20" type="stmt"/>
         <line num="13" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="8" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
@@ -1696,8 +1700,8 @@
       </file>
       <file name="returnItself.ts" path="D:\Text\nodejs\rx-util\src\module\function\returnItself.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="26" type="stmt"/>
-        <line num="10" count="317" type="stmt"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="10" count="333" type="stmt"/>
       </file>
       <file name="returnReasonableItself.ts" path="D:\Text\nodejs\rx-util\src\module\function\returnReasonableItself.ts">
         <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
@@ -1711,7 +1715,7 @@
       </file>
       <file name="safeExec.ts" path="D:\Text\nodejs\rx-util\src\module\function\safeExec.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-        <line num="13" count="22" type="stmt"/>
+        <line num="13" count="23" type="stmt"/>
         <line num="18" count="39" type="cond" truecount="2" falsecount="0"/>
         <line num="19" count="39" type="stmt"/>
         <line num="20" count="39" type="stmt"/>
@@ -1873,7 +1877,27 @@
       </file>
     </package>
     <package name="src.module.idea">
-      <metrics statements="242" coveredstatements="177" conditionals="98" coveredconditionals="74" methods="79" coveredmethods="47"/>
+      <metrics statements="287" coveredstatements="218" conditionals="117" coveredconditionals="91" methods="98" coveredmethods="64"/>
+      <file name="EventEmitter.ts" path="D:\Text\nodejs\rx-util\src\module\idea\EventEmitter.ts">
+        <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="6"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="69" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
       <file name="LineRange.ts" path="D:\Text\nodejs\rx-util\src\module\idea\LineRange.ts">
         <metrics statements="22" coveredstatements="20" conditionals="16" coveredconditionals="12" methods="5" coveredmethods="5"/>
         <line num="4" count="2" type="stmt"/>
@@ -2083,28 +2107,40 @@
         <line num="12" count="5" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
       </file>
+      <file name="genSort.ts" path="D:\Text\nodejs\rx-util\src\module\idea\genSort.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+      </file>
       <file name="get.ts" path="D:\Text\nodejs\rx-util\src\module\idea\get.ts">
         <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="19" count="9" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="9" type="stmt"/>
-        <line num="22" count="9" type="stmt"/>
-        <line num="23" count="9" type="stmt"/>
-        <line num="24" count="16" type="stmt"/>
-        <line num="25" count="16" type="stmt"/>
-        <line num="26" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="19" count="21" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="24" count="28" type="stmt"/>
+        <line num="25" count="28" type="stmt"/>
+        <line num="26" count="28" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="3" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
+        <line num="33" count="18" type="stmt"/>
       </file>
       <file name="parseFieldStr.ts" path="D:\Text\nodejs\rx-util\src\module\idea\parseFieldStr.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="7" count="11" type="stmt"/>
-        <line num="9" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="9" count="35" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="pipe.ts" path="D:\Text\nodejs\rx-util\src\module\idea\pipe.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="12" type="stmt"/>
       </file>
       <file name="reverseKey.ts" path="D:\Text\nodejs\rx-util\src\module\idea\reverseKey.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
@@ -2134,6 +2170,31 @@
         <line num="30" count="1" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
       </file>
+      <file name="stream.ts" path="D:\Text\nodejs\rx-util\src\module\idea\stream.ts">
+        <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="12" type="cond" truecount="4" falsecount="0"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+      </file>
       <file name="style.ts" path="D:\Text\nodejs\rx-util\src\module\idea\style.ts">
         <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
@@ -2151,7 +2212,7 @@
       </file>
     </package>
     <package name="src.module.number">
-      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <metrics statements="15" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
       <file name="autoIncrement.ts" path="D:\Text\nodejs\rx-util\src\module\number\autoIncrement.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="1" type="stmt"/>
@@ -2167,15 +2228,17 @@
       </file>
       <file name="isRange.ts" path="D:\Text\nodejs\rx-util\src\module\number\isRange.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="7" count="40" type="stmt"/>
+        <line num="7" count="42" type="stmt"/>
         <line num="8" count="71" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="randomInt.ts" path="D:\Text\nodejs\rx-util\src\module\number\randomInt.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="9" count="208" type="cond" truecount="2" falsecount="0"/>
-        <line num="10" count="208" type="cond" truecount="2" falsecount="0"/>
-        <line num="11" count="208" type="stmt"/>
+        <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="206" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="206" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="206" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="206" type="stmt"/>
       </file>
     </package>
     <package name="src.module.obj">
@@ -2225,28 +2288,28 @@
       </file>
       <file name="TypeValidator.ts" path="D:\Text\nodejs\rx-util\src\module\obj\TypeValidator.ts">
         <metrics statements="47" coveredstatements="44" conditionals="25" coveredconditionals="15" methods="21" coveredmethods="19"/>
-        <line num="1" count="28" type="stmt"/>
-        <line num="5" count="28" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="28" type="stmt"/>
-        <line num="7" count="28" type="stmt"/>
-        <line num="8" count="28" type="stmt"/>
-        <line num="9" count="28" type="stmt"/>
-        <line num="10" count="28" type="stmt"/>
-        <line num="11" count="28" type="stmt"/>
-        <line num="12" count="28" type="stmt"/>
-        <line num="13" count="28" type="stmt"/>
-        <line num="14" count="28" type="stmt"/>
-        <line num="15" count="28" type="stmt"/>
-        <line num="16" count="28" type="stmt"/>
-        <line num="17" count="28" type="stmt"/>
-        <line num="18" count="28" type="stmt"/>
-        <line num="19" count="28" type="stmt"/>
-        <line num="20" count="28" type="stmt"/>
-        <line num="21" count="28" type="stmt"/>
-        <line num="22" count="28" type="stmt"/>
-        <line num="23" count="28" type="stmt"/>
-        <line num="28" count="28" type="stmt"/>
-        <line num="32" count="28" type="stmt"/>
+        <line num="1" count="30" type="stmt"/>
+        <line num="5" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="30" type="stmt"/>
+        <line num="7" count="30" type="stmt"/>
+        <line num="8" count="30" type="stmt"/>
+        <line num="9" count="30" type="stmt"/>
+        <line num="10" count="30" type="stmt"/>
+        <line num="11" count="30" type="stmt"/>
+        <line num="12" count="30" type="stmt"/>
+        <line num="13" count="30" type="stmt"/>
+        <line num="14" count="30" type="stmt"/>
+        <line num="15" count="30" type="stmt"/>
+        <line num="16" count="30" type="stmt"/>
+        <line num="17" count="30" type="stmt"/>
+        <line num="18" count="30" type="stmt"/>
+        <line num="19" count="30" type="stmt"/>
+        <line num="20" count="30" type="stmt"/>
+        <line num="21" count="30" type="stmt"/>
+        <line num="22" count="30" type="stmt"/>
+        <line num="23" count="30" type="stmt"/>
+        <line num="28" count="30" type="stmt"/>
+        <line num="32" count="30" type="stmt"/>
         <line num="40" count="4" type="stmt"/>
         <line num="41" count="6" type="cond" truecount="1" falsecount="1"/>
         <line num="42" count="6" type="stmt"/>
@@ -2254,7 +2317,7 @@
         <line num="44" count="4" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
-        <line num="64" count="40" type="stmt"/>
+        <line num="64" count="52" type="stmt"/>
         <line num="72" count="14" type="stmt"/>
         <line num="80" count="1" type="stmt"/>
         <line num="88" count="7" type="stmt"/>
@@ -2443,8 +2506,8 @@
       </file>
       <file name="isNullOrUndefined.ts" path="D:\Text\nodejs\rx-util\src\module\obj\isNullOrUndefined.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="7" count="54" type="stmt"/>
-        <line num="8" count="332" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="56" type="stmt"/>
+        <line num="8" count="343" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="mapToObject.ts" path="D:\Text\nodejs\rx-util\src\module\obj\mapToObject.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -2487,31 +2550,31 @@
       </file>
       <file name="StringValidator.ts" path="D:\Text\nodejs\rx-util\src\module\string\StringValidator.ts">
         <metrics statements="25" coveredstatements="24" conditionals="22" coveredconditionals="21" methods="11" coveredmethods="11"/>
-        <line num="1" count="37" type="stmt"/>
-        <line num="2" count="37" type="stmt"/>
-        <line num="7" count="37" type="stmt"/>
-        <line num="11" count="37" type="stmt"/>
-        <line num="15" count="37" type="stmt"/>
-        <line num="19" count="37" type="stmt"/>
-        <line num="23" count="37" type="stmt"/>
-        <line num="27" count="37" type="stmt"/>
-        <line num="31" count="37" type="stmt"/>
-        <line num="35" count="37" type="stmt"/>
-        <line num="43" count="37" type="stmt"/>
-        <line num="50" count="52" type="cond" truecount="2" falsecount="0"/>
-        <line num="58" count="14" type="cond" truecount="2" falsecount="0"/>
-        <line num="67" count="6" type="cond" truecount="1" falsecount="1"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="70" count="6" type="stmt"/>
-        <line num="79" count="25" type="cond" truecount="2" falsecount="0"/>
-        <line num="87" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="95" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="105" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="113" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="121" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="129" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="137" count="5" type="cond" truecount="2" falsecount="0"/>
-        <line num="145" count="37" type="stmt"/>
+        <line num="1" count="39" type="stmt"/>
+        <line num="2" count="39" type="stmt"/>
+        <line num="7" count="39" type="stmt"/>
+        <line num="11" count="39" type="stmt"/>
+        <line num="15" count="39" type="stmt"/>
+        <line num="19" count="39" type="stmt"/>
+        <line num="23" count="39" type="stmt"/>
+        <line num="28" count="39" type="stmt"/>
+        <line num="32" count="39" type="stmt"/>
+        <line num="36" count="39" type="stmt"/>
+        <line num="44" count="39" type="stmt"/>
+        <line num="51" count="52" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="71" count="6" type="stmt"/>
+        <line num="80" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="96" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="114" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="122" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="130" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="138" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="146" count="39" type="stmt"/>
       </file>
       <file name="blankToNull.ts" path="D:\Text\nodejs\rx-util\src\module\string\blankToNull.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
