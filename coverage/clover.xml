@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1585408619739" clover="3.2.0">
-  <project timestamp="1585408619739" name="All files">
+<coverage generated="1585409244275" clover="3.2.0">
+  <project timestamp="1585409244275" name="All files">
     <metrics statements="2282" coveredstatements="1930" conditionals="755" coveredconditionals="564" methods="617" coveredmethods="491" elements="3654" coveredelements="2985" complexity="0" loc="2282" ncloc="2282" packages="17" files="171" classes="171"/>
     <package name="src">
       <metrics statements="283" coveredstatements="283" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -873,17 +873,17 @@
       <file name="Locker.ts" path="D:\Text\nodejs\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="189" type="stmt"/>
+        <line num="8" count="199" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="104" type="stmt"/>
+        <line num="45" count="105" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="90" type="stmt"/>
-        <line num="60" count="90" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="91" type="stmt"/>
+        <line num="60" count="91" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="90" type="stmt"/>
+        <line num="63" count="91" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
@@ -911,11 +911,11 @@
         <line num="43" count="10" type="stmt"/>
         <line num="46" count="14" type="stmt"/>
         <line num="48" count="14" type="stmt"/>
-        <line num="49" count="90" type="stmt"/>
-        <line num="51" count="90" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="84" type="stmt"/>
+        <line num="51" count="84" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="10" type="stmt"/>
         <line num="53" count="10" type="stmt"/>
-        <line num="55" count="90" type="stmt"/>
+        <line num="55" count="84" type="stmt"/>
         <line num="57" count="10" type="stmt"/>
       </file>
       <file name="compatibleAsync.ts" path="D:\Text\nodejs\rx-util\src\module\async\compatibleAsync.ts">
@@ -984,13 +984,13 @@
         <line num="18" count="3" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
-        <line num="26" count="8" type="stmt"/>
-        <line num="27" count="8" type="stmt"/>
-        <line num="28" count="8" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="6" type="stmt"/>
-        <line num="30" count="6" type="stmt"/>
-        <line num="31" count="6" type="stmt"/>
-        <line num="32" count="6" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="7" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="32" count="7" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
       </file>
       <file name="wait.ts" path="D:\Text\nodejs\rx-util\src\module\async\wait.ts">
@@ -1001,7 +1001,7 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="481" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="476" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
@@ -1012,11 +1012,11 @@
         <line num="27" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
-        <line num="30" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="24" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="5" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
-        <line num="34" count="23" type="stmt"/>
-        <line num="35" count="23" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="24" type="stmt"/>
+        <line num="35" count="24" type="cond" truecount="2" falsecount="0"/>
         <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
       </file>
