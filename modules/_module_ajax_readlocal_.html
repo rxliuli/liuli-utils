@@ -79,31 +79,75 @@
 						<section class="tsd-index-section tsd-is-not-exported">
 							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported"><a href="../interfaces/_module_ajax_readlocal_.ireadlocalinit.html" class="tsd-kind-icon">IRead<wbr>Local<wbr>Init</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported"><a href="../interfaces/_module_ajax_readlocal_.ireadlocalinit.html" class="tsd-kind-icon">IRead<wbr>Local<wbr>Init</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Type aliases</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported"><a href="_module_ajax_readlocal_.html#readresult" class="tsd-kind-icon">Read<wbr>Result</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable tsd-parent-kind-external-module"><a href="_module_ajax_readlocal_.html#readlocal" class="tsd-kind-icon">read<wbr>Local</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_module_ajax_readlocal_.html#readlocal" class="tsd-kind-icon">read<wbr>Local</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter"><a href="_module_ajax_readlocal_.html#_readlocal" class="tsd-kind-icon">_read<wbr>Local</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Type aliases</h2>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported">
+					<a name="readresult" class="tsd-anchor"></a>
+					<h3>Read<wbr>Result</h3>
+					<div class="tsd-signature tsd-kind-icon">Read<wbr>Result&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> extends </span><span class="tsd-signature-type">DataURL</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Text</span><span class="tsd-signature-symbol"> ? </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> : </span><span class="tsd-signature-type">ArrayBuffer</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/4a9eb9b/src/module/ajax/readLocal.ts#L26">src/module/ajax/readLocal.ts:26</a></li>
+						</ul>
+					</aside>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module">
+					<a name="readlocal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> read<wbr>Local</h3>
+					<div class="tsd-signature tsd-kind-icon">read<wbr>Local<span class="tsd-signature-symbol">:</span> <a href="_module_ajax_readlocal_.html#_readlocal" class="tsd-signature-type">_readLocal</a><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-symbol">{ </span>ArrayBuffer<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html#arraybuffer" class="tsd-signature-type">ArrayBuffer</a><span class="tsd-signature-symbol">; </span>BinaryString<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html#binarystring" class="tsd-signature-type">BinaryString</a><span class="tsd-signature-symbol">; </span>DataURL<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html#dataurl" class="tsd-signature-type">DataURL</a><span class="tsd-signature-symbol">; </span>ReadType<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a><span class="tsd-signature-symbol">; </span>Text<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html#text" class="tsd-signature-type">Text</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = Object.assign(_readLocal, {ReadType,/*** 以 data url 读取* @deprecated 已废弃，请使用枚举类 ReadType*/DataURL: ReadType.DataURL,/*** 以文本读取* @deprecated 已废弃，请使用枚举类 ReadType*/Text: ReadType.Text,/*** 以二进制文件读取* @deprecated 已废弃，请使用枚举类 ReadType*/BinaryString: ReadType.BinaryString,/*** 以 ArrayBuffer 读取* @deprecated 已废弃，请使用枚举类 ReadType*/ArrayBuffer: ReadType.ArrayBuffer,})</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/4a9eb9b/src/module/ajax/readLocal.ts#L78">src/module/ajax/readLocal.ts:78</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="readlocal" class="tsd-anchor"></a>
-					<h3>read<wbr>Local</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">read<wbr>Local<span class="tsd-signature-symbol">(</span>file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">File</span>, __namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>encoding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ArrayBuffer</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></li>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
+					<a name="_readlocal" class="tsd-anchor"></a>
+					<h3>_read<wbr>Local</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">_read<wbr>Local&lt;T&gt;<span class="tsd-signature-symbol">(</span>file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">File</span>, options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>encoding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_module_ajax_readlocal_.html#readresult" class="tsd-signature-type">ReadResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1cfa2b0/src/module/ajax/readLocal.ts#L34">src/module/ajax/readLocal.ts:34</a></li>
+									<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/4a9eb9b/src/module/ajax/readLocal.ts#L36">src/module/ajax/readLocal.ts:36</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -111,6 +155,12 @@
 									<p>读取本地浏览器选择的文件</p>
 								</div>
 							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -120,18 +170,13 @@
 									</div>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-symbol">{ </span>encoding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {}</span></h5>
-									<ul class="tsd-parameters">
-										<li class="tsd-parameter">
-											<h5>encoding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
-										</li>
-										<li class="tsd-parameter">
-											<h5>type<span class="tsd-signature-symbol">: </span><a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-signature-type">ReadType</a></h5>
-										</li>
-									</ul>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> options: <span class="tsd-signature-type">Partial</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">{ </span>encoding<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = {}</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>读取的选项</p>
+									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">ArrayBuffer</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_module_ajax_readlocal_.html#readresult" class="tsd-signature-type">ReadResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">&gt;</span></h4>
 							<p>返回了读取到的内容（异步）</p>
 						</li>
 					</ul>
@@ -154,11 +199,17 @@
 					<li class=" tsd-kind-enum tsd-parent-kind-external-module tsd-is-not-exported">
 						<a href="../enums/_module_ajax_readlocal_.readtype.html" class="tsd-kind-icon">Read<wbr>Type</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
+					<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported">
 						<a href="../interfaces/_module_ajax_readlocal_.ireadlocalinit.html" class="tsd-kind-icon">IRead<wbr>Local<wbr>Init</a>
 					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+					<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported">
+						<a href="_module_ajax_readlocal_.html#readresult" class="tsd-kind-icon">Read<wbr>Result</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-external-module">
 						<a href="_module_ajax_readlocal_.html#readlocal" class="tsd-kind-icon">read<wbr>Local</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
+						<a href="_module_ajax_readlocal_.html#_readlocal" class="tsd-kind-icon">_read<wbr>Local</a>
 					</li>
 				</ul>
 			</nav>

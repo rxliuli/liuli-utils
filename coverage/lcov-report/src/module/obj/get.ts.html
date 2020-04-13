@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for src/module/idea/MicrotaskQueue.ts</title>
+    <title>Code coverage report for src/module/obj/get.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="..\..\..\prettify.css" />
     <link rel="stylesheet" href="..\..\..\base.css" />
@@ -16,7 +16,7 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="..\..\..\index.html">All files</a> / <a href="index.html">src/module/idea</a> MicrotaskQueue.ts
+      <a href="..\..\..\index.html">All files</a> / <a href="index.html">src/module/obj</a> get.ts
     </h1>
     <div class='clearfix'>
     </div>
@@ -60,88 +60,73 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a>
-<a name='L39'></a><a href='#L39'>39</a>
-<a name='L40'></a><a href='#L40'>40</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">14x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { insert } from '../array/insert'
-import { compatibleAsync } from '../async/compatibleAsync'
-&nbsp;
-type NoParamVoidFunc = () =&gt; void | PromiseLike&lt;void&gt;
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">28x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { TypeValidator } from '../obj/TypeValidator'
+import { isNullOrUndefined } from '../obj/isNullOrUndefined'
+import { parseFieldStr } from '../idea/parseFieldStr'
 &nbsp;
 /**
- * 一个简单的微任务队列辅助类
- * 注：该 class 是为了解决问题 https://segmentfault.com/q/1010000019115775
+ * 安全的深度获取对象的字段
+ * TODO 该函数尚处于早期测试阶段
+ * 注: 只要获取字段的值为 {@type null|undefined}，就会直接返回 {@param defVal}
+ * 类似于 ES2019 的可选调用链特性: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/%E5%8F%AF%E9%80%89%E9%93%BE
+ * @param obj 获取的对象
+ * @param fields 字段字符串或数组
+ * @param [defVal] 取不到值时的默认值，默认为 null
  */
-export class MicrotaskQueue {
-  public tasks: NoParamVoidFunc[] = []
-  private isRunning = false
-  add(func: NoParamVoidFunc, index?: number) {
-    if (index !== undefined) {
-      insert(this.tasks, index, func)
-    } else {
-      this.tasks.push(func)
-    }
-    this.start()
-    return this
+export function get(
+  obj: object,
+  fields: PropertyKey[] | string,
+  defVal: any = null,
+): any {
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (TypeValidator.isString(fields)) {
+    fields = parseFieldStr(fields)
   }
-  private start() {
-    if (this.isRunning) {
-      return
-    }
-    this.isRunning = true
-    const goNext = () =&gt; {
-      if (this.tasks.length) {
-        const task = this.tasks.shift()!
-        compatibleAsync(task(), () =&gt; goNext())
-      } else {
-        this.isRunning = false
+  let res = obj
+  for (const field of fields) {
+    try {
+      res = Reflect.get(res, field)
+      if (isNullOrUndefined(res)) {
+        return defVal
       }
+    } catch (e) {
+<span class="cstat-no" title="statement not covered" >      return defVal</span>
     }
-    Promise.resolve().then(() =&gt; {
-      goNext()
-    })
   }
+  return res
 }
 &nbsp;</pre></td></tr>
 </table></pre>
@@ -149,7 +134,7 @@ export class MicrotaskQueue {
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sat Mar 28 2020 23:27:23 GMT+0800 (GMT+08:00)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Apr 13 2020 11:02:34 GMT+0800 (GMT+08:00)
 </div>
 </div>
 <script src="..\..\..\prettify.js"></script>
