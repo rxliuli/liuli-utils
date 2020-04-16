@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1586746954383" clover="3.2.0">
-  <project timestamp="1586746954383" name="All files">
-    <metrics statements="2306" coveredstatements="1959" conditionals="759" coveredconditionals="567" methods="615" coveredmethods="496" elements="3680" coveredelements="3022" complexity="0" loc="2306" ncloc="2306" packages="17" files="173" classes="173"/>
+<coverage generated="1587008021051" clover="3.2.0">
+  <project timestamp="1587008021051" name="All files">
+    <metrics statements="2317" coveredstatements="1970" conditionals="764" coveredconditionals="572" methods="619" coveredmethods="500" elements="3700" coveredelements="3042" complexity="0" loc="2317" ncloc="2317" packages="17" files="173" classes="173"/>
     <package name="src">
       <metrics statements="289" coveredstatements="289" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="E:\Text\rx-util\src\index.ts">
@@ -881,17 +881,17 @@
       <file name="Locker.ts" path="E:\Text\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="189" type="stmt"/>
+        <line num="8" count="207" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="102" type="stmt"/>
+        <line num="45" count="110" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="88" type="stmt"/>
-        <line num="60" count="88" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="96" type="stmt"/>
+        <line num="60" count="96" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="88" type="stmt"/>
+        <line num="63" count="96" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
@@ -942,11 +942,11 @@
         <line num="43" count="10" type="stmt"/>
         <line num="46" count="14" type="stmt"/>
         <line num="48" count="14" type="stmt"/>
-        <line num="49" count="93" type="stmt"/>
-        <line num="51" count="93" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="84" type="stmt"/>
+        <line num="51" count="84" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="10" type="stmt"/>
         <line num="53" count="10" type="stmt"/>
-        <line num="55" count="93" type="stmt"/>
+        <line num="55" count="84" type="stmt"/>
         <line num="57" count="10" type="stmt"/>
       </file>
       <file name="compatibleAsync.ts" path="E:\Text\rx-util\src\module\async\compatibleAsync.ts">
@@ -1015,13 +1015,13 @@
         <line num="18" count="3" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
-        <line num="26" count="9" type="stmt"/>
-        <line num="27" count="9" type="stmt"/>
-        <line num="28" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="30" count="7" type="stmt"/>
-        <line num="31" count="7" type="stmt"/>
-        <line num="32" count="7" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
       </file>
       <file name="wait.ts" path="E:\Text\rx-util\src\module\async\wait.ts">
@@ -1032,7 +1032,7 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="479" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="499" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
@@ -1043,11 +1043,11 @@
         <line num="27" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
-        <line num="30" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="25" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="5" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
-        <line num="34" count="24" type="stmt"/>
-        <line num="35" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="25" type="stmt"/>
+        <line num="35" count="25" type="cond" truecount="2" falsecount="0"/>
         <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
       </file>
@@ -1852,7 +1852,7 @@
       </file>
     </package>
     <package name="src.module.hack">
-      <metrics statements="64" coveredstatements="42" conditionals="12" coveredconditionals="5" methods="18" coveredmethods="6"/>
+      <metrics statements="75" coveredstatements="53" conditionals="17" coveredconditionals="10" methods="22" coveredmethods="10"/>
       <file name="AntiDebug.ts" path="E:\Text\rx-util\src\module\hack\AntiDebug.ts">
         <metrics statements="28" coveredstatements="14" conditionals="5" coveredconditionals="1" methods="11" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
@@ -1885,34 +1885,45 @@
         <line num="71" count="3" type="stmt"/>
       </file>
       <file name="logger.ts" path="E:\Text\rx-util\src\module\hack\logger.ts">
-        <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <metrics statements="38" coveredstatements="38" conditionals="9" coveredconditionals="9" methods="7" coveredmethods="7"/>
         <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="19" count="48" type="cond" truecount="2" falsecount="0"/>
-        <line num="22" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="3" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
-        <line num="38" count="3" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
-        <line num="40" count="3" type="stmt"/>
-        <line num="41" count="3" type="stmt"/>
-        <line num="52" count="3" type="stmt"/>
-        <line num="60" count="3" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="34" count="120" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="96" type="stmt"/>
+        <line num="46" count="20" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="76" count="3" type="stmt"/>
+        <line num="77" count="3" type="stmt"/>
+        <line num="78" count="3" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="80" count="3" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="83" count="3" type="stmt"/>
+        <line num="84" count="3" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="87" count="3" type="stmt"/>
+        <line num="88" count="3" type="stmt"/>
+        <line num="89" count="3" type="stmt"/>
+        <line num="102" count="3" type="stmt"/>
+        <line num="103" count="3" type="stmt"/>
+        <line num="111" count="3" type="stmt"/>
       </file>
       <file name="remindLeavePage.ts" path="E:\Text\rx-util\src\module\hack\remindLeavePage.ts">
         <metrics statements="9" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
