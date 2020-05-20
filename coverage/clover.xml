@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589970212214" clover="3.2.0">
-  <project timestamp="1589970212214" name="All files">
+<coverage generated="1589972699672" clover="3.2.0">
+  <project timestamp="1589972699672" name="All files">
     <metrics statements="2367" coveredstatements="1989" conditionals="781" coveredconditionals="576" methods="645" coveredmethods="506" elements="3793" coveredelements="3071" complexity="0" loc="2367" ncloc="2367" packages="17" files="177" classes="177"/>
     <package name="src">
       <metrics statements="295" coveredstatements="295" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -887,17 +887,17 @@
       <file name="Locker.ts" path="E:\Text\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="198" type="stmt"/>
+        <line num="8" count="201" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="102" type="stmt"/>
+        <line num="45" count="104" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="88" type="stmt"/>
-        <line num="60" count="88" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="90" type="stmt"/>
+        <line num="60" count="90" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="88" type="stmt"/>
+        <line num="63" count="90" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
@@ -1038,7 +1038,7 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="498" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="494" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
