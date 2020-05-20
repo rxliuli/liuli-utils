@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1587913059924" clover="3.2.0">
-  <project timestamp="1587913059924" name="All files">
-    <metrics statements="2343" coveredstatements="1975" conditionals="771" coveredconditionals="574" methods="638" coveredmethods="504" elements="3752" coveredelements="3053" complexity="0" loc="2343" ncloc="2343" packages="17" files="174" classes="174"/>
+<coverage generated="1589970212214" clover="3.2.0">
+  <project timestamp="1589970212214" name="All files">
+    <metrics statements="2367" coveredstatements="1989" conditionals="781" coveredconditionals="576" methods="645" coveredmethods="506" elements="3793" coveredelements="3071" complexity="0" loc="2367" ncloc="2367" packages="17" files="177" classes="177"/>
     <package name="src">
-      <metrics statements="289" coveredstatements="289" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\index.ts">
-        <metrics statements="289" coveredstatements="289" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="295" coveredstatements="295" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="E:\Text\rx-util\src\index.ts">
+        <metrics statements="295" coveredstatements="295" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -145,9 +145,9 @@
         <line num="146" count="2" type="stmt"/>
         <line num="147" count="2" type="stmt"/>
         <line num="148" count="2" type="stmt"/>
-        <line num="154" count="2" type="stmt"/>
-        <line num="155" count="2" type="stmt"/>
-        <line num="156" count="2" type="stmt"/>
+        <line num="149" count="2" type="stmt"/>
+        <line num="150" count="2" type="stmt"/>
+        <line num="151" count="2" type="stmt"/>
         <line num="157" count="2" type="stmt"/>
         <line num="158" count="2" type="stmt"/>
         <line num="159" count="2" type="stmt"/>
@@ -289,17 +289,23 @@
         <line num="295" count="2" type="stmt"/>
         <line num="296" count="2" type="stmt"/>
         <line num="297" count="2" type="stmt"/>
+        <line num="298" count="2" type="stmt"/>
         <line num="299" count="2" type="stmt"/>
         <line num="300" count="2" type="stmt"/>
         <line num="301" count="2" type="stmt"/>
         <line num="302" count="2" type="stmt"/>
         <line num="303" count="2" type="stmt"/>
-        <line num="304" count="2" type="stmt"/>
+        <line num="305" count="2" type="stmt"/>
+        <line num="306" count="2" type="stmt"/>
+        <line num="307" count="2" type="stmt"/>
+        <line num="308" count="2" type="stmt"/>
+        <line num="309" count="2" type="stmt"/>
+        <line num="310" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.module.ajax">
       <metrics statements="154" coveredstatements="81" conditionals="46" coveredconditionals="22" methods="35" coveredmethods="14"/>
-      <file name="FetchLimiting.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\FetchLimiting.ts">
+      <file name="FetchLimiting.ts" path="E:\Text\rx-util\src\module\ajax\FetchLimiting.ts">
         <metrics statements="16" coveredstatements="3" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -318,7 +324,7 @@
         <line num="78" count="0" type="stmt"/>
         <line num="80" count="0" type="stmt"/>
       </file>
-      <file name="download.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\download.ts">
+      <file name="download.ts" path="E:\Text\rx-util\src\module\ajax\download.ts">
         <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
@@ -329,14 +335,14 @@
         <line num="15" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
-      <file name="downloadString.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\downloadString.ts">
+      <file name="downloadString.ts" path="E:\Text\rx-util\src\module\ajax\downloadString.ts">
         <metrics statements="4" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
       </file>
-      <file name="downloadUrl.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\downloadUrl.ts">
+      <file name="downloadUrl.ts" path="E:\Text\rx-util\src\module\ajax\downloadUrl.ts">
         <metrics statements="8" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
@@ -347,14 +353,14 @@
         <line num="18" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
       </file>
-      <file name="fetchTimeout.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\fetchTimeout.ts">
+      <file name="fetchTimeout.ts" path="E:\Text\rx-util\src\module\ajax\fetchTimeout.ts">
         <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
-      <file name="getCookies.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\getCookies.ts">
+      <file name="getCookies.ts" path="E:\Text\rx-util\src\module\ajax\getCookies.ts">
         <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
         <line num="5" count="2" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
@@ -362,14 +368,14 @@
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="loadResource.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\loadResource.ts">
+      <file name="loadResource.ts" path="E:\Text\rx-util\src\module\ajax\loadResource.ts">
         <metrics statements="4" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="9" count="2" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
       </file>
-      <file name="loadScript.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\loadScript.ts">
+      <file name="loadScript.ts" path="E:\Text\rx-util\src\module\ajax\loadScript.ts">
         <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -380,7 +386,7 @@
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="loadStyle.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\loadStyle.ts">
+      <file name="loadStyle.ts" path="E:\Text\rx-util\src\module\ajax\loadStyle.ts">
         <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -391,7 +397,7 @@
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
       </file>
-      <file name="objToURLSearchParams.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\objToURLSearchParams.ts">
+      <file name="objToURLSearchParams.ts" path="E:\Text\rx-util\src\module\ajax\objToURLSearchParams.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -399,7 +405,7 @@
         <line num="9" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="parseUrl.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\parseUrl.ts">
+      <file name="parseUrl.ts" path="E:\Text\rx-util\src\module\ajax\parseUrl.ts">
         <metrics statements="36" coveredstatements="28" conditionals="19" coveredconditionals="8" methods="4" coveredmethods="4"/>
         <line num="42" count="3" type="stmt"/>
         <line num="54" count="3" type="stmt"/>
@@ -438,7 +444,7 @@
         <line num="114" count="2" type="stmt"/>
         <line num="116" count="1" type="stmt"/>
       </file>
-      <file name="readLocal.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\readLocal.ts">
+      <file name="readLocal.ts" path="E:\Text\rx-util\src\module\ajax\readLocal.ts">
         <metrics statements="25" coveredstatements="17" conditionals="9" coveredconditionals="4" methods="5" coveredmethods="4"/>
         <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="3" type="stmt"/>
@@ -466,7 +472,7 @@
         <line num="73" count="0" type="stmt"/>
         <line num="78" count="3" type="stmt"/>
       </file>
-      <file name="spliceParams.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\spliceParams.ts">
+      <file name="spliceParams.ts" path="E:\Text\rx-util\src\module\ajax\spliceParams.ts">
         <metrics statements="15" coveredstatements="14" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
@@ -484,7 +490,7 @@
         <line num="38" count="4" type="stmt"/>
         <line num="40" count="7" type="stmt"/>
       </file>
-      <file name="strToArrayBuffer.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\strToArrayBuffer.ts">
+      <file name="strToArrayBuffer.ts" path="E:\Text\rx-util\src\module\ajax\strToArrayBuffer.ts">
         <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -493,7 +499,7 @@
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
       </file>
-      <file name="strToBlob.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\ajax\strToBlob.ts">
+      <file name="strToBlob.ts" path="E:\Text\rx-util\src\module\ajax\strToBlob.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="4" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
@@ -501,7 +507,7 @@
     </package>
     <package name="src.module.array">
       <metrics statements="311" coveredstatements="260" conditionals="85" coveredconditionals="65" methods="95" coveredmethods="80"/>
-      <file name="ArrayUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\ArrayUtil.ts">
+      <file name="ArrayUtil.ts" path="E:\Text\rx-util\src\module\array\ArrayUtil.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
@@ -510,14 +516,14 @@
         <line num="17" count="1" type="stmt"/>
         <line num="27" count="2" type="stmt"/>
       </file>
-      <file name="ArrayValidator.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\ArrayValidator.ts">
+      <file name="ArrayValidator.ts" path="E:\Text\rx-util\src\module\array\ArrayValidator.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="7" type="stmt"/>
         <line num="6" count="7" type="stmt"/>
         <line num="13" count="46" type="stmt"/>
         <line num="25" count="7" type="stmt"/>
       </file>
-      <file name="AsyncArray.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\AsyncArray.ts">
+      <file name="AsyncArray.ts" path="E:\Text\rx-util\src\module\array\AsyncArray.ts">
         <metrics statements="152" coveredstatements="109" conditionals="37" coveredconditionals="21" methods="54" coveredmethods="40"/>
         <line num="1" count="4" type="stmt"/>
         <line num="2" count="4" type="stmt"/>
@@ -672,12 +678,12 @@
         <line num="589" count="18" type="stmt"/>
         <line num="590" count="18" type="stmt"/>
       </file>
-      <file name="arrayDiffBy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\arrayDiffBy.ts">
+      <file name="arrayDiffBy.ts" path="E:\Text\rx-util\src\module\array\arrayDiffBy.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="7" count="2" type="stmt"/>
       </file>
-      <file name="arrayToMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\arrayToMap.ts">
+      <file name="arrayToMap.ts" path="E:\Text\rx-util\src\module\array\arrayToMap.ts">
         <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="8" type="stmt"/>
         <line num="3" count="8" type="stmt"/>
@@ -687,7 +693,7 @@
         <line num="19" count="19" type="stmt"/>
         <line num="21" count="135" type="stmt"/>
       </file>
-      <file name="asIterator.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\asIterator.ts">
+      <file name="asIterator.ts" path="E:\Text\rx-util\src\module\array\asIterator.ts">
         <metrics statements="8" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
@@ -698,13 +704,13 @@
         <line num="14" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
       </file>
-      <file name="asyncFlatMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\asyncFlatMap.ts">
+      <file name="asyncFlatMap.ts" path="E:\Text\rx-util\src\module\array\asyncFlatMap.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
       </file>
-      <file name="diffBy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\diffBy.ts">
+      <file name="diffBy.ts" path="E:\Text\rx-util\src\module\array\diffBy.ts">
         <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -719,7 +725,7 @@
         <line num="37" count="12" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
       </file>
-      <file name="extractFieldMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\extractFieldMap.ts">
+      <file name="extractFieldMap.ts" path="E:\Text\rx-util\src\module\array\extractFieldMap.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -730,7 +736,7 @@
         <line num="23" count="4" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
       </file>
-      <file name="filterItems.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\filterItems.ts">
+      <file name="filterItems.ts" path="E:\Text\rx-util\src\module\array\filterItems.ts">
         <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -739,7 +745,7 @@
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="12" type="stmt"/>
       </file>
-      <file name="findIndex.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\findIndex.ts">
+      <file name="findIndex.ts" path="E:\Text\rx-util\src\module\array\findIndex.ts">
         <metrics statements="6" coveredstatements="6" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="10" count="4" type="stmt"/>
         <line num="15" count="28" type="stmt"/>
@@ -748,7 +754,7 @@
         <line num="18" count="14" type="stmt"/>
         <line num="21" count="14" type="stmt"/>
       </file>
-      <file name="flatMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\flatMap.ts">
+      <file name="flatMap.ts" path="E:\Text\rx-util\src\module\array\flatMap.ts">
         <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
         <line num="2" count="5" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
@@ -758,13 +764,13 @@
         <line num="16" count="14" type="stmt"/>
         <line num="17" count="14" type="stmt"/>
       </file>
-      <file name="getKFn.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\getKFn.ts">
+      <file name="getKFn.ts" path="E:\Text\rx-util\src\module\array\getKFn.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="20" type="stmt"/>
         <line num="10" count="20" type="stmt"/>
         <line num="11" count="70" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="groupBy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\groupBy.ts">
+      <file name="groupBy.ts" path="E:\Text\rx-util\src\module\array\groupBy.ts">
         <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="4" count="5" type="stmt"/>
         <line num="50" count="5" type="stmt"/>
@@ -779,7 +785,7 @@
         <line num="73" count="26" type="stmt"/>
         <line num="74" count="26" type="stmt"/>
       </file>
-      <file name="insert.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\insert.ts">
+      <file name="insert.ts" path="E:\Text\rx-util\src\module\array\insert.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="7" count="4" type="stmt"/>
         <line num="9" count="6" type="cond" truecount="4" falsecount="0"/>
@@ -787,19 +793,19 @@
         <line num="11" count="6" type="stmt"/>
         <line num="12" count="6" type="stmt"/>
       </file>
-      <file name="kFnToCompare.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\kFnToCompare.ts">
+      <file name="kFnToCompare.ts" path="E:\Text\rx-util\src\module\array\kFnToCompare.ts">
         <metrics statements="9" coveredstatements="8" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
-        <line num="11" count="9" type="stmt"/>
-        <line num="12" count="9" type="stmt"/>
-        <line num="13" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="10" type="cond" truecount="1" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
+        <line num="15" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
       </file>
-      <file name="range.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\range.ts">
+      <file name="range.ts" path="E:\Text\rx-util\src\module\array\range.ts">
         <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="8" count="20" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="56" type="stmt"/>
@@ -807,7 +813,7 @@
         <line num="11" count="393" type="stmt"/>
         <line num="13" count="56" type="stmt"/>
       </file>
-      <file name="segmentation.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\segmentation.ts">
+      <file name="segmentation.ts" path="E:\Text\rx-util\src\module\array\segmentation.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
@@ -817,7 +823,7 @@
         <line num="14" count="11" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
       </file>
-      <file name="sortBy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\sortBy.ts">
+      <file name="sortBy.ts" path="E:\Text\rx-util\src\module\array\sortBy.ts">
         <metrics statements="28" coveredstatements="28" conditionals="11" coveredconditionals="11" methods="5" coveredmethods="5"/>
         <line num="1" count="4" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
@@ -848,7 +854,7 @@
         <line num="49" count="11" type="stmt"/>
         <line num="51" count="27" type="stmt"/>
       </file>
-      <file name="toObject.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\toObject.ts">
+      <file name="toObject.ts" path="E:\Text\rx-util\src\module\array\toObject.ts">
         <metrics statements="10" coveredstatements="10" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -861,7 +867,7 @@
         <line num="32" count="6" type="stmt"/>
         <line num="34" count="6" type="stmt"/>
       </file>
-      <file name="uniqueBy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\array\uniqueBy.ts">
+      <file name="uniqueBy.ts" path="E:\Text\rx-util\src\module\array\uniqueBy.ts">
         <metrics statements="11" coveredstatements="11" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="4" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
@@ -878,24 +884,24 @@
     </package>
     <package name="src.module.async">
       <metrics statements="137" coveredstatements="135" conditionals="43" coveredconditionals="42" methods="42" coveredmethods="42"/>
-      <file name="Locker.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\Locker.ts">
+      <file name="Locker.ts" path="E:\Text\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="135" type="stmt"/>
+        <line num="8" count="198" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="74" type="stmt"/>
+        <line num="45" count="102" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="60" type="stmt"/>
-        <line num="60" count="60" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="88" type="stmt"/>
+        <line num="60" count="88" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="60" type="stmt"/>
+        <line num="63" count="88" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
-      <file name="MicrotaskQueue.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\MicrotaskQueue.ts">
+      <file name="MicrotaskQueue.ts" path="E:\Text\rx-util\src\module\async\MicrotaskQueue.ts">
         <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -918,13 +924,13 @@
         <line num="35" count="4" type="stmt"/>
         <line num="36" count="4" type="stmt"/>
       </file>
-      <file name="async.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\async.ts">
+      <file name="async.ts" path="E:\Text\rx-util\src\module\async\async.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="11" count="6" type="stmt"/>
         <line num="12" count="20" type="stmt"/>
         <line num="14" count="63" type="stmt"/>
       </file>
-      <file name="asyncLimiting.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\asyncLimiting.ts">
+      <file name="asyncLimiting.ts" path="E:\Text\rx-util\src\module\async\asyncLimiting.ts">
         <metrics statements="22" coveredstatements="20" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
         <line num="1" count="3" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
@@ -942,19 +948,19 @@
         <line num="43" count="10" type="stmt"/>
         <line num="46" count="14" type="stmt"/>
         <line num="48" count="14" type="stmt"/>
-        <line num="49" count="55" type="stmt"/>
-        <line num="51" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="100" type="stmt"/>
+        <line num="51" count="100" type="cond" truecount="2" falsecount="0"/>
         <line num="52" count="10" type="stmt"/>
         <line num="53" count="10" type="stmt"/>
-        <line num="55" count="55" type="stmt"/>
+        <line num="55" count="100" type="stmt"/>
         <line num="57" count="10" type="stmt"/>
       </file>
-      <file name="compatibleAsync.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\compatibleAsync.ts">
+      <file name="compatibleAsync.ts" path="E:\Text\rx-util\src\module\async\compatibleAsync.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="10" count="18" type="stmt"/>
         <line num="14" count="89" type="stmt"/>
       </file>
-      <file name="concatMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\concatMap.ts">
+      <file name="concatMap.ts" path="E:\Text\rx-util\src\module\async\concatMap.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
@@ -969,7 +975,7 @@
         <line num="24" count="3" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
       </file>
-      <file name="debounce.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\debounce.ts">
+      <file name="debounce.ts" path="E:\Text\rx-util\src\module\async\debounce.ts">
         <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="5"/>
         <line num="17" count="3" type="stmt"/>
         <line num="23" count="4" type="stmt"/>
@@ -980,7 +986,7 @@
         <line num="29" count="7" type="stmt"/>
         <line num="32" count="18" type="stmt"/>
       </file>
-      <file name="mergeMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\mergeMap.ts">
+      <file name="mergeMap.ts" path="E:\Text\rx-util\src\module\async\mergeMap.ts">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -991,11 +997,11 @@
         <line num="18" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
       </file>
-      <file name="switchMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\switchMap.ts">
+      <file name="switchMap.ts" path="E:\Text\rx-util\src\module\async\switchMap.ts">
         <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="10" count="3" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -1010,7 +1016,7 @@
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="throttle.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\throttle.ts">
+      <file name="throttle.ts" path="E:\Text\rx-util\src\module\async\throttle.ts">
         <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="18" count="3" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
@@ -1024,7 +1030,7 @@
         <line num="32" count="7" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
       </file>
-      <file name="wait.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\wait.ts">
+      <file name="wait.ts" path="E:\Text\rx-util\src\module\async\wait.ts">
         <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
         <line num="10" count="18" type="stmt"/>
         <line num="11" count="136" type="stmt"/>
@@ -1032,12 +1038,12 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="314" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="498" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
-      <file name="waitResource.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\async\waitResource.ts">
+      <file name="waitResource.ts" path="E:\Text\rx-util\src\module\async\waitResource.ts">
         <metrics statements="11" coveredstatements="11" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3"/>
         <line num="23" count="4" type="stmt"/>
         <line num="27" count="5" type="stmt"/>
@@ -1054,7 +1060,7 @@
     </package>
     <package name="src.module.cache">
       <metrics statements="87" coveredstatements="23" conditionals="42" coveredconditionals="4" methods="26" coveredmethods="3"/>
-      <file name="CacheUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\cache\CacheUtil.ts">
+      <file name="CacheUtil.ts" path="E:\Text\rx-util\src\module\cache\CacheUtil.ts">
         <metrics statements="28" coveredstatements="5" conditionals="8" coveredconditionals="0" methods="10" coveredmethods="0"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -1085,16 +1091,16 @@
         <line num="107" count="0" type="stmt"/>
         <line num="117" count="3" type="stmt"/>
       </file>
-      <file name="CacheVal.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\cache\CacheVal.ts">
+      <file name="CacheVal.ts" path="E:\Text\rx-util\src\module\cache\CacheVal.ts">
         <metrics statements="2" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="24" count="4" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
       </file>
-      <file name="ICacheOption.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\cache\ICacheOption.ts">
+      <file name="ICacheOption.ts" path="E:\Text\rx-util\src\module\cache\ICacheOption.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="5" count="4" type="stmt"/>
       </file>
-      <file name="LocalStorageCache.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\cache\LocalStorageCache.ts">
+      <file name="LocalStorageCache.ts" path="E:\Text\rx-util\src\module\cache\LocalStorageCache.ts">
         <metrics statements="56" coveredstatements="16" conditionals="33" coveredconditionals="4" methods="15" coveredmethods="3"/>
         <line num="2" count="4" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
@@ -1156,7 +1162,7 @@
     </package>
     <package name="src.module.date">
       <metrics statements="158" coveredstatements="155" conditionals="64" coveredconditionals="54" methods="51" coveredmethods="51"/>
-      <file name="DateConstants.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\DateConstants.ts">
+      <file name="DateConstants.ts" path="E:\Text\rx-util\src\module\date\DateConstants.ts">
         <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="8" methods="8" coveredmethods="8"/>
         <line num="1" count="5" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -1173,7 +1179,7 @@
         <line num="72" count="1" type="stmt"/>
         <line num="80" count="5" type="stmt"/>
       </file>
-      <file name="DateFormatter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\DateFormatter.ts">
+      <file name="DateFormatter.ts" path="E:\Text\rx-util\src\module\date\DateFormatter.ts">
         <metrics statements="19" coveredstatements="19" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -1195,7 +1201,7 @@
         <line num="62" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="63" count="4" type="stmt"/>
       </file>
-      <file name="Stopwatch.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\Stopwatch.ts">
+      <file name="Stopwatch.ts" path="E:\Text\rx-util\src\module\date\Stopwatch.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="7" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="3" type="stmt"/>
@@ -1206,7 +1212,7 @@
         <line num="36" count="1" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
       </file>
-      <file name="dateBetween.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\dateBetween.ts">
+      <file name="dateBetween.ts" path="E:\Text\rx-util\src\module\date\dateBetween.ts">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
         <line num="4" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -1222,7 +1228,7 @@
         <line num="72" count="3" type="stmt"/>
         <line num="73" count="3" type="stmt"/>
       </file>
-      <file name="dateEnhance.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\dateEnhance.ts">
+      <file name="dateEnhance.ts" path="E:\Text\rx-util\src\module\date\dateEnhance.ts">
         <metrics statements="27" coveredstatements="27" conditionals="6" coveredconditionals="6" methods="15" coveredmethods="15"/>
         <line num="1" count="4" type="stmt"/>
         <line num="2" count="4" type="stmt"/>
@@ -1252,7 +1258,7 @@
         <line num="131" count="4" type="stmt"/>
         <line num="132" count="7" type="stmt"/>
       </file>
-      <file name="dateFormat.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\dateFormat.ts">
+      <file name="dateFormat.ts" path="E:\Text\rx-util\src\module\date\dateFormat.ts">
         <metrics statements="14" coveredstatements="14" conditionals="10" coveredconditionals="8" methods="1" coveredmethods="1"/>
         <line num="7" count="10" type="stmt"/>
         <line num="8" count="29" type="stmt"/>
@@ -1269,7 +1275,7 @@
         <line num="39" count="92" type="stmt"/>
         <line num="45" count="29" type="stmt"/>
       </file>
-      <file name="dateParse.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\dateParse.ts">
+      <file name="dateParse.ts" path="E:\Text\rx-util\src\module\date\dateParse.ts">
         <metrics statements="57" coveredstatements="54" conditionals="28" coveredconditionals="22" methods="9" coveredmethods="9"/>
         <line num="1" count="5" type="stmt"/>
         <line num="3" count="5" type="stmt"/>
@@ -1329,13 +1335,13 @@
         <line num="164" count="0" type="stmt"/>
         <line num="166" count="8" type="stmt"/>
       </file>
-      <file name="getYearWeek.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\getYearWeek.ts">
+      <file name="getYearWeek.ts" path="E:\Text\rx-util\src\module\date\getYearWeek.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="strToDate.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\date\strToDate.ts">
+      <file name="strToDate.ts" path="E:\Text\rx-util\src\module\date\strToDate.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
@@ -1343,8 +1349,8 @@
       </file>
     </package>
     <package name="src.module.dom">
-      <metrics statements="60" coveredstatements="49" conditionals="10" coveredconditionals="9" methods="17" coveredmethods="15"/>
-      <file name="copyText.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\copyText.ts">
+      <metrics statements="74" coveredstatements="51" conditionals="18" coveredconditionals="9" methods="22" coveredmethods="15"/>
+      <file name="copyText.ts" path="E:\Text\rx-util\src\module\dom\copyText.ts">
         <metrics statements="10" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -1357,30 +1363,50 @@
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
       </file>
-      <file name="createElByString.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\createElByString.ts">
+      <file name="createElByString.ts" path="E:\Text\rx-util\src\module\dom\createElByString.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="getCursorPosition.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\getCursorPosition.ts">
+      <file name="getCursorPosition.ts" path="E:\Text\rx-util\src\module\dom\getCursorPosition.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="8" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
       </file>
-      <file name="getCusorPostion.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\getCusorPostion.ts">
+      <file name="getCusorPostion.ts" path="E:\Text\rx-util\src\module\dom\getCusorPostion.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
       </file>
-      <file name="getSelectText.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\getSelectText.ts">
+      <file name="getMousePos.ts" path="E:\Text\rx-util\src\module\dom\getMousePos.ts">
+        <metrics statements="6" coveredstatements="1" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="getSelectText.ts" path="E:\Text\rx-util\src\module\dom\getSelectText.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
       </file>
-      <file name="insertText.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\insertText.ts">
+      <file name="imageSize.ts" path="E:\Text\rx-util\src\module\dom\imageSize.ts">
+        <metrics statements="8" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="insertText.ts" path="E:\Text\rx-util\src\module\dom\insertText.ts">
         <metrics statements="6" coveredstatements="6" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -1389,14 +1415,14 @@
         <line num="16" count="2" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
       </file>
-      <file name="isEditable.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\isEditable.ts">
+      <file name="isEditable.ts" path="E:\Text\rx-util\src\module\dom\isEditable.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
       </file>
-      <file name="lastFocus.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\lastFocus.ts">
+      <file name="lastFocus.ts" path="E:\Text\rx-util\src\module\dom\lastFocus.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="5" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
@@ -1405,7 +1431,7 @@
         <line num="23" count="3" type="stmt"/>
         <line num="24" count="5" type="stmt"/>
       </file>
-      <file name="removeEl.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\removeEl.ts">
+      <file name="removeEl.ts" path="E:\Text\rx-util\src\module\dom\removeEl.ts">
         <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
@@ -1413,7 +1439,7 @@
         <line num="11" count="0" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
       </file>
-      <file name="removeText.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\removeText.ts">
+      <file name="removeText.ts" path="E:\Text\rx-util\src\module\dom\removeText.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -1423,19 +1449,19 @@
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
       </file>
-      <file name="setCursorPosition.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\setCursorPosition.ts">
+      <file name="setCursorPosition.ts" path="E:\Text\rx-util\src\module\dom\setCursorPosition.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="7" count="9" type="stmt"/>
         <line num="12" count="8" type="stmt"/>
         <line num="13" count="8" type="stmt"/>
       </file>
-      <file name="setCusorPostion.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\setCusorPostion.ts">
+      <file name="setCusorPostion.ts" path="E:\Text\rx-util\src\module\dom\setCusorPostion.ts">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="10" count="4" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
       </file>
-      <file name="toggleClass.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\dom\toggleClass.ts">
+      <file name="toggleClass.ts" path="E:\Text\rx-util\src\module\dom\toggleClass.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="7" count="3" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
@@ -1446,7 +1472,7 @@
     </package>
     <package name="src.module.event">
       <metrics statements="61" coveredstatements="56" conditionals="32" coveredconditionals="22" methods="23" coveredmethods="20"/>
-      <file name="EventEmitter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\event\EventEmitter.ts">
+      <file name="EventEmitter.ts" path="E:\Text\rx-util\src\module\event\EventEmitter.ts">
         <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="6"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -1466,7 +1492,7 @@
         <line num="60" count="3" type="stmt"/>
         <line num="69" count="2" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="EventUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\event\EventUtil.ts">
+      <file name="EventUtil.ts" path="E:\Text\rx-util\src\module\event\EventUtil.ts">
         <metrics statements="21" coveredstatements="20" conditionals="15" coveredconditionals="11" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
         <line num="26" count="3" type="stmt"/>
@@ -1490,7 +1516,7 @@
         <line num="197" count="2" type="stmt"/>
         <line num="202" count="2" type="stmt"/>
       </file>
-      <file name="watchEventListener.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\event\watchEventListener.ts">
+      <file name="watchEventListener.ts" path="E:\Text\rx-util\src\module\event\watchEventListener.ts">
         <metrics statements="23" coveredstatements="23" conditionals="9" coveredconditionals="5" methods="9" coveredmethods="8"/>
         <line num="6" count="3" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -1519,7 +1545,7 @@
     </package>
     <package name="src.module.formdata">
       <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
-      <file name="appends.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\formdata\appends.ts">
+      <file name="appends.ts" path="E:\Text\rx-util\src\module\formdata\appends.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -1528,18 +1554,18 @@
         <line num="16" count="2" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="deletes.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\formdata\deletes.ts">
+      <file name="deletes.ts" path="E:\Text\rx-util\src\module\formdata\deletes.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="formDataToArray.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\formdata\formDataToArray.ts">
+      <file name="formDataToArray.ts" path="E:\Text\rx-util\src\module\formdata\formDataToArray.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="objToFormData.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\formdata\objToFormData.ts">
+      <file name="objToFormData.ts" path="E:\Text\rx-util\src\module\formdata\objToFormData.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="6" count="6" type="stmt"/>
         <line num="9" count="5" type="stmt"/>
@@ -1548,7 +1574,7 @@
         <line num="13" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="9" type="stmt"/>
       </file>
-      <file name="sets.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\formdata\sets.ts">
+      <file name="sets.ts" path="E:\Text\rx-util\src\module\formdata\sets.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -1558,7 +1584,7 @@
     </package>
     <package name="src.module.function">
       <metrics statements="223" coveredstatements="211" conditionals="66" coveredconditionals="62" methods="89" coveredmethods="83"/>
-      <file name="CombinedPredicate.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\CombinedPredicate.ts">
+      <file name="CombinedPredicate.ts" path="E:\Text\rx-util\src\module\function\CombinedPredicate.ts">
         <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="11"/>
         <line num="2" count="9" type="stmt"/>
         <line num="26" count="20" type="stmt"/>
@@ -1581,7 +1607,7 @@
         <line num="80" count="9" type="stmt"/>
         <line num="81" count="9" type="stmt"/>
       </file>
-      <file name="PubSubMachine.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\PubSubMachine.ts">
+      <file name="PubSubMachine.ts" path="E:\Text\rx-util\src\module\function\PubSubMachine.ts">
         <metrics statements="16" coveredstatements="15" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
         <line num="6" count="3" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
@@ -1600,7 +1626,7 @@
         <line num="47" count="1" type="stmt"/>
         <line num="48" count="1" type="stmt"/>
       </file>
-      <file name="StateMachine.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\StateMachine.ts">
+      <file name="StateMachine.ts" path="E:\Text\rx-util\src\module\function\StateMachine.ts">
         <metrics statements="11" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
         <line num="11" count="3" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
@@ -1614,7 +1640,7 @@
         <line num="54" count="1" type="stmt"/>
         <line num="55" count="3" type="stmt"/>
       </file>
-      <file name="bridge.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\bridge.ts">
+      <file name="bridge.ts" path="E:\Text\rx-util\src\module\function\bridge.ts">
         <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="7" count="7" type="stmt"/>
         <line num="20" count="10" type="stmt"/>
@@ -1628,7 +1654,7 @@
         <line num="33" count="7" type="stmt"/>
         <line num="34" count="7" type="stmt"/>
       </file>
-      <file name="compose.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\compose.ts">
+      <file name="compose.ts" path="E:\Text\rx-util\src\module\function\compose.ts">
         <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -1643,7 +1669,7 @@
         <line num="37" count="3" type="stmt"/>
         <line num="38" count="8" type="stmt"/>
       </file>
-      <file name="curry.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\curry.ts">
+      <file name="curry.ts" path="E:\Text\rx-util\src\module\function\curry.ts">
         <metrics statements="19" coveredstatements="19" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8"/>
         <line num="27" count="4" type="stmt"/>
         <line num="28" count="143" type="stmt"/>
@@ -1665,17 +1691,17 @@
         <line num="65" count="43" type="stmt"/>
         <line num="72" count="4" type="stmt"/>
       </file>
-      <file name="deny.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\deny.ts">
+      <file name="deny.ts" path="E:\Text\rx-util\src\module\function\deny.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
       </file>
-      <file name="emptyFunc.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\emptyFunc.ts">
+      <file name="emptyFunc.ts" path="E:\Text\rx-util\src\module\function\emptyFunc.ts">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="6" type="stmt"/>
       </file>
-      <file name="extractField.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\extractField.ts">
+      <file name="extractField.ts" path="E:\Text\rx-util\src\module\function\extractField.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="1" count="20" type="stmt"/>
         <line num="2" count="20" type="stmt"/>
@@ -1686,7 +1712,7 @@
         <line num="15" count="10" type="stmt"/>
         <line num="16" count="34" type="stmt"/>
       </file>
-      <file name="once.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\once.ts">
+      <file name="once.ts" path="E:\Text\rx-util\src\module\function\once.ts">
         <metrics statements="12" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
@@ -1701,7 +1727,7 @@
         <line num="33" count="4" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
       </file>
-      <file name="onceOfSameParam.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\onceOfSameParam.ts">
+      <file name="onceOfSameParam.ts" path="E:\Text\rx-util\src\module\function\onceOfSameParam.ts">
         <metrics statements="17" coveredstatements="14" conditionals="5" coveredconditionals="3" methods="6" coveredmethods="4"/>
         <line num="1" count="4" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
@@ -1721,7 +1747,7 @@
         <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
       </file>
-      <file name="partial.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\partial.ts">
+      <file name="partial.ts" path="E:\Text\rx-util\src\module\function\partial.ts">
         <metrics statements="19" coveredstatements="19" conditionals="7" coveredconditionals="7" methods="8" coveredmethods="8"/>
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="43" type="stmt"/>
@@ -1743,18 +1769,18 @@
         <line num="64" count="22" type="stmt"/>
         <line num="71" count="3" type="stmt"/>
       </file>
-      <file name="repeatedCall.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\repeatedCall.ts">
+      <file name="repeatedCall.ts" path="E:\Text\rx-util\src\module\function\repeatedCall.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="10" type="stmt"/>
         <line num="12" count="10" type="stmt"/>
         <line num="17" count="90" type="stmt"/>
       </file>
-      <file name="returnItself.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\returnItself.ts">
+      <file name="returnItself.ts" path="E:\Text\rx-util\src\module\function\returnItself.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="9" count="27" type="stmt"/>
         <line num="10" count="333" type="stmt"/>
       </file>
-      <file name="returnReasonableItself.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\returnReasonableItself.ts">
+      <file name="returnReasonableItself.ts" path="E:\Text\rx-util\src\module\function\returnReasonableItself.ts">
         <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="10" count="3" type="stmt"/>
         <line num="11" count="4" type="stmt"/>
@@ -1764,7 +1790,7 @@
         <line num="16" count="2" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="safeExec.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\safeExec.ts">
+      <file name="safeExec.ts" path="E:\Text\rx-util\src\module\function\safeExec.ts">
         <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="13" count="23" type="stmt"/>
         <line num="18" count="39" type="cond" truecount="2" falsecount="0"/>
@@ -1773,7 +1799,7 @@
         <line num="21" count="36" type="cond" truecount="2" falsecount="0"/>
         <line num="23" count="3" type="stmt"/>
       </file>
-      <file name="singleModel.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\singleModel.ts">
+      <file name="singleModel.ts" path="E:\Text\rx-util\src\module\function\singleModel.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="3" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
@@ -1781,13 +1807,13 @@
         <line num="16" count="2" type="stmt"/>
         <line num="18" count="4" type="stmt"/>
       </file>
-      <file name="sleep.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\sleep.ts">
+      <file name="sleep.ts" path="E:\Text\rx-util\src\module\function\sleep.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="5" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
       </file>
-      <file name="timing.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\timing.ts">
+      <file name="timing.ts" path="E:\Text\rx-util\src\module\function\timing.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="7" type="stmt"/>
         <line num="10" count="7" type="stmt"/>
@@ -1795,7 +1821,7 @@
         <line num="15" count="6" type="stmt"/>
         <line num="16" count="6" type="stmt"/>
       </file>
-      <file name="trySometime.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\trySometime.ts">
+      <file name="trySometime.ts" path="E:\Text\rx-util\src\module\function\trySometime.ts">
         <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="10" count="3" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
@@ -1809,7 +1835,7 @@
         <line num="30" count="8" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
       </file>
-      <file name="trySometimeParallel.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\trySometimeParallel.ts">
+      <file name="trySometimeParallel.ts" path="E:\Text\rx-util\src\module\function\trySometimeParallel.ts">
         <metrics statements="16" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
         <line num="1" count="3" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
@@ -1828,7 +1854,7 @@
         <line num="38" count="0" type="stmt"/>
         <line num="40" count="6" type="stmt"/>
       </file>
-      <file name="watch.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\watch.ts">
+      <file name="watch.ts" path="E:\Text\rx-util\src\module\function\watch.ts">
         <metrics statements="8" coveredstatements="8" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="10" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
@@ -1839,7 +1865,7 @@
         <line num="20" count="1" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
       </file>
-      <file name="watchObject.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\function\watchObject.ts">
+      <file name="watchObject.ts" path="E:\Text\rx-util\src\module\function\watchObject.ts">
         <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
@@ -1852,39 +1878,37 @@
       </file>
     </package>
     <package name="src.module.hack">
-      <metrics statements="75" coveredstatements="53" conditionals="17" coveredconditionals="10" methods="22" coveredmethods="10"/>
-      <file name="AntiDebug.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\hack\AntiDebug.ts">
-        <metrics statements="28" coveredstatements="14" conditionals="5" coveredconditionals="1" methods="11" coveredmethods="3"/>
+      <metrics statements="73" coveredstatements="53" conditionals="17" coveredconditionals="10" methods="22" coveredmethods="10"/>
+      <file name="AntiDebug.ts" path="E:\Text\rx-util\src\module\hack\AntiDebug.ts">
+        <metrics statements="26" coveredstatements="14" conditionals="5" coveredconditionals="1" methods="11" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="27" count="0" type="cond" truecount="0" falsecount="1"/>
-        <line num="29" count="0" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="30" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
         <line num="32" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="50" count="0" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="47" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="52" count="24" type="stmt"/>
         <line num="54" count="24" type="stmt"/>
-        <line num="56" count="24" type="stmt"/>
-        <line num="57" count="24" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="55" count="24" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
         <line num="60" count="0" type="stmt"/>
-        <line num="62" count="0" type="stmt"/>
-        <line num="71" count="3" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
       </file>
-      <file name="logger.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\hack\logger.ts">
+      <file name="logger.ts" path="E:\Text\rx-util\src\module\hack\logger.ts">
         <metrics statements="38" coveredstatements="38" conditionals="9" coveredconditionals="9" methods="7" coveredmethods="7"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="cond" truecount="2" falsecount="0"/>
@@ -1925,7 +1949,7 @@
         <line num="103" count="3" type="stmt"/>
         <line num="111" count="3" type="stmt"/>
       </file>
-      <file name="remindLeavePage.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\hack\remindLeavePage.ts">
+      <file name="remindLeavePage.ts" path="E:\Text\rx-util\src\module\hack\remindLeavePage.ts">
         <metrics statements="9" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
@@ -1939,8 +1963,8 @@
       </file>
     </package>
     <package name="src.module.idea">
-      <metrics statements="244" coveredstatements="171" conditionals="95" coveredconditionals="73" methods="91" coveredmethods="55"/>
-      <file name="CSVExportUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\CSVExportUtil.ts">
+      <metrics statements="250" coveredstatements="177" conditionals="97" coveredconditionals="75" methods="93" coveredmethods="57"/>
+      <file name="CSVExportUtil.ts" path="E:\Text\rx-util\src\module\idea\CSVExportUtil.ts">
         <metrics statements="14" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -1957,7 +1981,7 @@
         <line num="36" count="0" type="stmt"/>
         <line num="41" count="0" type="stmt"/>
       </file>
-      <file name="LineRange.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\LineRange.ts">
+      <file name="LineRange.ts" path="E:\Text\rx-util\src\module\idea\LineRange.ts">
         <metrics statements="22" coveredstatements="20" conditionals="16" coveredconditionals="12" methods="5" coveredmethods="5"/>
         <line num="4" count="2" type="stmt"/>
         <line num="6" count="15" type="stmt"/>
@@ -1982,7 +2006,7 @@
         <line num="65" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="66" count="2" type="stmt"/>
       </file>
-      <file name="LineRangeUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\LineRangeUtil.ts">
+      <file name="LineRangeUtil.ts" path="E:\Text\rx-util\src\module\idea\LineRangeUtil.ts">
         <metrics statements="9" coveredstatements="7" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="6" count="1" type="stmt"/>
         <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
@@ -1994,7 +2018,7 @@
         <line num="22" count="0" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
       </file>
-      <file name="OnceInstance.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\OnceInstance.ts">
+      <file name="OnceInstance.ts" path="E:\Text\rx-util\src\module\idea\OnceInstance.ts">
         <metrics statements="89" coveredstatements="35" conditionals="15" coveredconditionals="5" methods="44" coveredmethods="15"/>
         <line num="2" count="1" type="stmt"/>
         <line num="70" count="1" type="stmt"/>
@@ -2086,7 +2110,7 @@
         <line num="358" count="3" type="stmt"/>
         <line num="364" count="1" type="stmt"/>
       </file>
-      <file name="Rect.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\Rect.ts">
+      <file name="Rect.ts" path="E:\Text\rx-util\src\module\idea\Rect.ts">
         <metrics statements="45" coveredstatements="40" conditionals="34" coveredconditionals="28" methods="11" coveredmethods="8"/>
         <line num="73" count="1" type="stmt"/>
         <line num="74" count="66" type="stmt"/>
@@ -2134,7 +2158,7 @@
         <line num="212" count="2" type="stmt"/>
         <line num="216" count="1" type="stmt"/>
       </file>
-      <file name="formatTimestamp.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\formatTimestamp.ts">
+      <file name="formatTimestamp.ts" path="E:\Text\rx-util\src\module\idea\formatTimestamp.ts">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="2" count="15" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -2143,25 +2167,34 @@
         <line num="12" count="5" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
       </file>
-      <file name="genSort.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\genSort.ts">
+      <file name="genSort.ts" path="E:\Text\rx-util\src\module\idea\genSort.ts">
         <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
       </file>
-      <file name="parseFieldStr.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\parseFieldStr.ts">
+      <file name="parseFieldStr.ts" path="E:\Text\rx-util\src\module\idea\parseFieldStr.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="6" count="5" type="stmt"/>
-        <line num="7" count="27" type="stmt"/>
-        <line num="9" count="39" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="23" type="stmt"/>
+        <line num="9" count="35" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="pipe.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\pipe.ts">
+      <file name="pick.ts" path="E:\Text\rx-util\src\module\idea\pick.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+      </file>
+      <file name="pipe.ts" path="E:\Text\rx-util\src\module\idea\pipe.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="55" count="1" type="stmt"/>
         <line num="56" count="12" type="stmt"/>
       </file>
-      <file name="reverseKey.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\reverseKey.ts">
+      <file name="reverseKey.ts" path="E:\Text\rx-util\src\module\idea\reverseKey.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
@@ -2171,7 +2204,7 @@
         <line num="17" count="8" type="stmt"/>
         <line num="19" count="11" type="stmt"/>
       </file>
-      <file name="stream.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\stream.ts">
+      <file name="stream.ts" path="E:\Text\rx-util\src\module\idea\stream.ts">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
@@ -2196,7 +2229,7 @@
         <line num="49" count="1" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
       </file>
-      <file name="style.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\style.ts">
+      <file name="style.ts" path="E:\Text\rx-util\src\module\idea\style.ts">
         <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
@@ -2211,7 +2244,7 @@
         <line num="54" count="2" type="stmt"/>
         <line num="56" count="1" type="stmt"/>
       </file>
-      <file name="zip.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\idea\zip.ts">
+      <file name="zip.ts" path="E:\Text\rx-util\src\module\idea\zip.ts">
         <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="7" count="1" type="stmt"/>
         <line num="10" count="3" type="cond" truecount="1" falsecount="0"/>
@@ -2226,7 +2259,7 @@
     </package>
     <package name="src.module.number">
       <metrics statements="15" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
-      <file name="autoIncrement.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\number\autoIncrement.ts">
+      <file name="autoIncrement.ts" path="E:\Text\rx-util\src\module\number\autoIncrement.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="1" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
@@ -2234,17 +2267,17 @@
         <line num="22" count="3" type="stmt"/>
         <line num="23" count="4" type="stmt"/>
       </file>
-      <file name="floatEquals.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\number\floatEquals.ts">
+      <file name="floatEquals.ts" path="E:\Text\rx-util\src\module\number\floatEquals.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="isRange.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\number\isRange.ts">
+      <file name="isRange.ts" path="E:\Text\rx-util\src\module\number\isRange.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="7" count="42" type="stmt"/>
         <line num="8" count="74" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="randomInt.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\number\randomInt.ts">
+      <file name="randomInt.ts" path="E:\Text\rx-util\src\module\number\randomInt.ts">
         <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="16" count="6" type="stmt"/>
         <line num="17" count="206" type="cond" truecount="2" falsecount="0"/>
@@ -2256,7 +2289,7 @@
     </package>
     <package name="src.module.obj">
       <metrics statements="255" coveredstatements="232" conditionals="140" coveredconditionals="107" methods="66" coveredmethods="64"/>
-      <file name="Peek.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\Peek.ts">
+      <file name="Peek.ts" path="E:\Text\rx-util\src\module\obj\Peek.ts">
         <metrics statements="40" coveredstatements="40" conditionals="21" coveredconditionals="20" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -2299,7 +2332,7 @@
         <line num="83" count="2" type="stmt"/>
         <line num="87" count="1" type="stmt"/>
       </file>
-      <file name="TypeValidator.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\TypeValidator.ts">
+      <file name="TypeValidator.ts" path="E:\Text\rx-util\src\module\obj\TypeValidator.ts">
         <metrics statements="47" coveredstatements="44" conditionals="25" coveredconditionals="15" methods="21" coveredmethods="19"/>
         <line num="1" count="30" type="stmt"/>
         <line num="5" count="30" type="cond" truecount="2" falsecount="0"/>
@@ -2330,7 +2363,7 @@
         <line num="44" count="4" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
         <line num="56" count="2" type="stmt"/>
-        <line num="64" count="56" type="stmt"/>
+        <line num="64" count="52" type="stmt"/>
         <line num="72" count="14" type="stmt"/>
         <line num="80" count="1" type="stmt"/>
         <line num="88" count="7" type="stmt"/>
@@ -2349,7 +2382,7 @@
         <line num="203" count="1" type="cond" truecount="2" falsecount="0"/>
         <line num="211" count="1" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="aggregation.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\aggregation.ts">
+      <file name="aggregation.ts" path="E:\Text\rx-util\src\module\obj\aggregation.ts">
         <metrics statements="18" coveredstatements="18" conditionals="7" coveredconditionals="7" methods="7" coveredmethods="7"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="28" type="cond" truecount="2" falsecount="0"/>
@@ -2370,7 +2403,7 @@
         <line num="53" count="10" type="stmt"/>
         <line num="56" count="5" type="stmt"/>
       </file>
-      <file name="assign.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\assign.ts">
+      <file name="assign.ts" path="E:\Text\rx-util\src\module\obj\assign.ts">
         <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
@@ -2384,7 +2417,7 @@
         <line num="35" count="9" type="stmt"/>
         <line num="36" count="9" type="stmt"/>
       </file>
-      <file name="blankToNullField.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\blankToNullField.ts">
+      <file name="blankToNullField.ts" path="E:\Text\rx-util\src\module\obj\blankToNullField.ts">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
@@ -2393,7 +2426,7 @@
         <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="12" count="3" type="stmt"/>
       </file>
-      <file name="compare.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\compare.ts">
+      <file name="compare.ts" path="E:\Text\rx-util\src\module\obj\compare.ts">
         <metrics statements="33" coveredstatements="16" conditionals="44" coveredconditionals="26" methods="1" coveredmethods="1"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="15" type="cond" truecount="2" falsecount="0"/>
@@ -2429,7 +2462,7 @@
         <line num="74" count="0" type="stmt"/>
         <line num="78" count="0" type="stmt"/>
       </file>
-      <file name="deepExcludeFields.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\deepExcludeFields.ts">
+      <file name="deepExcludeFields.ts" path="E:\Text\rx-util\src\module\obj\deepExcludeFields.ts">
         <metrics statements="14" coveredstatements="13" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
         <line num="1" count="5" type="stmt"/>
         <line num="2" count="5" type="stmt"/>
@@ -2446,7 +2479,7 @@
         <line num="22" count="91" type="stmt"/>
         <line num="25" count="87" type="stmt"/>
       </file>
-      <file name="deepFreeze.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\deepFreeze.ts">
+      <file name="deepFreeze.ts" path="E:\Text\rx-util\src\module\obj\deepFreeze.ts">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="8" count="3" type="stmt"/>
@@ -2460,7 +2493,7 @@
         <line num="19" count="7" type="stmt"/>
         <line num="22" count="10" type="stmt"/>
       </file>
-      <file name="deepProxy.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\deepProxy.ts">
+      <file name="deepProxy.ts" path="E:\Text\rx-util\src\module\obj\deepProxy.ts">
         <metrics statements="13" coveredstatements="13" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -2476,14 +2509,14 @@
         <line num="28" count="10" type="stmt"/>
         <line num="31" count="3" type="stmt"/>
       </file>
-      <file name="emptyAllField.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\emptyAllField.ts">
+      <file name="emptyAllField.ts" path="E:\Text\rx-util\src\module\obj\emptyAllField.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
       </file>
-      <file name="excludeFields.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\excludeFields.ts">
+      <file name="excludeFields.ts" path="E:\Text\rx-util\src\module\obj\excludeFields.ts">
         <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="8" count="6" type="stmt"/>
         <line num="12" count="48" type="stmt"/>
@@ -2492,36 +2525,36 @@
         <line num="15" count="97" type="stmt"/>
         <line num="17" count="129" type="stmt"/>
       </file>
-      <file name="excludeFieldsDeep.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\excludeFieldsDeep.ts">
+      <file name="excludeFieldsDeep.ts" path="E:\Text\rx-util\src\module\obj\excludeFieldsDeep.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="4" type="stmt"/>
         <line num="11" count="4" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
       </file>
-      <file name="get.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\get.ts">
+      <file name="get.ts" path="E:\Text\rx-util\src\module\obj\get.ts">
         <metrics statements="14" coveredstatements="13" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="2" count="4" type="stmt"/>
         <line num="3" count="4" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
-        <line num="19" count="25" type="cond" truecount="1" falsecount="1"/>
-        <line num="20" count="25" type="stmt"/>
-        <line num="22" count="25" type="stmt"/>
-        <line num="23" count="25" type="stmt"/>
-        <line num="24" count="32" type="stmt"/>
-        <line num="25" count="32" type="stmt"/>
-        <line num="26" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="21" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="21" type="stmt"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="24" count="28" type="stmt"/>
+        <line num="25" count="28" type="stmt"/>
+        <line num="26" count="28" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="3" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
-        <line num="33" count="22" type="stmt"/>
+        <line num="33" count="18" type="stmt"/>
       </file>
-      <file name="getObjectEntries.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\getObjectEntries.ts">
+      <file name="getObjectEntries.ts" path="E:\Text\rx-util\src\module\obj\getObjectEntries.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
-      <file name="getObjectKeys.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\getObjectKeys.ts">
+      <file name="getObjectKeys.ts" path="E:\Text\rx-util\src\module\obj\getObjectKeys.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
@@ -2529,17 +2562,17 @@
         <line num="12" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
       </file>
-      <file name="getObjectValues.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\getObjectValues.ts">
+      <file name="getObjectValues.ts" path="E:\Text\rx-util\src\module\obj\getObjectValues.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="2" type="stmt"/>
       </file>
-      <file name="isNullOrUndefined.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\isNullOrUndefined.ts">
+      <file name="isNullOrUndefined.ts" path="E:\Text\rx-util\src\module\obj\isNullOrUndefined.ts">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="7" count="56" type="stmt"/>
-        <line num="8" count="384" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="380" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="mapToObject.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\mapToObject.ts">
+      <file name="mapToObject.ts" path="E:\Text\rx-util\src\module\obj\mapToObject.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -2547,13 +2580,13 @@
         <line num="9" count="3" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="objectToMap.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\objectToMap.ts">
+      <file name="objectToMap.ts" path="E:\Text\rx-util\src\module\obj\objectToMap.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="6" count="3" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
       </file>
-      <file name="set.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\obj\set.ts">
+      <file name="set.ts" path="E:\Text\rx-util\src\module\obj\set.ts">
         <metrics statements="15" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -2574,7 +2607,7 @@
     </package>
     <package name="src.module.string">
       <metrics statements="100" coveredstatements="88" conditionals="48" coveredconditionals="41" methods="39" coveredmethods="28"/>
-      <file name="PathUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\PathUtil.ts">
+      <file name="PathUtil.ts" path="E:\Text\rx-util\src\module\string\PathUtil.ts">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
         <line num="4" count="3" type="stmt"/>
         <line num="12" count="5" type="stmt"/>
@@ -2586,7 +2619,7 @@
         <line num="35" count="3" type="stmt"/>
         <line num="43" count="3" type="stmt"/>
       </file>
-      <file name="StringConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter.ts">
+      <file name="StringConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -2596,7 +2629,7 @@
         <line num="38" count="5" type="stmt"/>
         <line num="53" count="2" type="stmt"/>
       </file>
-      <file name="StringValidator.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringValidator.ts">
+      <file name="StringValidator.ts" path="E:\Text\rx-util\src\module\string\StringValidator.ts">
         <metrics statements="37" coveredstatements="25" conditionals="28" coveredconditionals="21" methods="22" coveredmethods="11"/>
         <line num="1" count="39" type="stmt"/>
         <line num="2" count="39" type="stmt"/>
@@ -2636,51 +2669,51 @@
         <line num="237" count="0" type="stmt"/>
         <line num="245" count="39" type="stmt"/>
       </file>
-      <file name="blankToNull.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\blankToNull.ts">
+      <file name="blankToNull.ts" path="E:\Text\rx-util\src\module\string\blankToNull.ts">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="9" count="4" type="stmt"/>
         <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
       </file>
-      <file name="fill.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\fill.ts">
+      <file name="fill.ts" path="E:\Text\rx-util\src\module\string\fill.ts">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
         <line num="13" count="3" type="stmt"/>
       </file>
-      <file name="format.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\format.ts">
+      <file name="format.ts" path="E:\Text\rx-util\src\module\string\format.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="11" count="3" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
       </file>
-      <file name="isBlank.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\isBlank.ts">
+      <file name="isBlank.ts" path="E:\Text\rx-util\src\module\string\isBlank.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
       </file>
-      <file name="isEmpty.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\isEmpty.ts">
+      <file name="isEmpty.ts" path="E:\Text\rx-util\src\module\string\isEmpty.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="5" type="stmt"/>
       </file>
-      <file name="isFloat.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\isFloat.ts">
+      <file name="isFloat.ts" path="E:\Text\rx-util\src\module\string\isFloat.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
       </file>
-      <file name="isNumber.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\isNumber.ts">
+      <file name="isNumber.ts" path="E:\Text\rx-util\src\module\string\isNumber.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="3" type="stmt"/>
       </file>
-      <file name="randomStr.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\randomStr.ts">
+      <file name="randomStr.ts" path="E:\Text\rx-util\src\module\string\randomStr.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
@@ -2690,7 +2723,7 @@
         <line num="15" count="10" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
       </file>
-      <file name="toLowerCase.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\toLowerCase.ts">
+      <file name="toLowerCase.ts" path="E:\Text\rx-util\src\module\string\toLowerCase.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="5" type="stmt"/>
         <line num="8" count="5" type="stmt"/>
@@ -2698,7 +2731,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="12" count="11" type="stmt"/>
       </file>
-      <file name="toString.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\toString.ts">
+      <file name="toString.ts" path="E:\Text\rx-util\src\module\string\toString.ts">
         <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
@@ -2708,7 +2741,7 @@
         <line num="14" count="1" type="stmt"/>
         <line num="16" count="32" type="stmt"/>
       </file>
-      <file name="toUpperCase.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\toUpperCase.ts">
+      <file name="toUpperCase.ts" path="E:\Text\rx-util\src\module\string\toUpperCase.ts">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="1" count="4" type="stmt"/>
         <line num="8" count="4" type="stmt"/>
@@ -2719,7 +2752,7 @@
     </package>
     <package name="src.module.string.StringConverter">
       <metrics statements="67" coveredstatements="66" conditionals="19" coveredconditionals="17" methods="14" coveredmethods="14"/>
-      <file name="CamelConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\CamelConverter.ts">
+      <file name="CamelConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\CamelConverter.ts">
         <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -2729,7 +2762,7 @@
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
       </file>
-      <file name="CamelOrPascalFrom.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\CamelOrPascalFrom.ts">
+      <file name="CamelOrPascalFrom.ts" path="E:\Text\rx-util\src\module\string\StringConverter\CamelOrPascalFrom.ts">
         <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
@@ -2746,7 +2779,7 @@
         <line num="28" count="2" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
       </file>
-      <file name="ConverterFactory.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\ConverterFactory.ts">
+      <file name="ConverterFactory.ts" path="E:\Text\rx-util\src\module\string\StringConverter\ConverterFactory.ts">
         <metrics statements="12" coveredstatements="11" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="2" count="3" type="stmt"/>
         <line num="3" count="3" type="stmt"/>
@@ -2761,13 +2794,13 @@
         <line num="28" count="2" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
       </file>
-      <file name="IConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\IConverter.ts">
+      <file name="IConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\IConverter.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="5" count="3" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
       </file>
-      <file name="PascalConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\PascalConverter.ts">
+      <file name="PascalConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\PascalConverter.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -2777,27 +2810,27 @@
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
       </file>
-      <file name="ScreamingSnakeConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\ScreamingSnakeConverter.ts">
+      <file name="ScreamingSnakeConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\ScreamingSnakeConverter.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="SnakeConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\SnakeConverter.ts">
+      <file name="SnakeConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\SnakeConverter.ts">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
       </file>
-      <file name="SnakeOrScreamingSnakeFrom.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\SnakeOrScreamingSnakeFrom.ts">
+      <file name="SnakeOrScreamingSnakeFrom.ts" path="E:\Text\rx-util\src\module\string\StringConverter\SnakeOrScreamingSnakeFrom.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="3" type="stmt"/>
         <line num="6" count="3" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
       </file>
-      <file name="StringStyleConverter.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\StringStyleConverter.ts">
+      <file name="StringStyleConverter.ts" path="E:\Text\rx-util\src\module\string\StringConverter\StringStyleConverter.ts">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
@@ -2808,7 +2841,7 @@
         <line num="42" count="1" type="stmt"/>
         <line num="44" count="4" type="stmt"/>
       </file>
-      <file name="StringStyleType.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\string\StringConverter\StringStyleType.ts">
+      <file name="StringStyleType.ts" path="E:\Text\rx-util\src\module\string\StringConverter\StringStyleType.ts">
         <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="4" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="3" type="stmt"/>
@@ -2819,7 +2852,7 @@
     </package>
     <package name="src.module.tree">
       <metrics statements="86" coveredstatements="71" conditionals="52" coveredconditionals="35" methods="16" coveredmethods="13"/>
-      <file name="NodeBridgeUtil.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\tree\NodeBridgeUtil.ts">
+      <file name="NodeBridgeUtil.ts" path="E:\Text\rx-util\src\module\tree\NodeBridgeUtil.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="6" type="stmt"/>
         <line num="3" count="6" type="stmt"/>
@@ -2829,7 +2862,7 @@
         <line num="48" count="1" type="stmt"/>
         <line num="56" count="6" type="stmt"/>
       </file>
-      <file name="listToTree.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\tree\listToTree.ts">
+      <file name="listToTree.ts" path="E:\Text\rx-util\src\module\tree\listToTree.ts">
         <metrics statements="20" coveredstatements="20" conditionals="13" coveredconditionals="13" methods="3" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="25" count="3" type="stmt"/>
@@ -2852,7 +2885,7 @@
         <line num="52" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="53" count="1" type="stmt"/>
       </file>
-      <file name="treeMapping.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\tree\treeMapping.ts">
+      <file name="treeMapping.ts" path="E:\Text\rx-util\src\module\tree\treeMapping.ts">
         <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="1" count="6" type="stmt"/>
         <line num="2" count="6" type="stmt"/>
@@ -2866,7 +2899,7 @@
         <line num="53" count="14" type="stmt"/>
         <line num="55" count="2" type="stmt"/>
       </file>
-      <file name="treeToList.ts" path="C:\Users\rxliuli\Text\Web\rx-util\src\module\tree\treeToList.ts">
+      <file name="treeToList.ts" path="E:\Text\rx-util\src\module\tree\treeToList.ts">
         <metrics statements="48" coveredstatements="33" conditionals="28" coveredconditionals="16" methods="6" coveredmethods="3"/>
         <line num="1" count="3" type="stmt"/>
         <line num="2" count="3" type="stmt"/>
