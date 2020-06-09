@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589972699672" clover="3.2.0">
-  <project timestamp="1589972699672" name="All files">
-    <metrics statements="2367" coveredstatements="1989" conditionals="781" coveredconditionals="576" methods="645" coveredmethods="506" elements="3793" coveredelements="3071" complexity="0" loc="2367" ncloc="2367" packages="17" files="177" classes="177"/>
+<coverage generated="1591687661136" clover="3.2.0">
+  <project timestamp="1591687661136" name="All files">
+    <metrics statements="2367" coveredstatements="1989" conditionals="781" coveredconditionals="576" methods="646" coveredmethods="507" elements="3794" coveredelements="3072" complexity="0" loc="2367" ncloc="2367" packages="17" files="177" classes="177"/>
     <package name="src">
       <metrics statements="295" coveredstatements="295" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="E:\Text\rx-util\src\index.ts">
@@ -887,17 +887,17 @@
       <file name="Locker.ts" path="E:\Text\rx-util\src\module\async\Locker.ts">
         <metrics statements="14" coveredstatements="14" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
         <line num="1" count="3" type="stmt"/>
-        <line num="8" count="201" type="stmt"/>
+        <line num="8" count="207" type="stmt"/>
         <line num="21" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="45" count="104" type="stmt"/>
+        <line num="45" count="110" type="stmt"/>
         <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
         <line num="57" count="12" type="stmt"/>
-        <line num="59" count="90" type="stmt"/>
-        <line num="60" count="90" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="96" type="stmt"/>
+        <line num="60" count="96" type="cond" truecount="2" falsecount="0"/>
         <line num="61" count="12" type="stmt"/>
-        <line num="63" count="90" type="stmt"/>
+        <line num="63" count="96" type="stmt"/>
         <line num="68" count="2" type="stmt"/>
         <line num="75" count="14" type="stmt"/>
       </file>
@@ -1021,13 +1021,13 @@
         <line num="18" count="3" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
-        <line num="26" count="9" type="stmt"/>
-        <line num="27" count="9" type="stmt"/>
-        <line num="28" count="9" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="30" count="7" type="stmt"/>
-        <line num="31" count="7" type="stmt"/>
-        <line num="32" count="7" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
       </file>
       <file name="wait.ts" path="E:\Text\rx-util\src\module\async\wait.ts">
@@ -1038,7 +1038,7 @@
         <line num="13" count="80" type="stmt"/>
         <line num="14" count="56" type="cond" truecount="2" falsecount="0"/>
         <line num="15" count="55" type="stmt"/>
-        <line num="16" count="494" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="515" type="cond" truecount="2" falsecount="0"/>
         <line num="17" count="39" type="stmt"/>
         <line num="18" count="39" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
@@ -1049,11 +1049,11 @@
         <line num="27" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
-        <line num="30" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="25" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="5" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
-        <line num="34" count="24" type="stmt"/>
-        <line num="35" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="25" type="stmt"/>
+        <line num="35" count="25" type="cond" truecount="2" falsecount="0"/>
         <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
       </file>
@@ -1349,7 +1349,7 @@
       </file>
     </package>
     <package name="src.module.dom">
-      <metrics statements="74" coveredstatements="51" conditionals="18" coveredconditionals="9" methods="22" coveredmethods="15"/>
+      <metrics statements="74" coveredstatements="51" conditionals="18" coveredconditionals="9" methods="23" coveredmethods="16"/>
       <file name="copyText.ts" path="E:\Text\rx-util\src\module\dom\copyText.ts">
         <metrics statements="10" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="3" type="stmt"/>
@@ -1423,13 +1423,13 @@
         <line num="11" count="2" type="stmt"/>
       </file>
       <file name="lastFocus.ts" path="E:\Text\rx-util\src\module\dom\lastFocus.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="24" count="5" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
       </file>
       <file name="removeEl.ts" path="E:\Text\rx-util\src\module\dom\removeEl.ts">
         <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
