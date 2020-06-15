@@ -338,6 +338,8 @@
 						</li>                        <li class=" tsd-kind-external-module">
 						<a href="_module_interface_arraycallback_.html">&quot;module/interface/<wbr>Array<wbr>Callback&quot;</a>
 						</li>                        <li class=" tsd-kind-external-module">
+						<a href="_module_interface_arraydeconstruct_.html">&quot;module/interface/<wbr>Array<wbr>Deconstruct&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
 						<a href="_module_interface_arraykfn_.html">&quot;module/interface/<wbr>ArrayKFn&quot;</a>
 						</li>                        <li class=" tsd-kind-external-module">
 						<a href="_module_interface_arrayreducecallback_.html">&quot;module/interface/<wbr>Array<wbr>Reduce<wbr>Callback&quot;</a>
@@ -499,7 +501,8 @@
 					<a name="arraytomap" class="tsd-anchor"></a>
 					<h3>array<wbr>ToMap</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">array<wbr>ToMap&lt;T, K, V&gt;<span class="tsd-signature-symbol">(</span>arr<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>    <span class="tsd-signature-symbol">[]</span>, k<span class="tsd-signature-symbol">: </span><a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span>, v<span class="tsd-signature-symbol">?: </span><a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">array<wbr>ToMap&lt;T, K, V&gt;<span class="tsd-signature-symbol">(</span>arr<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, k<span class="tsd-signature-symbol">: </span><a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">array<wbr>ToMap&lt;T, K, V&gt;<span class="tsd-signature-symbol">(</span>arr<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, k<span class="tsd-signature-symbol">: </span><a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span>, v<span class="tsd-signature-symbol">?: </span><a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<div class="tsd-comment">
 						<div class="lead">
@@ -509,7 +512,7 @@
 					<h4 class="tsd-type-parameters-title">Type parameters</h4>
 					<ul class="tsd-type-parameters">
 						<li>
-						<span class="name">T</span>                    </li>
+						<span class="name">T</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>    <span class="tsd-signature-symbol">[]</span>                    </li>
 						<li>
 						<span class="name">K</span>                    </li>
 						<li>
@@ -518,30 +521,60 @@
 					<h4 class="tsd-parameters-title">Parameters</h4>
 					<ul class="tsd-parameters">
 						<li>
-							<span class="name">arr</span>: <span class="tsd-signature-type">T</span>    <span class="tsd-signature-symbol">[]</span>
+							<span class="name">arr</span>: <span class="tsd-signature-type">T</span>
 							<div class="tsd-comment">
-								<p>数组</p>
+								<div class="lead">
+									<p>数组</p>
+								</div>
 							</div>
 						</li>
 						<li>
-							<span class="name">k</span>: <a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span>
+							<span class="name">k</span>: <a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span>
 							<div class="tsd-comment">
-								<p>产生 Map 元素唯一标识的函数，或者对象元素中的一个属性名</p>
+								<div class="lead">
+									<p>产生 Map 元素唯一标识的函数，或者对象元素中的一个属性名</p>
+								</div>
 							</div>
 						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>    </h4>
+					<p>映射产生的 map 集合</p>
+					<div class="tsd-comment">
+						<div class="lead">
+							<p>将数组映射为 Map</p>
+						</div>
+					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
 						<li>
-							<span class="name">v</span>: <a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = returnItself</span> <span class="tsd-flag ts-flagDefault value">Default value</span>
-							<div class="tsd-comment">
-								<p>产生 Map 值的函数，默认为返回数组的元素，或者对象元素中的一个属性名</p>
-							</div>
+						<span class="name">T</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>    <span class="tsd-signature-symbol">[]</span>                    </li>
+						<li>
+						<span class="name">K</span>                    </li>
+						<li>
+						<span class="name">V</span>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">arr</span>: <span class="tsd-signature-type">T</span>
+						</li>
+						<li>
+							<span class="name">k</span>: <a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span>
+						</li>
+						<li>
+							<span class="name">v</span>: <a href="_module_interface_arraykfn_.html#arraykfn" class="tsd-signature-type">ArrayKFn</a><span class="tsd-signature-symbol">&lt;</span><a href="_module_interface_arraydeconstruct_.html#arraydeconstruct" class="tsd-signature-type">ArrayDeconstruct</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span> <span class="tsd-flag ts-flagOptional">Optional</span>
 						</li>
 					</ul>
 					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span>    </h4>
 					<p>映射产生的 map 集合</p>
 					</ul>
+					<div class="tsd-comment">
+					</div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5890c9/src/module/array/arrayToMap.ts#L12">src/module/array/arrayToMap.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/f842a0e/src/module/array/arrayToMap.ts#L6">src/module/array/arrayToMap.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/f842a0e/src/module/array/arrayToMap.ts#L10">src/module/array/arrayToMap.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/f842a0e/src/module/array/arrayToMap.ts#L22">src/module/array/arrayToMap.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
