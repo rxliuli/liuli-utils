@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1592359599399" clover="3.2.0">
-  <project timestamp="1592359599399" name="All files">
-    <metrics statements="4018" coveredstatements="2317" conditionals="1447" coveredconditionals="616" methods="1213" coveredmethods="535" elements="6678" coveredelements="3468" complexity="0" loc="4018" ncloc="4018" packages="18" files="179" classes="179"/>
+<coverage generated="1593484071703" clover="3.2.0">
+  <project timestamp="1593484071703" name="All files">
+    <metrics statements="4021" coveredstatements="2320" conditionals="1447" coveredconditionals="616" methods="1213" coveredmethods="535" elements="6681" coveredelements="3471" complexity="0" loc="4021" ncloc="4021" packages="18" files="179" classes="179"/>
     <package name="dist">
-      <metrics statements="1641" coveredstatements="308" conditionals="666" coveredconditionals="35" methods="574" coveredmethods="24"/>
+      <metrics statements="1642" coveredstatements="309" conditionals="666" coveredconditionals="35" methods="574" coveredmethods="24"/>
       <file name="rx-util.js" path="E:\Text\rx-util\dist\rx-util.js">
-        <metrics statements="1641" coveredstatements="308" conditionals="666" coveredconditionals="35" methods="574" coveredmethods="24"/>
+        <metrics statements="1642" coveredstatements="309" conditionals="666" coveredconditionals="35" methods="574" coveredmethods="24"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
@@ -1646,13 +1646,14 @@
         <line num="5305" count="1" type="stmt"/>
         <line num="5306" count="1" type="stmt"/>
         <line num="5307" count="1" type="stmt"/>
-        <line num="5309" count="1" type="stmt"/>
+        <line num="5308" count="1" type="stmt"/>
+        <line num="5310" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src">
-      <metrics statements="297" coveredstatements="297" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="299" coveredstatements="299" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="E:\Text\rx-util\src\index.ts">
-        <metrics statements="297" coveredstatements="297" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="299" coveredstatements="299" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -1796,7 +1797,7 @@
         <line num="150" count="1" type="stmt"/>
         <line num="151" count="1" type="stmt"/>
         <line num="152" count="1" type="stmt"/>
-        <line num="158" count="1" type="stmt"/>
+        <line num="153" count="1" type="stmt"/>
         <line num="159" count="1" type="stmt"/>
         <line num="160" count="1" type="stmt"/>
         <line num="161" count="1" type="stmt"/>
@@ -1944,12 +1945,14 @@
         <line num="303" count="1" type="stmt"/>
         <line num="304" count="1" type="stmt"/>
         <line num="305" count="1" type="stmt"/>
+        <line num="306" count="1" type="stmt"/>
         <line num="307" count="1" type="stmt"/>
-        <line num="308" count="1" type="stmt"/>
         <line num="309" count="1" type="stmt"/>
         <line num="310" count="1" type="stmt"/>
         <line num="311" count="1" type="stmt"/>
         <line num="312" count="1" type="stmt"/>
+        <line num="313" count="1" type="stmt"/>
+        <line num="314" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.module.ajax">
@@ -2670,13 +2673,13 @@
         <line num="18" count="2" type="stmt"/>
         <line num="22" count="4" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
-        <line num="26" count="10" type="stmt"/>
-        <line num="27" count="10" type="stmt"/>
-        <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="8" type="stmt"/>
-        <line num="30" count="8" type="stmt"/>
-        <line num="31" count="8" type="stmt"/>
-        <line num="32" count="8" type="stmt"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="6" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
       </file>
       <file name="wait.ts" path="E:\Text\rx-util\src\module\async\wait.ts">
@@ -2698,11 +2701,11 @@
         <line num="27" count="5" type="stmt"/>
         <line num="28" count="5" type="stmt"/>
         <line num="29" count="5" type="stmt"/>
-        <line num="30" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="23" type="cond" truecount="2" falsecount="0"/>
         <line num="31" count="5" type="stmt"/>
         <line num="32" count="5" type="stmt"/>
-        <line num="34" count="25" type="stmt"/>
-        <line num="35" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="23" type="stmt"/>
+        <line num="35" count="23" type="cond" truecount="2" falsecount="0"/>
         <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
       </file>
@@ -3123,23 +3126,23 @@
       <metrics statements="61" coveredstatements="56" conditionals="32" coveredconditionals="22" methods="23" coveredmethods="20"/>
       <file name="EventEmitter.ts" path="E:\Text\rx-util\src\module\event\EventEmitter.ts">
         <metrics statements="17" coveredstatements="13" conditionals="8" coveredconditionals="6" methods="8" coveredmethods="6"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="18" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="19" count="4" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
-        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
-        <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
-        <line num="57" count="3" type="stmt"/>
-        <line num="58" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="24" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="60" count="3" type="stmt"/>
-        <line num="69" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+        <line num="72" count="2" type="cond" truecount="2" falsecount="0"/>
       </file>
       <file name="EventUtil.ts" path="E:\Text\rx-util\src\module\event\EventUtil.ts">
         <metrics statements="21" coveredstatements="20" conditionals="15" coveredconditionals="11" methods="6" coveredmethods="6"/>

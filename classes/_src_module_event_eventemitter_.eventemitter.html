@@ -99,6 +99,9 @@
 						</li>
 					</ul>
 					<ul class="after-current">
+						<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported">
+							<a href="../modules/_src_module_event_eventemitter_.html#callbackfunc" class="tsd-kind-icon">Callback<wbr>Func</a>
+						</li>
 						<li class=" tsd-kind-type-alias tsd-parent-kind-external-module tsd-is-not-exported">
 							<a href="../modules/_src_module_event_eventemitter_.html#eventtype" class="tsd-kind-icon">Event<wbr>Type</a>
 						</li>
@@ -605,7 +608,7 @@
 					<div class="tsd-signature tsd-kind-icon">events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">keyof Events</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/_src_module_function_curry_.irfunc.html#function" class="tsd-signature-type">Function</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new Map&lt;keyof Events, Function[]&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L9">src/module/event/EventEmitter.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L15">src/module/event/EventEmitter.ts:15</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -616,7 +619,7 @@
 					<a name="add" class="tsd-anchor"></a>
 					<h3>add</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">add&lt;E&gt;<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">E</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">this</span></li>
+						<li class="tsd-signature tsd-kind-icon">add&lt;E&gt;<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">E</span>, callback<span class="tsd-signature-symbol">: </span><a href="../modules/_src_module_event_eventemitter_.html#callbackfunc" class="tsd-signature-type">CallbackFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">this</span></li>
 					</ul>
 					<div class="tsd-comment">
 						<div class="lead">
@@ -637,28 +640,10 @@
 							</div>
 						</li>
 						<li>
-							<span class="name">callback</span>: <span class="tsd-signature-type">function</span>
+							<span class="name">callback</span>: <a href="../modules/_src_module_event_eventemitter_.html#callbackfunc" class="tsd-signature-type">CallbackFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">&gt;</span>
 							<div class="tsd-comment">
 								<p>处理回调</p>
 							</div>
-							<ul class="tsd-parameters">
-								<li class="tsd-parameter-siganture">
-									<ul class="tsd-signatures tsd-kind-type-literal">
-										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-									</ul>
-									<ul class="tsd-descriptions">
-										<li class="tsd-description">
-											<h4 class="tsd-parameters-title">Parameters</h4>
-											<ul class="tsd-parameters">
-												<li>
-													<span class="tsd-signature-symbol">...</span><span class="name">args</span>: <span class="tsd-signature-type">Events[E]</span> <span class="tsd-flag ts-flagRest">Rest</span>
-												</li>
-											</ul>
-											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>    </h4>
-										</li>
-									</ul>
-								</li>
-							</ul>
 						</li>
 					</ul>
 					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">this</span>    </h4>
@@ -666,7 +651,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L17">src/module/event/EventEmitter.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L23">src/module/event/EventEmitter.ts:23</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -706,7 +691,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L55">src/module/event/EventEmitter.ts:55</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L58">src/module/event/EventEmitter.ts:58</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -740,7 +725,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L68">src/module/event/EventEmitter.ts:68</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L71">src/module/event/EventEmitter.ts:71</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -748,7 +733,7 @@
 					<a name="remove" class="tsd-anchor"></a>
 					<h3>remove</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter">
-						<li class="tsd-signature tsd-kind-icon">remove&lt;E&gt;<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">E</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">this</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove&lt;E&gt;<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">E</span>, callback<span class="tsd-signature-symbol">: </span><a href="../modules/_src_module_event_eventemitter_.html#callbackfunc" class="tsd-signature-type">CallbackFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">this</span></li>
 					</ul>
 					<div class="tsd-comment">
 						<div class="lead">
@@ -769,28 +754,10 @@
 							</div>
 						</li>
 						<li>
-							<span class="name">callback</span>: <span class="tsd-signature-type">function</span>
+							<span class="name">callback</span>: <a href="../modules/_src_module_event_eventemitter_.html#callbackfunc" class="tsd-signature-type">CallbackFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">&gt;</span>
 							<div class="tsd-comment">
 								<p>处理回调</p>
 							</div>
-							<ul class="tsd-parameters">
-								<li class="tsd-parameter-siganture">
-									<ul class="tsd-signatures tsd-kind-type-literal">
-										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Events[E]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-									</ul>
-									<ul class="tsd-descriptions">
-										<li class="tsd-description">
-											<h4 class="tsd-parameters-title">Parameters</h4>
-											<ul class="tsd-parameters">
-												<li>
-													<span class="tsd-signature-symbol">...</span><span class="name">args</span>: <span class="tsd-signature-type">Events[E]</span> <span class="tsd-flag ts-flagRest">Rest</span>
-												</li>
-											</ul>
-											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>    </h4>
-										</li>
-									</ul>
-								</li>
-							</ul>
 						</li>
 					</ul>
 					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">this</span>    </h4>
@@ -798,7 +765,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L29">src/module/event/EventEmitter.ts:29</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L35">src/module/event/EventEmitter.ts:35</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -832,7 +799,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d321ed/src/module/event/EventEmitter.ts#L45">src/module/event/EventEmitter.ts:45</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/fbcffbb0/src/module/event/EventEmitter.ts#L48">src/module/event/EventEmitter.ts:48</a></li>
 						</ul>
 					</aside>
 				</section>
