@@ -1,0 +1,809 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RamOnceClass | rx-util</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">rx-util</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="../modules/_module_idea_onceinstance_.html">&quot;module/idea/OnceInstance&quot;</a>
+				</li>
+				<li>
+					<a href="_module_idea_onceinstance_.ramonceclass.html">RamOnceClass</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="container">
+	<div class="row container container-main">
+		<div class="col-3 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul>
+					<ul class="before-current">
+						<li class=" tsd-kind-class tsd-parent-kind-external-module">
+							<a href="_module_idea_onceinstance_.basiconce.html" class="tsd-kind-icon">Basic<wbr>Once</a>
+						</li>
+						<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+							<a href="_module_idea_onceinstance_.localstorageonceclass.html" class="tsd-kind-icon">Local<wbr>Storage<wbr>Once<wbr>Class</a>
+						</li>
+					</ul>
+					<ul class="current">
+						<li class="current tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+							<a href="_module_idea_onceinstance_.ramonceclass.html" class="tsd-kind-icon">Ram<wbr>Once<wbr>Class</a>
+							<ul>
+								<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+									<a href="_module_idea_onceinstance_.ramonceclass.html#limit" class="tsd-kind-icon">limit</a>
+								</li>
+								<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+									<a href="_module_idea_onceinstance_.ramonceclass.html#once" class="tsd-kind-icon">once</a>
+								</li>
+								<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+									<a href="_module_idea_onceinstance_.ramonceclass.html#onceofcycle" class="tsd-kind-icon">once<wbr>OfCycle</a>
+								</li>
+								<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+									<a href="_module_idea_onceinstance_.ramonceclass.html#onceofsameparam" class="tsd-kind-icon">once<wbr>OfSame<wbr>Param</a>
+								</li>
+								<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+									<a href="_module_idea_onceinstance_.ramonceclass.html#onceofsimultaneously" class="tsd-kind-icon">once<wbr>OfSimultaneously</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="after-current">
+						<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+							<a href="_module_idea_onceinstance_.sessionstorageonceclass.html" class="tsd-kind-icon">Session<wbr>Storage<wbr>Once<wbr>Class</a>
+						</li>
+						<li class=" tsd-kind-class tsd-parent-kind-external-module tsd-is-not-exported">
+							<a href="_module_idea_onceinstance_.storageonceclass.html" class="tsd-kind-icon">Storage<wbr>Once<wbr>Class</a>
+						</li>
+						<li class=" tsd-kind-interface tsd-parent-kind-external-module tsd-is-not-exported">
+							<a href="../interfaces/_module_idea_onceinstance_.baseonce.html" class="tsd-kind-icon">Base<wbr>Once</a>
+						</li>
+						<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-not-exported">
+							<a href="../modules/_module_idea_onceinstance_.html#bindobjectthis" class="tsd-kind-icon">bind<wbr>Object<wbr>This</a>
+						</li>
+						<li class=" tsd-kind-object-literal tsd-parent-kind-external-module">
+							<a href="../modules/_module_idea_onceinstance_.html#onceinstance" class="tsd-kind-icon">Once<wbr>Instance</a>
+						</li>
+					</ul>
+				</ul>
+				<ul>
+					<li>📑 Index</li>
+					<li><br></li>
+					<li class=" ">
+						<a href="../globals.html">Globals</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_index_.html">&quot;index&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_fetchlimiting_.html">&quot;module/ajax/<wbr>Fetch<wbr>Limiting&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_download_.html">&quot;module/ajax/download&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_downloadstring_.html">&quot;module/ajax/download<wbr>String&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_downloadurl_.html">&quot;module/ajax/download<wbr>Url&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_fetchtimeout_.html">&quot;module/ajax/fetch<wbr>Timeout&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_getcookies_.html">&quot;module/ajax/get<wbr>Cookies&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_loadresource_.html">&quot;module/ajax/load<wbr>Resource&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_loadscript_.html">&quot;module/ajax/load<wbr>Script&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_loadstyle_.html">&quot;module/ajax/load<wbr>Style&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_objtourlsearchparams_.html">&quot;module/ajax/obj<wbr>ToURLSearch<wbr>Params&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_parseurl_.html">&quot;module/ajax/parse<wbr>Url&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_readlocal_.html">&quot;module/ajax/read<wbr>Local&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_spliceparams_.html">&quot;module/ajax/splice<wbr>Params&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_strtoarraybuffer_.html">&quot;module/ajax/str<wbr>ToArray<wbr>Buffer&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_ajax_strtoblob_.html">&quot;module/ajax/str<wbr>ToBlob&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_arrayutil_.html">&quot;module/array/<wbr>Array<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_arrayvalidator_.html">&quot;module/array/<wbr>Array<wbr>Validator&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_asyncarray_.html">&quot;module/array/<wbr>Async<wbr>Array&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_arraydiffby_.html">&quot;module/array/array<wbr>Diff<wbr>By&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_arraytomap_.html">&quot;module/array/array<wbr>ToMap&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_asiterator_.html">&quot;module/array/as<wbr>Iterator&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_asyncflatmap_.html">&quot;module/array/async<wbr>Flat<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_diffby_.html">&quot;module/array/diff<wbr>By&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_extractfieldmap_.html">&quot;module/array/extract<wbr>Field<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_filteritems_.html">&quot;module/array/filter<wbr>Items&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_findindex_.html">&quot;module/array/find<wbr>Index&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_flatmap_.html">&quot;module/array/flat<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_getkfn_.html">&quot;module/array/getKFn&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_groupby_.html">&quot;module/array/group<wbr>By&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_insert_.html">&quot;module/array/insert&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_kfntocompare_.html">&quot;module/array/k<wbr>FnTo<wbr>Compare&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_range_.html">&quot;module/array/range&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_segmentation_.html">&quot;module/array/segmentation&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_sortby_.html">&quot;module/array/sort<wbr>By&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_toobject_.html">&quot;module/array/to<wbr>Object&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_array_uniqueby_.html">&quot;module/array/unique<wbr>By&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_locker_.html">&quot;module/async/<wbr>Locker&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_microtaskqueue_.html">&quot;module/async/<wbr>Microtask<wbr>Queue&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_async_.html">&quot;module/async/async&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_asynclimiting_.html">&quot;module/async/async<wbr>Limiting&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_compatibleasync_.html">&quot;module/async/compatible<wbr>Async&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_concatmap_.html">&quot;module/async/concat<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_debounce_.html">&quot;module/async/debounce&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_mergemap_.html">&quot;module/async/merge<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_switchmap_.html">&quot;module/async/switch<wbr>Map&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_throttle_.html">&quot;module/async/throttle&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_wait_.html">&quot;module/async/wait&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_async_waitresource_.html">&quot;module/async/wait<wbr>Resource&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_cache_cacheutil_.html">&quot;module/cache/<wbr>Cache<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_cache_cacheval_.html">&quot;module/cache/<wbr>Cache<wbr>Val&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_cache_icache_.html">&quot;module/cache/ICache&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_cache_icacheoption_.html">&quot;module/cache/ICache<wbr>Option&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_cache_localstoragecache_.html">&quot;module/cache/<wbr>Local<wbr>Storage<wbr>Cache&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_dateconstants_.html">&quot;module/date/<wbr>Date<wbr>Constants&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_dateformatter_.html">&quot;module/date/<wbr>Date<wbr>Formatter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_stopwatch_.html">&quot;module/date/<wbr>Stopwatch&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_datebetween_.html">&quot;module/date/date<wbr>Between&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_dateenhance_.html">&quot;module/date/date<wbr>Enhance&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_dateformat_.html">&quot;module/date/date<wbr>Format&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_dateparse_.html">&quot;module/date/date<wbr>Parse&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_getyearweek_.html">&quot;module/date/get<wbr>Year<wbr>Week&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_date_strtodate_.html">&quot;module/date/str<wbr>ToDate&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_copytext_.html">&quot;module/dom/copy<wbr>Text&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_createelbystring_.html">&quot;module/dom/create<wbr>ElBy<wbr>String&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_getcursorposition_.html">&quot;module/dom/get<wbr>Cursor<wbr>Position&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_getcusorpostion_.html">&quot;module/dom/get<wbr>Cusor<wbr>Postion&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_getmousepos_.html">&quot;module/dom/get<wbr>Mouse<wbr>Pos&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_getselecttext_.html">&quot;module/dom/get<wbr>Select<wbr>Text&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_imagesize_.html">&quot;module/dom/image<wbr>Size&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_inserttext_.html">&quot;module/dom/insert<wbr>Text&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_iseditable_.html">&quot;module/dom/is<wbr>Editable&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_lastfocus_.html">&quot;module/dom/last<wbr>Focus&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_removeel_.html">&quot;module/dom/remove<wbr>El&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_removetext_.html">&quot;module/dom/remove<wbr>Text&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_setcursorposition_.html">&quot;module/dom/set<wbr>Cursor<wbr>Position&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_setcusorpostion_.html">&quot;module/dom/set<wbr>Cusor<wbr>Postion&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_dom_toggleclass_.html">&quot;module/dom/toggle<wbr>Class&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_event_eventemitter_.html">&quot;module/event/<wbr>Event<wbr>Emitter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_event_eventutil_.html">&quot;module/event/<wbr>Event<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_event_watcheventlistener_.html">&quot;module/event/watch<wbr>Event<wbr>Listener&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_formdatabuilder_.html">&quot;module/formdata/<wbr>Form<wbr>Data<wbr>Builder&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_appends_.html">&quot;module/formdata/appends&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_deletes_.html">&quot;module/formdata/deletes&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_formdatatoarray_.html">&quot;module/formdata/form<wbr>Data<wbr>ToArray&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_objtoformdata_.html">&quot;module/formdata/obj<wbr>ToForm<wbr>Data&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_formdata_sets_.html">&quot;module/formdata/sets&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_combinedpredicate_.html">&quot;module/function/<wbr>Combined<wbr>Predicate&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_pubsubmachine_.html">&quot;module/function/<wbr>Pub<wbr>Sub<wbr>Machine&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_statemachine_.html">&quot;module/function/<wbr>State<wbr>Machine&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_batch_.html">&quot;module/function/batch&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_bridge_.html">&quot;module/function/bridge&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_compose_.html">&quot;module/function/compose&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_curry_.html">&quot;module/function/curry&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_deny_.html">&quot;module/function/deny&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_emptyfunc_.html">&quot;module/function/empty<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_extractfield_.html">&quot;module/function/extract<wbr>Field&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_once_.html">&quot;module/function/once&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_onceofsameparam_.html">&quot;module/function/once<wbr>OfSame<wbr>Param&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_onceofsimultaneously_.html">&quot;module/function/once<wbr>OfSimultaneously&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_partial_.html">&quot;module/function/partial&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_repeatedcall_.html">&quot;module/function/repeated<wbr>Call&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_returnitself_.html">&quot;module/function/return<wbr>Itself&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_returnreasonableitself_.html">&quot;module/function/return<wbr>Reasonable<wbr>Itself&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_safeexec_.html">&quot;module/function/safe<wbr>Exec&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_singlemodel_.html">&quot;module/function/single<wbr>Model&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_sleep_.html">&quot;module/function/sleep&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_timing_.html">&quot;module/function/timing&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_trysometime_.html">&quot;module/function/try<wbr>Sometime&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_trysometimeparallel_.html">&quot;module/function/try<wbr>Sometime<wbr>Parallel&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_watch_.html">&quot;module/function/watch&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_function_watchobject_.html">&quot;module/function/watch<wbr>Object&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_hack_antidebug_.html">&quot;module/hack/<wbr>Anti<wbr>Debug&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_hack_logger_.html">&quot;module/hack/logger&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_hack_remindleavepage_.html">&quot;module/hack/remind<wbr>Leave<wbr>Page&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_csvexportutil_.html">&quot;module/idea/CSVExport<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_linerange_.html">&quot;module/idea/<wbr>Line<wbr>Range&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_linerangeutil_.html">&quot;module/idea/<wbr>Line<wbr>Range<wbr>Util&quot;</a>
+						</li>                        <li class="current tsd-kind-external-module">
+						<a href="../modules/_module_idea_onceinstance_.html">&quot;module/idea/<wbr>Once<wbr>Instance&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_rect_.html">&quot;module/idea/<wbr>Rect&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_counttime_.html">&quot;module/idea/count<wbr>Time&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_formattimestamp_.html">&quot;module/idea/format<wbr>Timestamp&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_gensort_.html">&quot;module/idea/gen<wbr>Sort&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_parsefieldstr_.html">&quot;module/idea/parse<wbr>Field<wbr>Str&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_pick_.html">&quot;module/idea/pick&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_pipe_.html">&quot;module/idea/pipe&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_reversekey_.html">&quot;module/idea/reverse<wbr>Key&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_stream_.html">&quot;module/idea/stream&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_style_.html">&quot;module/idea/style&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_idea_zip_.html">&quot;module/idea/zip&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_arraycallback_.html">&quot;module/interface/<wbr>Array<wbr>Callback&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_arraydeconstruct_.html">&quot;module/interface/<wbr>Array<wbr>Deconstruct&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_arraykfn_.html">&quot;module/interface/<wbr>ArrayKFn&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_arrayreducecallback_.html">&quot;module/interface/<wbr>Array<wbr>Reduce<wbr>Callback&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_async_.html">&quot;module/interface/<wbr>Async&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_asyncfunc_.html">&quot;module/interface/<wbr>Async<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_emptyfunc_.html">&quot;module/interface/<wbr>Empty<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_func_.html">&quot;module/interface/<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_jsonvalue_.html">&quot;module/interface/JSONValue&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_newable_.html">&quot;module/interface/<wbr>Newable&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_nullable_.html">&quot;module/interface/<wbr>Nullable&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_predicatefunc_.html">&quot;module/interface/<wbr>Predicate<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_predicatereturn_.html">&quot;module/interface/<wbr>Predicate<wbr>Return&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_promisedeconstruct_.html">&quot;module/interface/<wbr>Promise<wbr>Deconstruct&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_returnfunc_.html">&quot;module/interface/<wbr>Return<wbr>Func&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_interface_supplier_.html">&quot;module/interface/<wbr>Supplier&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_number_autoincrement_.html">&quot;module/number/auto<wbr>Increment&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_number_floatequals_.html">&quot;module/number/float<wbr>Equals&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_number_isrange_.html">&quot;module/number/is<wbr>Range&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_number_randomint_.html">&quot;module/number/random<wbr>Int&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_peek_.html">&quot;module/obj/<wbr>Peek&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_typevalidator_.html">&quot;module/obj/<wbr>Type<wbr>Validator&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_aggregation_.html">&quot;module/obj/aggregation&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_assign_.html">&quot;module/obj/assign&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_blanktonullfield_.html">&quot;module/obj/blank<wbr>ToNull<wbr>Field&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_compare_.html">&quot;module/obj/compare&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_deepexcludefields_.html">&quot;module/obj/deep<wbr>Exclude<wbr>Fields&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_deepfreeze_.html">&quot;module/obj/deep<wbr>Freeze&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_deepproxy_.html">&quot;module/obj/deep<wbr>Proxy&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_emptyallfield_.html">&quot;module/obj/empty<wbr>All<wbr>Field&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_excludefields_.html">&quot;module/obj/exclude<wbr>Fields&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_excludefieldsdeep_.html">&quot;module/obj/exclude<wbr>Fields<wbr>Deep&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_get_.html">&quot;module/obj/get&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_getobjectentries_.html">&quot;module/obj/get<wbr>Object<wbr>Entries&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_getobjectkeys_.html">&quot;module/obj/get<wbr>Object<wbr>Keys&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_getobjectvalues_.html">&quot;module/obj/get<wbr>Object<wbr>Values&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_isnullorundefined_.html">&quot;module/obj/is<wbr>Null<wbr>OrUndefined&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_maptoobject_.html">&quot;module/obj/map<wbr>ToObject&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_objecttomap_.html">&quot;module/obj/object<wbr>ToMap&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_obj_set_.html">&quot;module/obj/set&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_pathutil_.html">&quot;module/string/<wbr>Path<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_.html">&quot;module/string/<wbr>String<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_camelconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Camel<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_camelorpascalfrom_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Camel<wbr>OrPascal<wbr>From&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_converterfactory_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Converter<wbr>Factory&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_iconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/IConverter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_pascalconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Pascal<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_screamingsnakeconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Screaming<wbr>Snake<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_snakeconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Snake<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_snakeorscreamingsnakefrom_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>Snake<wbr>OrScreaming<wbr>Snake<wbr>From&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_stringstyleconverter_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>String<wbr>Style<wbr>Converter&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringconverter_stringstyletype_.html">&quot;module/string/<wbr>String<wbr>Converter/<wbr>String<wbr>Style<wbr>Type&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_stringvalidator_.html">&quot;module/string/<wbr>String<wbr>Validator&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_blanktonull_.html">&quot;module/string/blank<wbr>ToNull&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_fill_.html">&quot;module/string/fill&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_format_.html">&quot;module/string/format&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_isblank_.html">&quot;module/string/is<wbr>Blank&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_isempty_.html">&quot;module/string/is<wbr>Empty&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_isfloat_.html">&quot;module/string/is<wbr>Float&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_isnumber_.html">&quot;module/string/is<wbr>Number&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_randomstr_.html">&quot;module/string/random<wbr>Str&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_tolowercase_.html">&quot;module/string/to<wbr>Lower<wbr>Case&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_tostring_.html">&quot;module/string/to<wbr>String&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_string_touppercase_.html">&quot;module/string/to<wbr>Upper<wbr>Case&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_inode_.html">&quot;module/tree/INode&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_inodebridge_.html">&quot;module/tree/INode<wbr>Bridge&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_nodebridgeutil_.html">&quot;module/tree/<wbr>Node<wbr>Bridge<wbr>Util&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_listtotree_.html">&quot;module/tree/list<wbr>ToTree&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_treemapping_.html">&quot;module/tree/tree<wbr>Mapping&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_module_tree_treetolist_.html">&quot;module/tree/tree<wbr>ToList&quot;</a>
+				</li>                </ul>
+			</nav>
+		</div>
+		<div class="col-9 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment">
+					<div class="lead">
+						<p>基于内存的 once 系列函数</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="_module_idea_onceinstance_.basiconce.html" class="tsd-signature-type">BasicOnce</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">RamOnceClass</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/_module_idea_onceinstance_.baseonce.html" class="tsd-signature-type">BaseOnce</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-not-exported">
+							<h3>Methods</h3>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+										<a href="_module_idea_onceinstance_.ramonceclass.html#limit" class="tsd-kind-icon">limit</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+										<a href="_module_idea_onceinstance_.ramonceclass.html#once" class="tsd-kind-icon">once</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+										<a href="_module_idea_onceinstance_.ramonceclass.html#onceofcycle" class="tsd-kind-icon">once<wbr>OfCycle</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+										<a href="_module_idea_onceinstance_.ramonceclass.html#onceofsameparam" class="tsd-kind-icon">once<wbr>OfSame<wbr>Param</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+										<a href="_module_idea_onceinstance_.ramonceclass.html#onceofsimultaneously" class="tsd-kind-icon">once<wbr>OfSimultaneously</a>
+									</li>
+								</ul>
+							</div>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported tsd-descriptions">
+					<a name="limit" class="tsd-anchor"></a>
+					<h3>limit</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">limit&lt;R, Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span>, max<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+						<span class="name">R</span>                    </li>
+						<li>
+						<span class="name">Fn</span><span class="tsd-signature-symbol">: </span><a href="../modules/_module_interface_returnfunc_.html#returnfunc" class="tsd-signature-type">ReturnFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">fn</span>: <span class="tsd-signature-type">Fn</span>
+						</li>
+						<li>
+							<span class="name">max</span>: <span class="tsd-signature-type">number</span>
+						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
+						<span class="tsd-signature-symbol"> &amp; </span>
+						<span class="tsd-signature-type">object</span>
+					</h4>
+					</ul>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_module_idea_onceinstance_.baseonce.html">BaseOnce</a>.<a href="../interfaces/_module_idea_onceinstance_.baseonce.html#limit">limit</a></p>
+						<p>Overrides <a href="_module_idea_onceinstance_.basiconce.html">BasicOnce</a>.<a href="_module_idea_onceinstance_.basiconce.html#limit">limit</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5c9f6a3/src/module/idea/OnceInstance.ts#L116">src/module/idea/OnceInstance.ts:116</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported tsd-descriptions">
+					<a name="once" class="tsd-anchor"></a>
+					<h3>once</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">once&lt;R, Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+						<span class="name">R</span>                    </li>
+						<li>
+						<span class="name">Fn</span><span class="tsd-signature-symbol">: </span><a href="../modules/_module_interface_returnfunc_.html#returnfunc" class="tsd-signature-type">ReturnFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">fn</span>: <span class="tsd-signature-type">Fn</span>
+						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
+						<span class="tsd-signature-symbol"> &amp; </span>
+						<span class="tsd-signature-type">object</span>
+					</h4>
+					</ul>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_module_idea_onceinstance_.baseonce.html">BaseOnce</a>.<a href="../interfaces/_module_idea_onceinstance_.baseonce.html#once">once</a></p>
+						<p>Overrides <a href="_module_idea_onceinstance_.basiconce.html">BasicOnce</a>.<a href="_module_idea_onceinstance_.basiconce.html#once">once</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5c9f6a3/src/module/idea/OnceInstance.ts#L110">src/module/idea/OnceInstance.ts:110</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported tsd-descriptions">
+					<a name="onceofcycle" class="tsd-anchor"></a>
+					<h3>once<wbr>OfCycle</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">once<wbr>OfCycle&lt;R, Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span>, time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+						<span class="name">R</span>                    </li>
+						<li>
+						<span class="name">Fn</span><span class="tsd-signature-symbol">: </span><a href="../modules/_module_interface_returnfunc_.html#returnfunc" class="tsd-signature-type">ReturnFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">fn</span>: <span class="tsd-signature-type">Fn</span>
+						</li>
+						<li>
+							<span class="name">time</span>: <span class="tsd-signature-type">number</span>
+						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
+						<span class="tsd-signature-symbol"> &amp; </span>
+						<span class="tsd-signature-type">object</span>
+					</h4>
+					</ul>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_module_idea_onceinstance_.baseonce.html">BaseOnce</a>.<a href="../interfaces/_module_idea_onceinstance_.baseonce.html#onceofcycle">onceOfCycle</a></p>
+						<p>Overrides <a href="_module_idea_onceinstance_.basiconce.html">BasicOnce</a>.<a href="_module_idea_onceinstance_.basiconce.html#onceofcycle">onceOfCycle</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5c9f6a3/src/module/idea/OnceInstance.ts#L201">src/module/idea/OnceInstance.ts:201</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported tsd-descriptions">
+					<a name="onceofsameparam" class="tsd-anchor"></a>
+					<h3>once<wbr>OfSame<wbr>Param</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">once<wbr>OfSame<wbr>Param&lt;Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span>, identity<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+						<span class="name">Fn</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_module_function_curry_.irfunc.html#function" class="tsd-signature-type">Function</a>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">fn</span>: <span class="tsd-signature-type">Fn</span>
+						</li>
+						<li>
+							<span class="name">identity</span>: <span class="tsd-signature-type">(Anonymous function)</span><span class="tsd-signature-symbol"> = (...args: any[]) &#x3D;&gt;&#x60;onceOfSameParam-${fn.toString()}-${JSON.stringify(args)}&#x60;</span> <span class="tsd-flag ts-flagDefault value">Default value</span>
+						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
+						<span class="tsd-signature-symbol"> &amp; </span>
+						<span class="tsd-signature-type">object</span>
+					</h4>
+					</ul>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_module_idea_onceinstance_.baseonce.html">BaseOnce</a>.<a href="../interfaces/_module_idea_onceinstance_.baseonce.html#onceofsameparam">onceOfSameParam</a></p>
+						<p>Overrides <a href="_module_idea_onceinstance_.basiconce.html">BasicOnce</a>.<a href="_module_idea_onceinstance_.basiconce.html#onceofsameparam">onceOfSameParam</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5c9f6a3/src/module/idea/OnceInstance.ts#L143">src/module/idea/OnceInstance.ts:143</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported tsd-descriptions">
+					<a name="onceofsimultaneously" class="tsd-anchor"></a>
+					<h3>once<wbr>OfSimultaneously</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">once<wbr>OfSimultaneously&lt;R, Fn&gt;<span class="tsd-signature-symbol">(</span>fn<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Fn</span><span class="tsd-signature-symbol"> &amp; </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+						<span class="name">R</span>                    </li>
+						<li>
+						<span class="name">Fn</span><span class="tsd-signature-symbol">: </span><a href="../modules/_module_interface_returnfunc_.html#returnfunc" class="tsd-signature-type">ReturnFunc</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">R</span><span class="tsd-signature-symbol">&gt;</span>                    </li>
+					</ul>
+					<h4 class="tsd-parameters-title">Parameters</h4>
+					<ul class="tsd-parameters">
+						<li>
+							<span class="name">fn</span>: <span class="tsd-signature-type">Fn</span>
+						</li>
+					</ul>
+					<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Fn</span>
+						<span class="tsd-signature-symbol"> &amp; </span>
+						<span class="tsd-signature-type">object</span>
+					</h4>
+					</ul>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/_module_idea_onceinstance_.baseonce.html">BaseOnce</a>.<a href="../interfaces/_module_idea_onceinstance_.baseonce.html#onceofsimultaneously">onceOfSimultaneously</a></p>
+						<p>Overrides <a href="_module_idea_onceinstance_.basiconce.html">BasicOnce</a>.<a href="_module_idea_onceinstance_.basiconce.html#onceofsimultaneously">onceOfSimultaneously</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/c5c9f6a3/src/module/idea/OnceInstance.ts#L175">src/module/idea/OnceInstance.ts:175</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<footer class="with-border-bottom">
+				<div class="tsd-legend-group">
+					<ul class="tsd-legend">
+						<li class="tsd-is-inherited"><span class="tsd-kind-icon">Inherited</span></li>
+						<li class="tsd-is-protected"><span class="tsd-kind-icon">Protected</span></li>
+						<li class="tsd-is-private"><span class="tsd-kind-icon">Private</span></li>
+						<li class="tsd-is-static"><span class="tsd-kind-icon">Static</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+						<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object</span></li>
+						<li class="tsd-kind-property"><span class="tsd-kind-icon">Property</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+						<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+						<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type</span></li>
+						<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+						<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+					</ul>
+					<ul class="tsd-legend">
+						<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enum</span></li>
+						<li class="tsd-kind-constructor"><span class="tsd-kind-icon">Constructor</span></li>
+						<li class="tsd-kind-accessor"><span class="tsd-kind-icon">Getter/Setter</span></li>
+					</ul>
+				</div>
+			</footer>
+			<div>Made with ❤️ by <a href="https://github.com/pirix-gh/eledoc" target="_blank">pirix-gh</a>. Documentation generated by <a href="http://typedoc.org/" target="_blank">TypeDoc.</a></div>
+		</div>
+	</div>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

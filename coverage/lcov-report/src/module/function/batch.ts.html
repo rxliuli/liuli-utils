@@ -67,12 +67,7 @@
 <a name='L39'></a><a href='#L39'>39</a>
 <a name='L40'></a><a href='#L40'>40</a>
 <a name='L41'></a><a href='#L41'>41</a>
-<a name='L42'></a><a href='#L42'>42</a>
-<a name='L43'></a><a href='#L43'>43</a>
-<a name='L44'></a><a href='#L44'>44</a>
-<a name='L45'></a><a href='#L45'>45</a>
-<a name='L46'></a><a href='#L46'>46</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L42'></a><a href='#L42'>42</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -84,82 +79,75 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { wait } from '../async/wait'
-import { Func, DeconstructionPromise } from 'liuli-types'
 &nbsp;
 /**
  * 将多个并发异步调用合并为一次批处理
- * @param fn 需要包装的函数
  * @param handle 批处理的函数
+ * @param ms 等待的时长（时间越长则可能合并的调用越多，否则将使用微任务只合并一次同步执行的所有调用）
  */
-export function batch&lt;
-  T extends Func,
-  P extends Parameters&lt;T&gt;,
-  R extends DeconstructionPromise&lt;ReturnType&lt;T&gt;&gt;
-&gt;(fn: T, handle: (args: P[]) =&gt; Promise&lt;Map&lt;P, R&gt;&gt;) {
+export function batch&lt;P extends any[], R extends any&gt;(
+  handle: (list: P[]) =&gt; Promise&lt;Map&lt;P, R | Error&gt;&gt;,
+  ms: number = 0,
+): (...args: P) =&gt; Promise&lt;R&gt; {
+  //参数 =&gt; 结果 映射
   const resultMap = new Map&lt;P, R | Error&gt;()
+  //参数列表
   const paramSet = new Set&lt;P&gt;()
+  //当前是否被锁定
   let lock = false
-  return new Proxy(fn, {
-    async apply(target: T, thisArg: any, argArray: P): Promise&lt;R&gt; {
-      paramSet.add(argArray)
-      // console.log('apply wait begin: ', argArray, lock)
-      await wait(() =&gt; resultMap.has(argArray) || !lock)
-      // console.log('apply wait end: ', argArray, lock, resultMap)
-      lock = true
+  return async function(...argArray: P) {
+    paramSet.add(argArray)
+    await Promise.all([wait(() =&gt; resultMap.has(argArray) || !lock), wait(ms)])
+    if (!resultMap.has(argArray)) {
       try {
-        if (!resultMap.has(argArray)) {
-          // console.log('handle end: ', argArray, map)
-          Array.from(await handle(Array.from(paramSet))).forEach(([k, v]) =&gt; {
-            resultMap.set(k, v)
-          })
-        }
-        const value = resultMap.get(argArray)
-        paramSet.delete(argArray)
-        resultMap.delete(argArray)
-        // console.log('delete: ', resultMap)
-&nbsp;
-        <span class="missing-if-branch" title="if path not taken" >I</span>if (value instanceof Error) {
-<span class="cstat-no" title="statement not covered" >          throw value</span>
-        }
-        return value as R
+        lock = true
+        Array.from(await handle(Array.from(paramSet))).forEach(([k, v]) =&gt; {
+          resultMap.set(k, v)
+        })
       } finally {
         lock = false
       }
-    },
-  })
+    }
+    const value = resultMap.get(argArray)
+    paramSet.delete(argArray)
+    resultMap.delete(argArray)
+&nbsp;
+    // noinspection SuspiciousTypeOfGuard
+    if (value instanceof Error) {
+      throw value
+    }
+    return value as R
+  }
 }
 &nbsp;</pre></td></tr>
 </table></pre>
@@ -167,7 +155,7 @@ export function batch&lt;
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Jun 30 2020 10:27:51 GMT+0800 (GMT+08:00)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Jul 01 2020 19:54:45 GMT+0800 (GMT+08:00)
 </div>
 </div>
 <script src="..\..\..\prettify.js"></script>
