@@ -5473,7 +5473,28 @@
 <a name='L5445'></a><a href='#L5445'>5445</a>
 <a name='L5446'></a><a href='#L5446'>5446</a>
 <a name='L5447'></a><a href='#L5447'>5447</a>
-<a name='L5448'></a><a href='#L5448'>5448</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L5448'></a><a href='#L5448'>5448</a>
+<a name='L5449'></a><a href='#L5449'>5449</a>
+<a name='L5450'></a><a href='#L5450'>5450</a>
+<a name='L5451'></a><a href='#L5451'>5451</a>
+<a name='L5452'></a><a href='#L5452'>5452</a>
+<a name='L5453'></a><a href='#L5453'>5453</a>
+<a name='L5454'></a><a href='#L5454'>5454</a>
+<a name='L5455'></a><a href='#L5455'>5455</a>
+<a name='L5456'></a><a href='#L5456'>5456</a>
+<a name='L5457'></a><a href='#L5457'>5457</a>
+<a name='L5458'></a><a href='#L5458'>5458</a>
+<a name='L5459'></a><a href='#L5459'>5459</a>
+<a name='L5460'></a><a href='#L5460'>5460</a>
+<a name='L5461'></a><a href='#L5461'>5461</a>
+<a name='L5462'></a><a href='#L5462'>5462</a>
+<a name='L5463'></a><a href='#L5463'>5463</a>
+<a name='L5464'></a><a href='#L5464'>5464</a>
+<a name='L5465'></a><a href='#L5465'>5465</a>
+<a name='L5466'></a><a href='#L5466'>5466</a>
+<a name='L5467'></a><a href='#L5467'>5467</a>
+<a name='L5468'></a><a href='#L5468'>5468</a>
+<a name='L5469'></a><a href='#L5469'>5469</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -10742,6 +10763,7 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -10751,7 +10773,10 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -10760,6 +10785,23 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -16175,36 +16217,56 @@
    */
   function <span class="fstat-no" title="function not covered" >batch(</span>handle, ms = <span class="branch-0 cbranch-no" title="branch not covered" >0)</span> {
       //参数 =&gt; 结果 映射
-      const resultMap = <span class="cstat-no" title="statement not covered" >new Map();</span>
-      //参数列表
-      const paramSet = <span class="cstat-no" title="statement not covered" >new Set();</span>
+      const resultCache = <span class="cstat-no" title="statement not covered" >new Map();</span>
+      //参数 =&gt; 次数的映射
+      const paramCache = <span class="cstat-no" title="statement not covered" >new Map();</span>
       //当前是否被锁定
       let lock = <span class="cstat-no" title="statement not covered" >false;</span>
-<span class="cstat-no" title="statement not covered" >      return <span class="fstat-no" title="function not covered" >fu</span>nction (...argArray) {</span>
+<span class="cstat-no" title="statement not covered" >      return <span class="fstat-no" title="function not covered" >fu</span>nction (...args) {</span>
 <span class="cstat-no" title="statement not covered" >          return __awaiter(this, void 0, void 0, <span class="fstat-no" title="function not covered" >fu</span>nction* () {</span>
-<span class="cstat-no" title="statement not covered" >              paramSet.add(argArray);</span>
-<span class="cstat-no" title="statement not covered" >              yield Promise.all([wait(<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >resultMap.has(argArray) || !lock)</span>, wait(ms)]);</span>
-<span class="cstat-no" title="statement not covered" >              if (!resultMap.has(argArray)) {</span>
+              const key = <span class="cstat-no" title="statement not covered" >JSON.stringify(args);</span>
+<span class="cstat-no" title="statement not covered" >              paramCache.set(key, (paramCache.get(key) || 0) + 1);</span>
+<span class="cstat-no" title="statement not covered" >              yield Promise.all([wait(<span class="fstat-no" title="function not covered" >()</span> =&gt; <span class="cstat-no" title="statement not covered" >resultCache.has(key) || !lock)</span>, wait(ms)]);</span>
+<span class="cstat-no" title="statement not covered" >              if (!resultCache.has(key)) {</span>
 <span class="cstat-no" title="statement not covered" >                  try {</span>
 <span class="cstat-no" title="statement not covered" >                      lock = true;</span>
-<span class="cstat-no" title="statement not covered" >                      Array.from(yield handle(Array.from(paramSet))).forEach(<span class="fstat-no" title="function not covered" >([</span>k, v]) =&gt; {</span>
-<span class="cstat-no" title="statement not covered" >                          resultMap.set(k, v);</span>
+<span class="cstat-no" title="statement not covered" >                      Array.from(yield handle(Array.from(paramCache.keys()).map(<span class="fstat-no" title="function not covered" >v </span>=&gt; <span class="cstat-no" title="statement not covered" >JSON.parse(v))</span>)).forEach(<span class="fstat-no" title="function not covered" >([</span>k, v]) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >                          resultCache.set(JSON.stringify(k), v);</span>
                       });
                   }
                   finally {
 <span class="cstat-no" title="statement not covered" >                      lock = false;</span>
                   }
               }
-              const value = <span class="cstat-no" title="statement not covered" >resultMap.get(argArray);</span>
-<span class="cstat-no" title="statement not covered" >              paramSet.delete(argArray);</span>
-<span class="cstat-no" title="statement not covered" >              resultMap.delete(argArray);</span>
-              // noinspection SuspiciousTypeOfGuard
+              const value = <span class="cstat-no" title="statement not covered" >resultCache.get(key);</span>
+<span class="cstat-no" title="statement not covered" >              paramCache.set(key, paramCache.get(key) - 1);</span>
+<span class="cstat-no" title="statement not covered" >              if ((paramCache.get(key) || 0) &lt;= 0) {</span>
+<span class="cstat-no" title="statement not covered" >                  paramCache.delete(key);</span>
+<span class="cstat-no" title="statement not covered" >                  resultCache.delete(key);</span>
+              }
 <span class="cstat-no" title="statement not covered" >              if (value instanceof Error) {</span>
+<span class="cstat-no" title="statement not covered" >                  resultCache.delete(key);</span>
 <span class="cstat-no" title="statement not covered" >                  throw value;</span>
               }
 <span class="cstat-no" title="statement not covered" >              return value;</span>
           });
       };
+  }
+&nbsp;
+  /**
+   * 从一个对象中挑选出来几个指定的字段
+   * @param obj 指定对象
+   * @param fieldList 指定对象字段列表
+   * @returns 返回挑选字段组成的新对象
+   */
+  function <span class="fstat-no" title="function not covered" >pick(</span>obj, ...fieldList) {
+      const set = <span class="cstat-no" title="statement not covered" >new Set(fieldList);</span>
+<span class="cstat-no" title="statement not covered" >      return Object.entries(obj).reduce(<span class="fstat-no" title="function not covered" >(r</span>es, [k, v]) =&gt; {</span>
+<span class="cstat-no" title="statement not covered" >          if (set.has(k)) {</span>
+<span class="cstat-no" title="statement not covered" >              Reflect.set(res, k, v);</span>
+          }
+<span class="cstat-no" title="statement not covered" >          return res;</span>
+      }, {});
   }
 &nbsp;
   exports.AntiDebug = AntiDebug;
@@ -16321,6 +16383,7 @@
   exports.parseUrl = parseUrl;
   exports.partial = partial;
   exports.pathUtil = pathUtil;
+  exports.pick = pick;
   exports.randomInt = randomInt;
   exports.randomStr = randomStr;
   exports.range = range;
@@ -16373,7 +16436,7 @@
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri Jul 03 2020 09:28:31 GMT+0800 (GMT+08:00)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Mon Aug 03 2020 11:44:22 GMT+0800 (GMT+08:00)
 </div>
 </div>
 <script src="..\prettify.js"></script>
