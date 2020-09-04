@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599203480112" clover="3.2.0">
-  <project timestamp="1599203480113" name="All files">
-    <metrics statements="4232" coveredstatements="2467" conditionals="1512" coveredconditionals="667" methods="1299" coveredmethods="584" elements="7043" coveredelements="3718" complexity="0" loc="4232" ncloc="4232" packages="19" files="186" classes="186"/>
+<coverage generated="1599205094009" clover="3.2.0">
+  <project timestamp="1599205094009" name="All files">
+    <metrics statements="4254" coveredstatements="2470" conditionals="1520" coveredconditionals="667" methods="1310" coveredmethods="584" elements="7084" coveredelements="3721" complexity="0" loc="4254" ncloc="4254" packages="19" files="186" classes="186"/>
     <package name="dist">
-      <metrics statements="1707" coveredstatements="321" conditionals="685" coveredconditionals="42" methods="604" coveredmethods="27"/>
+      <metrics statements="1727" coveredstatements="322" conditionals="693" coveredconditionals="42" methods="615" coveredmethods="27"/>
       <file name="rx-util.js" path="C:\Users\rxliuli\Text\Pkg\rx-util\dist\rx-util.js">
-        <metrics statements="1707" coveredstatements="321" conditionals="685" coveredconditionals="42" methods="604" coveredmethods="27"/>
+        <metrics statements="1727" coveredstatements="322" conditionals="693" coveredconditionals="42" methods="615" coveredmethods="27"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="3" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
@@ -1556,56 +1556,25 @@
         <line num="5301" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="5302" count="0" type="stmt"/>
         <line num="5304" count="0" type="stmt"/>
-        <line num="5308" count="1" type="stmt"/>
-        <line num="5309" count="1" type="stmt"/>
-        <line num="5310" count="1" type="stmt"/>
-        <line num="5311" count="1" type="stmt"/>
-        <line num="5312" count="1" type="stmt"/>
-        <line num="5313" count="1" type="stmt"/>
-        <line num="5314" count="1" type="stmt"/>
-        <line num="5315" count="1" type="stmt"/>
-        <line num="5316" count="1" type="stmt"/>
-        <line num="5317" count="1" type="stmt"/>
-        <line num="5318" count="1" type="stmt"/>
-        <line num="5319" count="1" type="stmt"/>
-        <line num="5320" count="1" type="stmt"/>
-        <line num="5321" count="1" type="stmt"/>
-        <line num="5322" count="1" type="stmt"/>
-        <line num="5323" count="1" type="stmt"/>
-        <line num="5324" count="1" type="stmt"/>
-        <line num="5325" count="1" type="stmt"/>
-        <line num="5326" count="1" type="stmt"/>
-        <line num="5327" count="1" type="stmt"/>
-        <line num="5328" count="1" type="stmt"/>
-        <line num="5329" count="1" type="stmt"/>
-        <line num="5330" count="1" type="stmt"/>
-        <line num="5331" count="1" type="stmt"/>
-        <line num="5332" count="1" type="stmt"/>
-        <line num="5333" count="1" type="stmt"/>
-        <line num="5334" count="1" type="stmt"/>
-        <line num="5335" count="1" type="stmt"/>
-        <line num="5336" count="1" type="stmt"/>
-        <line num="5337" count="1" type="stmt"/>
-        <line num="5338" count="1" type="stmt"/>
-        <line num="5339" count="1" type="stmt"/>
-        <line num="5340" count="1" type="stmt"/>
-        <line num="5341" count="1" type="stmt"/>
-        <line num="5342" count="1" type="stmt"/>
-        <line num="5343" count="1" type="stmt"/>
-        <line num="5344" count="1" type="stmt"/>
-        <line num="5345" count="1" type="stmt"/>
-        <line num="5346" count="1" type="stmt"/>
-        <line num="5347" count="1" type="stmt"/>
-        <line num="5348" count="1" type="stmt"/>
-        <line num="5349" count="1" type="stmt"/>
-        <line num="5350" count="1" type="stmt"/>
-        <line num="5351" count="1" type="stmt"/>
-        <line num="5352" count="1" type="stmt"/>
-        <line num="5353" count="1" type="stmt"/>
-        <line num="5354" count="1" type="stmt"/>
-        <line num="5355" count="1" type="stmt"/>
-        <line num="5356" count="1" type="stmt"/>
-        <line num="5357" count="1" type="stmt"/>
+        <line num="5310" count="0" type="stmt"/>
+        <line num="5311" count="0" type="stmt"/>
+        <line num="5312" count="0" type="stmt"/>
+        <line num="5314" count="0" type="stmt"/>
+        <line num="5315" count="0" type="stmt"/>
+        <line num="5316" count="0" type="stmt"/>
+        <line num="5317" count="0" type="stmt"/>
+        <line num="5319" count="0" type="stmt"/>
+        <line num="5320" count="0" type="stmt"/>
+        <line num="5324" count="0" type="stmt"/>
+        <line num="5332" count="0" type="stmt"/>
+        <line num="5341" count="0" type="stmt"/>
+        <line num="5343" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5344" count="0" type="stmt"/>
+        <line num="5346" count="0" type="stmt"/>
+        <line num="5349" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="5350" count="0" type="stmt"/>
+        <line num="5352" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="5353" count="0" type="stmt"/>
         <line num="5358" count="1" type="stmt"/>
         <line num="5359" count="1" type="stmt"/>
         <line num="5360" count="1" type="stmt"/>
@@ -1712,13 +1681,64 @@
         <line num="5461" count="1" type="stmt"/>
         <line num="5462" count="1" type="stmt"/>
         <line num="5463" count="1" type="stmt"/>
+        <line num="5464" count="1" type="stmt"/>
         <line num="5465" count="1" type="stmt"/>
+        <line num="5466" count="1" type="stmt"/>
+        <line num="5467" count="1" type="stmt"/>
+        <line num="5468" count="1" type="stmt"/>
+        <line num="5469" count="1" type="stmt"/>
+        <line num="5470" count="1" type="stmt"/>
+        <line num="5471" count="1" type="stmt"/>
+        <line num="5472" count="1" type="stmt"/>
+        <line num="5473" count="1" type="stmt"/>
+        <line num="5474" count="1" type="stmt"/>
+        <line num="5475" count="1" type="stmt"/>
+        <line num="5476" count="1" type="stmt"/>
+        <line num="5477" count="1" type="stmt"/>
+        <line num="5478" count="1" type="stmt"/>
+        <line num="5479" count="1" type="stmt"/>
+        <line num="5480" count="1" type="stmt"/>
+        <line num="5481" count="1" type="stmt"/>
+        <line num="5482" count="1" type="stmt"/>
+        <line num="5483" count="1" type="stmt"/>
+        <line num="5484" count="1" type="stmt"/>
+        <line num="5485" count="1" type="stmt"/>
+        <line num="5486" count="1" type="stmt"/>
+        <line num="5487" count="1" type="stmt"/>
+        <line num="5488" count="1" type="stmt"/>
+        <line num="5489" count="1" type="stmt"/>
+        <line num="5490" count="1" type="stmt"/>
+        <line num="5491" count="1" type="stmt"/>
+        <line num="5492" count="1" type="stmt"/>
+        <line num="5493" count="1" type="stmt"/>
+        <line num="5494" count="1" type="stmt"/>
+        <line num="5495" count="1" type="stmt"/>
+        <line num="5496" count="1" type="stmt"/>
+        <line num="5497" count="1" type="stmt"/>
+        <line num="5498" count="1" type="stmt"/>
+        <line num="5499" count="1" type="stmt"/>
+        <line num="5500" count="1" type="stmt"/>
+        <line num="5501" count="1" type="stmt"/>
+        <line num="5502" count="1" type="stmt"/>
+        <line num="5503" count="1" type="stmt"/>
+        <line num="5504" count="1" type="stmt"/>
+        <line num="5505" count="1" type="stmt"/>
+        <line num="5506" count="1" type="stmt"/>
+        <line num="5507" count="1" type="stmt"/>
+        <line num="5508" count="1" type="stmt"/>
+        <line num="5509" count="1" type="stmt"/>
+        <line num="5510" count="1" type="stmt"/>
+        <line num="5511" count="1" type="stmt"/>
+        <line num="5512" count="1" type="stmt"/>
+        <line num="5513" count="1" type="stmt"/>
+        <line num="5514" count="1" type="stmt"/>
+        <line num="5516" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src">
-      <metrics statements="304" coveredstatements="304" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="306" coveredstatements="306" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="C:\Users\rxliuli\Text\Pkg\rx-util\src\index.ts">
-        <metrics statements="304" coveredstatements="304" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="306" coveredstatements="306" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -1865,7 +1885,7 @@
         <line num="153" count="2" type="stmt"/>
         <line num="154" count="2" type="stmt"/>
         <line num="155" count="2" type="stmt"/>
-        <line num="161" count="2" type="stmt"/>
+        <line num="156" count="2" type="stmt"/>
         <line num="162" count="2" type="stmt"/>
         <line num="163" count="2" type="stmt"/>
         <line num="164" count="2" type="stmt"/>
@@ -2017,12 +2037,14 @@
         <line num="310" count="2" type="stmt"/>
         <line num="311" count="2" type="stmt"/>
         <line num="312" count="2" type="stmt"/>
+        <line num="313" count="2" type="stmt"/>
         <line num="314" count="2" type="stmt"/>
-        <line num="315" count="2" type="stmt"/>
         <line num="316" count="2" type="stmt"/>
         <line num="317" count="2" type="stmt"/>
         <line num="318" count="2" type="stmt"/>
         <line num="319" count="2" type="stmt"/>
+        <line num="320" count="2" type="stmt"/>
+        <line num="321" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.module.ajax">
@@ -2945,7 +2967,7 @@
       </file>
       <file name="proxyStorage.ts" path="C:\Users\rxliuli\Text\Pkg\rx-util\src\module\cache\proxyStorage.ts">
         <metrics statements="21" coveredstatements="16" conditionals="8" coveredconditionals="5" methods="11" coveredmethods="7"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
@@ -2956,7 +2978,7 @@
         <line num="19" count="0" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="4" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
         <line num="49" count="4" type="cond" truecount="1" falsecount="1"/>
@@ -3738,10 +3760,10 @@
         <line num="10" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="cond" truecount="1" falsecount="1"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
       </file>
       <file name="watchObject.ts" path="C:\Users\rxliuli\Text\Pkg\rx-util\src\module\function\watchObject.ts">
