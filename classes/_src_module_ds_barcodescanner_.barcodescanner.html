@@ -90,6 +90,9 @@
 									<a href="_src_module_ds_barcodescanner_.barcodescanner.html#em" class="tsd-kind-icon">em</a>
 								</li>
 								<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+									<a href="_src_module_ds_barcodescanner_.barcodescanner.html#interval" class="tsd-kind-icon">interval</a>
+								</li>
+								<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
 									<a href="_src_module_ds_barcodescanner_.barcodescanner.html#lasttime" class="tsd-kind-icon">last<wbr>Time</a>
 								</li>
 								<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
@@ -239,6 +242,8 @@
 						<a href="../modules/_src_module_cache_localstoragecache_.html">&quot;src/module/cache/<wbr>Local<wbr>Storage<wbr>Cache&quot;</a>
 						</li>                        <li class=" tsd-kind-external-module">
 						<a href="../modules/_src_module_cache_memorycache_.html">&quot;src/module/cache/<wbr>Memory<wbr>Cache&quot;</a>
+						</li>                        <li class=" tsd-kind-external-module">
+						<a href="../modules/_src_module_cache_proxystorage_.html">&quot;src/module/cache/proxy<wbr>Storage&quot;</a>
 						</li>                        <li class=" tsd-kind-external-module">
 						<a href="../modules/_src_module_date_dateconstants_.html">&quot;src/module/date/<wbr>Date<wbr>Constants&quot;</a>
 						</li>                        <li class=" tsd-kind-external-module">
@@ -556,6 +561,9 @@
 					<div class="lead">
 						<p>条形码扫描</p>
 					</div>
+					<h4>deprecated</h4>
+					<p><p>已废弃，请使用 js-scanner-detection</p>
+					</p>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-hierarchy">
@@ -599,6 +607,13 @@
 								<ul>
 									<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private">
 										<a href="_src_module_ds_barcodescanner_.barcodescanner.html#em" class="tsd-kind-icon">em</a>
+									</li>
+								</ul>
+							</div>
+							<div class="tsd-navigation secondary">
+								<ul>
+									<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private">
+										<a href="_src_module_ds_barcodescanner_.barcodescanner.html#interval" class="tsd-kind-icon">interval</a>
 									</li>
 								</ul>
 							</div>
@@ -683,7 +698,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L18">src/module/ds/BarcodeScanner.ts:18</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L20">src/module/ds/BarcodeScanner.ts:20</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -696,7 +711,7 @@
 					<div class="tsd-signature tsd-kind-icon">code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L22">src/module/ds/BarcodeScanner.ts:22</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L24">src/module/ds/BarcodeScanner.ts:24</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -706,7 +721,7 @@
 					<div class="tsd-signature tsd-kind-icon">config<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_src_module_ds_barcodescanner_.scannerconfig.html" class="tsd-signature-type">ScannerConfig</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L19">src/module/ds/BarcodeScanner.ts:19</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L21">src/module/ds/BarcodeScanner.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -716,7 +731,17 @@
 					<div class="tsd-signature tsd-kind-icon">em<span class="tsd-signature-symbol">:</span> <a href="_src_module_event_eventemitter_.eventemitter.html" class="tsd-signature-type">EventEmitter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;{ scan: [string] }&gt;()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L23">src/module/ds/BarcodeScanner.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L25">src/module/ds/BarcodeScanner.ts:25</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-descriptions">
+					<a name="interval" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> interval</h3>
+					<div class="tsd-signature tsd-kind-icon">interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L45">src/module/ds/BarcodeScanner.ts:45</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -726,7 +751,7 @@
 					<div class="tsd-signature tsd-kind-icon">lastTime<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L20">src/module/ds/BarcodeScanner.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L22">src/module/ds/BarcodeScanner.ts:22</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -736,7 +761,7 @@
 					<div class="tsd-signature tsd-kind-icon">nextTime<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L21">src/module/ds/BarcodeScanner.ts:21</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L23">src/module/ds/BarcodeScanner.ts:23</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -746,7 +771,7 @@
 					<div class="tsd-signature tsd-kind-icon">num<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L75">src/module/ds/BarcodeScanner.ts:75</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L84">src/module/ds/BarcodeScanner.ts:84</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -763,7 +788,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L83">src/module/ds/BarcodeScanner.ts:83</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L92">src/module/ds/BarcodeScanner.ts:92</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -777,7 +802,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L76">src/module/ds/BarcodeScanner.ts:76</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L85">src/module/ds/BarcodeScanner.ts:85</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -797,7 +822,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L43">src/module/ds/BarcodeScanner.ts:43</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L47">src/module/ds/BarcodeScanner.ts:47</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -842,7 +867,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L38">src/module/ds/BarcodeScanner.ts:38</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L40">src/module/ds/BarcodeScanner.ts:40</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -887,7 +912,7 @@
 					</ul>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/2aba2510/src/module/ds/BarcodeScanner.ts#L29">src/module/ds/BarcodeScanner.ts:29</a></li>
+							<li>Defined in <a href="https://github.com/rxliuli/rx-util/blob/1d8d1e67/src/module/ds/BarcodeScanner.ts#L31">src/module/ds/BarcodeScanner.ts:31</a></li>
 						</ul>
 					</aside>
 				</section>
