@@ -5545,7 +5545,35 @@
 <a name='L5517'></a><a href='#L5517'>5517</a>
 <a name='L5518'></a><a href='#L5518'>5518</a>
 <a name='L5519'></a><a href='#L5519'>5519</a>
-<a name='L5520'></a><a href='#L5520'>5520</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L5520'></a><a href='#L5520'>5520</a>
+<a name='L5521'></a><a href='#L5521'>5521</a>
+<a name='L5522'></a><a href='#L5522'>5522</a>
+<a name='L5523'></a><a href='#L5523'>5523</a>
+<a name='L5524'></a><a href='#L5524'>5524</a>
+<a name='L5525'></a><a href='#L5525'>5525</a>
+<a name='L5526'></a><a href='#L5526'>5526</a>
+<a name='L5527'></a><a href='#L5527'>5527</a>
+<a name='L5528'></a><a href='#L5528'>5528</a>
+<a name='L5529'></a><a href='#L5529'>5529</a>
+<a name='L5530'></a><a href='#L5530'>5530</a>
+<a name='L5531'></a><a href='#L5531'>5531</a>
+<a name='L5532'></a><a href='#L5532'>5532</a>
+<a name='L5533'></a><a href='#L5533'>5533</a>
+<a name='L5534'></a><a href='#L5534'>5534</a>
+<a name='L5535'></a><a href='#L5535'>5535</a>
+<a name='L5536'></a><a href='#L5536'>5536</a>
+<a name='L5537'></a><a href='#L5537'>5537</a>
+<a name='L5538'></a><a href='#L5538'>5538</a>
+<a name='L5539'></a><a href='#L5539'>5539</a>
+<a name='L5540'></a><a href='#L5540'>5540</a>
+<a name='L5541'></a><a href='#L5541'>5541</a>
+<a name='L5542'></a><a href='#L5542'>5542</a>
+<a name='L5543'></a><a href='#L5543'>5543</a>
+<a name='L5544'></a><a href='#L5544'>5544</a>
+<a name='L5545'></a><a href='#L5545'>5545</a>
+<a name='L5546'></a><a href='#L5546'>5546</a>
+<a name='L5547'></a><a href='#L5547'>5547</a>
+<a name='L5548'></a><a href='#L5548'>5548</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -5642,11 +5670,24 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -10902,6 +10943,21 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
@@ -11157,15 +11213,28 @@
   }
 &nbsp;
   /**
-   * 获取 cookie 键值映射 Map
-   * @returns cookie 键值映射 Map
+   * 分割 http 请求中 header 的内容为一个 map
+   * 分隔符参考 {@link https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Type}
+   * @param header
    */
-  function <span class="fstat-no" title="function not covered" >getCookies(</span>) {
-<span class="cstat-no" title="statement not covered" >      return document.cookie.split(';').reduce(<span class="fstat-no" title="function not covered" >(r</span>es, str) =&gt; {</span>
-          const [k, v] = <span class="cstat-no" title="statement not covered" >str.split('=');</span>
-<span class="cstat-no" title="statement not covered" >          res.set(k, v);</span>
+  function <span class="fstat-no" title="function not covered" >splitHttpHeader(</span>header) {
+<span class="cstat-no" title="statement not covered" >      return header.split(';').reduce(<span class="fstat-no" title="function not covered" >(r</span>es, str) =&gt; {</span>
+          let [k, v] = <span class="cstat-no" title="statement not covered" >str.split('=');</span>
+<span class="cstat-no" title="statement not covered" >          if (v !== undefined) {</span>
+<span class="cstat-no" title="statement not covered" >              v = decodeURIComponent(v);</span>
+          }
+<span class="cstat-no" title="statement not covered" >          res.set(k.trim(), v);</span>
 <span class="cstat-no" title="statement not covered" >          return res;</span>
       }, new Map());
+  }
+&nbsp;
+  /**
+   * 获取 cookie 键值映射 Map
+   * @returns cookie 键值映射 Map
+   * @deprecated 请使用更通用的 {@link splitHttpHeader} 函数
+   */
+  function <span class="fstat-no" title="function not covered" >getCookies(</span>) {
+<span class="cstat-no" title="statement not covered" >      return splitHttpHeader(document.cookie);</span>
   }
 &nbsp;
   /**
@@ -16421,6 +16490,19 @@
       });
   }
 &nbsp;
+  /**
+   * 将对象的键和值进行映射
+   * @param obj
+   * @param func
+   */
+  function <span class="fstat-no" title="function not covered" >mapObject(</span>obj, func) {
+<span class="cstat-no" title="statement not covered" >      return Object.entries(obj).reduce(<span class="fstat-no" title="function not covered" >(r</span>es, kv) =&gt; {</span>
+          const [k, v] = <span class="cstat-no" title="statement not covered" >func(kv);</span>
+<span class="cstat-no" title="statement not covered" >          res[k] = v;</span>
+<span class="cstat-no" title="statement not covered" >          return res;</span>
+      }, {});
+  }
+&nbsp;
   exports.AntiDebug = AntiDebug;
   exports.ArrayValidator = ArrayValidator;
   exports.AsyncArray = AsyncArray;
@@ -16523,6 +16605,7 @@
   exports.loadScript = loadScript;
   exports.loadStyle = loadStyle;
   exports.logger = logger;
+  exports.mapObject = mapObject;
   exports.mapToObject = mapToObject;
   exports.mergeMap = mergeMap;
   exports.nodeBridgeUtil = nodeBridgeUtil;
@@ -16557,6 +16640,7 @@
   exports.sleep = sleep;
   exports.sortBy = sortBy;
   exports.spliceParams = spliceParams;
+  exports.splitHttpHeader = splitHttpHeader;
   exports.strToArrayBuffer = strToArrayBuffer;
   exports.strToDate = strToDate;
   exports.stringValidator = stringValidator;
@@ -16589,7 +16673,7 @@
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Fri Sep 04 2020 15:38:13 GMT+0800 (GMT+08:00)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Sep 24 2020 11:10:12 GMT+0800 (GMT+08:00)
 </div>
 </div>
 <script src="..\prettify.js"></script>
