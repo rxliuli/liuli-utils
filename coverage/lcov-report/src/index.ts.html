@@ -1,31 +1,62 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
     <title>Code coverage report for src/index.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="..\prettify.css" />
-    <link rel="stylesheet" href="..\base.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(..\sort-arrow-sprite.png);
+            background-image: url(../sort-arrow-sprite.png);
         }
     </style>
 </head>
+    
 <body>
 <div class='wrapper'>
-  <div class='pad1'>
-    <h1>
-      <a href="..\index.html">All files</a> / <a href="index.html">src</a> index.ts
-    </h1>
-    <div class='clearfix'>
+    <div class='pad1'>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">src</a> index.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>310/310</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>0/0</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">1.86% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>3/161</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>310/310</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
     </div>
-    <p class="quiet">
-      Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
-    </p>
-  </div>
-  <div class='status-line high'></div>
-<pre><table class="coverage">
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
 <a name='L3'></a><a href='#L3'>3</a>
@@ -554,6 +585,7 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">8x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
@@ -606,14 +638,13 @@
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">15x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">2x</span>
@@ -841,187 +872,187 @@ import { mapObject } from './module/obj/mapObject'
  * 全局导出的对象，用于浏览器中使用的全局变量 rx
  */
 export {
-  download,
-  downloadString,
-  downloadUrl,
-  getCookies,
-  loadResource,
-  loadScript,
-  loadStyle,
-  parseUrl,
-  readLocal,
-  spliceParams,
-  splitHttpHeader,
-  fetchTimeout,
-  strToArrayBuffer,
-  FetchLimiting,
-  arrayDiffBy,
-  arrayToMap,
-  arrayValidator,
-  ArrayValidator,
-  asIterator,
-  AsyncArray,
-  asyncFlatMap,
-  diffBy,
-  extractFieldMap,
-  filterItems,
-  findIndex,
-  flatMap,
-  getKFn,
-  groupBy,
-  range,
-  segmentation,
-  sortBy,
-  toObject,
-  uniqueBy,
-  LocalStorageCache,
-  cacheUtil,
-  CacheUtil,
-  MemoryCacheEnum,
-  MemoryCacheFactory,
-  proxyStorage,
+<span class="fstat-no" title="function not covered" >  download,</span>
+<span class="fstat-no" title="function not covered" >  downloadString,</span>
+<span class="fstat-no" title="function not covered" >  downloadUrl,</span>
+<span class="fstat-no" title="function not covered" >  getCookies,</span>
+<span class="fstat-no" title="function not covered" >  loadResource,</span>
+<span class="fstat-no" title="function not covered" >  loadScript,</span>
+<span class="fstat-no" title="function not covered" >  loadStyle,</span>
+<span class="fstat-no" title="function not covered" >  parseUrl,</span>
+<span class="fstat-no" title="function not covered" >  readLocal,</span>
+<span class="fstat-no" title="function not covered" >  spliceParams,</span>
+<span class="fstat-no" title="function not covered" >  splitHttpHeader,</span>
+<span class="fstat-no" title="function not covered" >  fetchTimeout,</span>
+<span class="fstat-no" title="function not covered" >  strToArrayBuffer,</span>
+<span class="fstat-no" title="function not covered" >  FetchLimiting,</span>
+<span class="fstat-no" title="function not covered" >  arrayDiffBy,</span>
+<span class="fstat-no" title="function not covered" >  arrayToMap,</span>
+<span class="fstat-no" title="function not covered" >  arrayValidator,</span>
+<span class="fstat-no" title="function not covered" >  ArrayValidator,</span>
+<span class="fstat-no" title="function not covered" >  asIterator,</span>
+<span class="fstat-no" title="function not covered" >  AsyncArray,</span>
+<span class="fstat-no" title="function not covered" >  asyncFlatMap,</span>
+<span class="fstat-no" title="function not covered" >  diffBy,</span>
+<span class="fstat-no" title="function not covered" >  extractFieldMap,</span>
+<span class="fstat-no" title="function not covered" >  filterItems,</span>
+<span class="fstat-no" title="function not covered" >  findIndex,</span>
+<span class="fstat-no" title="function not covered" >  flatMap,</span>
+<span class="fstat-no" title="function not covered" >  getKFn,</span>
+<span class="fstat-no" title="function not covered" >  groupBy,</span>
+<span class="fstat-no" title="function not covered" >  range,</span>
+<span class="fstat-no" title="function not covered" >  segmentation,</span>
+<span class="fstat-no" title="function not covered" >  sortBy,</span>
+<span class="fstat-no" title="function not covered" >  toObject,</span>
+<span class="fstat-no" title="function not covered" >  uniqueBy,</span>
+<span class="fstat-no" title="function not covered" >  LocalStorageCache,</span>
+<span class="fstat-no" title="function not covered" >  cacheUtil,</span>
+<span class="fstat-no" title="function not covered" >  CacheUtil,</span>
+<span class="fstat-no" title="function not covered" >  MemoryCacheEnum,</span>
+<span class="fstat-no" title="function not covered" >  MemoryCacheFactory,</span>
+<span class="fstat-no" title="function not covered" >  proxyStorage,</span>
   dateFormat,
-  dateParse,
-  dateConstants,
-  DateConstants,
-  DateFormatter,
-  dateEnhance,
-  dateBetween,
-  strToDate,
-  getYearWeek,
-  Stopwatch,
-  copyText,
-  createElByString,
-  getCursorPosition,
-  getCusorPostion,
-  getMousePos,
-  getSelectText,
-  imageSize,
-  insertText,
-  isEditable,
-  lastFocus,
-  removeEl,
-  removeText,
-  setCursorPosition,
-  setCusorPostion,
-  toggleClass,
-  watchEventListener,
-  EventUtil,
-  appends,
-  deletes,
-  sets,
-  objToFormData,
-  formDataToArray,
-  debounce,
-  deny,
-  emptyFunc,
-  Locker,
-  mergeMap,
-  once,
-  onceOfSameParam,
-  partial,
-  PubSubMachine,
-  repeatedCall,
-  returnItself,
-  returnReasonableItself,
-  safeExec,
-  singleModel,
-  sleep,
-  StateMachine,
-  switchMap,
-  throttle,
-  timing,
-  trySometime,
-  trySometimeParallel,
+<span class="fstat-no" title="function not covered" >  dateParse,</span>
+<span class="fstat-no" title="function not covered" >  dateConstants,</span>
+<span class="fstat-no" title="function not covered" >  DateConstants,</span>
+<span class="fstat-no" title="function not covered" >  DateFormatter,</span>
+<span class="fstat-no" title="function not covered" >  dateEnhance,</span>
+<span class="fstat-no" title="function not covered" >  dateBetween,</span>
+<span class="fstat-no" title="function not covered" >  strToDate,</span>
+<span class="fstat-no" title="function not covered" >  getYearWeek,</span>
+<span class="fstat-no" title="function not covered" >  Stopwatch,</span>
+<span class="fstat-no" title="function not covered" >  copyText,</span>
+<span class="fstat-no" title="function not covered" >  createElByString,</span>
+<span class="fstat-no" title="function not covered" >  getCursorPosition,</span>
+<span class="fstat-no" title="function not covered" >  getCusorPostion,</span>
+<span class="fstat-no" title="function not covered" >  getMousePos,</span>
+<span class="fstat-no" title="function not covered" >  getSelectText,</span>
+<span class="fstat-no" title="function not covered" >  imageSize,</span>
+<span class="fstat-no" title="function not covered" >  insertText,</span>
+<span class="fstat-no" title="function not covered" >  isEditable,</span>
+<span class="fstat-no" title="function not covered" >  lastFocus,</span>
+<span class="fstat-no" title="function not covered" >  removeEl,</span>
+<span class="fstat-no" title="function not covered" >  removeText,</span>
+<span class="fstat-no" title="function not covered" >  setCursorPosition,</span>
+<span class="fstat-no" title="function not covered" >  setCusorPostion,</span>
+<span class="fstat-no" title="function not covered" >  toggleClass,</span>
+<span class="fstat-no" title="function not covered" >  watchEventListener,</span>
+<span class="fstat-no" title="function not covered" >  EventUtil,</span>
+<span class="fstat-no" title="function not covered" >  appends,</span>
+<span class="fstat-no" title="function not covered" >  deletes,</span>
+<span class="fstat-no" title="function not covered" >  sets,</span>
+<span class="fstat-no" title="function not covered" >  objToFormData,</span>
+<span class="fstat-no" title="function not covered" >  formDataToArray,</span>
+<span class="fstat-no" title="function not covered" >  debounce,</span>
+<span class="fstat-no" title="function not covered" >  deny,</span>
+<span class="fstat-no" title="function not covered" >  emptyFunc,</span>
+<span class="fstat-no" title="function not covered" >  Locker,</span>
+<span class="fstat-no" title="function not covered" >  mergeMap,</span>
+<span class="fstat-no" title="function not covered" >  once,</span>
+<span class="fstat-no" title="function not covered" >  onceOfSameParam,</span>
+<span class="fstat-no" title="function not covered" >  partial,</span>
+<span class="fstat-no" title="function not covered" >  PubSubMachine,</span>
+<span class="fstat-no" title="function not covered" >  repeatedCall,</span>
+<span class="fstat-no" title="function not covered" >  returnItself,</span>
+<span class="fstat-no" title="function not covered" >  returnReasonableItself,</span>
+<span class="fstat-no" title="function not covered" >  safeExec,</span>
+<span class="fstat-no" title="function not covered" >  singleModel,</span>
+<span class="fstat-no" title="function not covered" >  sleep,</span>
+<span class="fstat-no" title="function not covered" >  StateMachine,</span>
+<span class="fstat-no" title="function not covered" >  switchMap,</span>
+<span class="fstat-no" title="function not covered" >  throttle,</span>
+<span class="fstat-no" title="function not covered" >  timing,</span>
+<span class="fstat-no" title="function not covered" >  trySometime,</span>
+<span class="fstat-no" title="function not covered" >  trySometimeParallel,</span>
   wait,
-  waitResource,
-  watch,
-  watchObject,
-  async,
-  asyncLimiting,
+<span class="fstat-no" title="function not covered" >  waitResource,</span>
+<span class="fstat-no" title="function not covered" >  watch,</span>
+<span class="fstat-no" title="function not covered" >  watchObject,</span>
+<span class="fstat-no" title="function not covered" >  async,</span>
+<span class="fstat-no" title="function not covered" >  asyncLimiting,</span>
   compatibleAsync,
-  concatMap,
-  batch,
-  bridge,
-  CombinedPredicate,
-  and,
-  or,
-  not,
-  compose,
-  curry,
-  blankToNull,
-  fill,
-  format,
-  isBlank,
-  isEmpty,
-  isFloat,
-  isNumber,
-  pathUtil,
-  PathUtil,
-  StringStyleType,
-  StringStyleUtil,
-  stringValidator,
-  StringValidator,
-  toLowerCase,
-  toString,
-  toUpperCase,
-  aggregation,
-  assign,
-  blankToNullField,
-  compare,
-  deepExcludeFields,
-  deepFreeze,
-  deepProxy,
-  emptyAllField,
-  excludeFields,
-  excludeFieldsDeep,
-  getObjectEntries,
-  getObjectKeys,
-  isNullOrUndefined,
-  mapObject,
-  mapToObject,
-  objectToMap,
-  TypeValidator,
-  antiDebug,
-  AntiDebug,
-  Logger,
-  logger,
-  remindLeavePage,
-  pick,
-  get,
-  set,
-  randomInt,
-  isRange,
-  autoIncrement,
-  floatEquals,
-  listToTree,
-  treeMapping,
+<span class="fstat-no" title="function not covered" >  concatMap,</span>
+<span class="fstat-no" title="function not covered" >  batch,</span>
+<span class="fstat-no" title="function not covered" >  bridge,</span>
+<span class="fstat-no" title="function not covered" >  CombinedPredicate,</span>
+<span class="fstat-no" title="function not covered" >  and,</span>
+<span class="fstat-no" title="function not covered" >  or,</span>
+<span class="fstat-no" title="function not covered" >  not,</span>
+<span class="fstat-no" title="function not covered" >  compose,</span>
+<span class="fstat-no" title="function not covered" >  curry,</span>
+<span class="fstat-no" title="function not covered" >  blankToNull,</span>
+<span class="fstat-no" title="function not covered" >  fill,</span>
+<span class="fstat-no" title="function not covered" >  format,</span>
+<span class="fstat-no" title="function not covered" >  isBlank,</span>
+<span class="fstat-no" title="function not covered" >  isEmpty,</span>
+<span class="fstat-no" title="function not covered" >  isFloat,</span>
+<span class="fstat-no" title="function not covered" >  isNumber,</span>
+<span class="fstat-no" title="function not covered" >  pathUtil,</span>
+<span class="fstat-no" title="function not covered" >  PathUtil,</span>
+<span class="fstat-no" title="function not covered" >  StringStyleType,</span>
+<span class="fstat-no" title="function not covered" >  StringStyleUtil,</span>
+<span class="fstat-no" title="function not covered" >  stringValidator,</span>
+<span class="fstat-no" title="function not covered" >  StringValidator,</span>
+<span class="fstat-no" title="function not covered" >  toLowerCase,</span>
+<span class="fstat-no" title="function not covered" >  toString,</span>
+<span class="fstat-no" title="function not covered" >  toUpperCase,</span>
+<span class="fstat-no" title="function not covered" >  aggregation,</span>
+<span class="fstat-no" title="function not covered" >  assign,</span>
+<span class="fstat-no" title="function not covered" >  blankToNullField,</span>
+<span class="fstat-no" title="function not covered" >  compare,</span>
+<span class="fstat-no" title="function not covered" >  deepExcludeFields,</span>
+<span class="fstat-no" title="function not covered" >  deepFreeze,</span>
+<span class="fstat-no" title="function not covered" >  deepProxy,</span>
+<span class="fstat-no" title="function not covered" >  emptyAllField,</span>
+<span class="fstat-no" title="function not covered" >  excludeFields,</span>
+<span class="fstat-no" title="function not covered" >  excludeFieldsDeep,</span>
+<span class="fstat-no" title="function not covered" >  getObjectEntries,</span>
+<span class="fstat-no" title="function not covered" >  getObjectKeys,</span>
+<span class="fstat-no" title="function not covered" >  isNullOrUndefined,</span>
+<span class="fstat-no" title="function not covered" >  mapObject,</span>
+<span class="fstat-no" title="function not covered" >  mapToObject,</span>
+<span class="fstat-no" title="function not covered" >  objectToMap,</span>
+<span class="fstat-no" title="function not covered" >  TypeValidator,</span>
+<span class="fstat-no" title="function not covered" >  antiDebug,</span>
+<span class="fstat-no" title="function not covered" >  AntiDebug,</span>
+<span class="fstat-no" title="function not covered" >  Logger,</span>
+<span class="fstat-no" title="function not covered" >  logger,</span>
+<span class="fstat-no" title="function not covered" >  remindLeavePage,</span>
+<span class="fstat-no" title="function not covered" >  pick,</span>
+<span class="fstat-no" title="function not covered" >  get,</span>
+<span class="fstat-no" title="function not covered" >  set,</span>
+<span class="fstat-no" title="function not covered" >  randomInt,</span>
+<span class="fstat-no" title="function not covered" >  isRange,</span>
+<span class="fstat-no" title="function not covered" >  autoIncrement,</span>
+<span class="fstat-no" title="function not covered" >  floatEquals,</span>
+<span class="fstat-no" title="function not covered" >  listToTree,</span>
+<span class="fstat-no" title="function not covered" >  treeMapping,</span>
   INodeBridge,
-  nodeBridgeUtil,
-  NodeBridgeUtil,
-  treeToList,
-  EventEmitter,
-  MicrotaskQueue,
-  randomStr,
+<span class="fstat-no" title="function not covered" >  nodeBridgeUtil,</span>
+<span class="fstat-no" title="function not covered" >  NodeBridgeUtil,</span>
+<span class="fstat-no" title="function not covered" >  treeToList,</span>
+<span class="fstat-no" title="function not covered" >  EventEmitter,</span>
+<span class="fstat-no" title="function not covered" >  MicrotaskQueue,</span>
+<span class="fstat-no" title="function not covered" >  randomStr,</span>
 }
-&nbsp;</pre></td></tr>
-</table></pre>
-<div class='push'></div><!-- for sticky footer -->
-</div><!-- /wrapper -->
-<div class='footer quiet pad2 space-top1 center small'>
-  Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Sep 24 2020 11:10:12 GMT+0800 (GMT+08:00)
-</div>
-</div>
-<script src="..\prettify.js"></script>
-<script>
-window.onload = function () {
-        if (typeof prettyPrint === 'function') {
-            prettyPrint();
-        }
-};
-</script>
-<script src="..\sorter.js"></script>
-<script src="..\block-navigation.js"></script>
-</body>
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Sun Oct 11 2020 04:53:12 GMT+0800 (GMT+08:00)
+            </div>
+        </div>
+        <script src="../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../sorter.js"></script>
+        <script src="../block-navigation.js"></script>
+    </body>
 </html>
+    

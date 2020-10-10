@@ -1,31 +1,62 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
     <title>Code coverage report for src/module/idea/OnceInstance.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="..\..\..\prettify.css" />
-    <link rel="stylesheet" href="..\..\..\base.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(..\..\..\sort-arrow-sprite.png);
+            background-image: url(../../../sort-arrow-sprite.png);
         }
     </style>
 </head>
+    
 <body>
 <div class='wrapper'>
-  <div class='pad1'>
-    <h1>
-      <a href="..\..\..\index.html">All files</a> / <a href="index.html">src/module/idea</a> OnceInstance.ts
-    </h1>
-    <div class='clearfix'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/module/idea</a> OnceInstance.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">38.89% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>35/90</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">33.33% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>5/15</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">34.09% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>15/44</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">39.33% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>35/89</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
     </div>
-    <p class="quiet">
-      Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
-    </p>
-  </div>
-  <div class='status-line low'></div>
-<pre><table class="coverage">
+    <div class='status-line low'></div>
+    <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
 <a name='L3'></a><a href='#L3'>3</a>
@@ -890,7 +921,7 @@ class RamOnceClass extends BasicOnce {
         }
         flag--
         // 如果是异步函数则返回异步的结果
-        return compatibleAsync(Reflect.apply(target, thisArg, args), res =&gt; {
+        return compatibleAsync(Reflect.apply(target, thisArg, args), (res) =&gt; {
           cache = res
           return cache
         })
@@ -918,7 +949,7 @@ class RamOnceClass extends BasicOnce {
           return old
         }
         const res = Reflect.apply(_, _this, args)
-        return compatibleAsync(res, res =&gt; {
+        return compatibleAsync(res, (res) =&gt; {
           cacheMap.set(key, res)
           return res
         })
@@ -930,7 +961,7 @@ class RamOnceClass extends BasicOnce {
 <span class="cstat-no" title="statement not covered" >        if (keys.length) {</span>
 <span class="cstat-no" title="statement not covered" >          cacheMap.clear()</span>
         } else {
-<span class="cstat-no" title="statement not covered" >          keys.forEach(<span class="fstat-no" title="function not covered" >key </span>=&gt; <span class="cstat-no" title="statement not covered" >cacheMap.delete(key))</span></span>
+<span class="cstat-no" title="statement not covered" >          keys.forEach(<span class="fstat-no" title="function not covered" >(k</span>ey) =&gt; <span class="cstat-no" title="statement not covered" >cacheMap.delete(key))</span></span>
         }
       },
     })
@@ -947,7 +978,7 @@ class RamOnceClass extends BasicOnce {
 <span class="cstat-no" title="statement not covered" >          return cache</span>
         }
 <span class="cstat-no" title="statement not covered" >        flag = true</span>
-<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(_, _this, args), <span class="fstat-no" title="function not covered" >res </span>=&gt; {</span>
+<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(_, _this, args), <span class="fstat-no" title="function not covered" >(r</span>es) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >          cache = res</span>
 <span class="cstat-no" title="statement not covered" >          flag = false</span>
 <span class="cstat-no" title="statement not covered" >          return res</span>
@@ -974,7 +1005,7 @@ class RamOnceClass extends BasicOnce {
 <span class="cstat-no" title="statement not covered" >        if (lastUpdate &amp;&amp; now - lastUpdate &lt; time) {</span>
 <span class="cstat-no" title="statement not covered" >          return lastValue</span>
         }
-<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(_, _this, args), <span class="fstat-no" title="function not covered" >res </span>=&gt; {</span>
+<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(_, _this, args), <span class="fstat-no" title="function not covered" >(r</span>es) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >          lastUpdate = now</span>
 <span class="cstat-no" title="statement not covered" >          lastValue = res</span>
 <span class="cstat-no" title="statement not covered" >          return res</span>
@@ -1023,7 +1054,7 @@ abstract class StorageOnceClass extends BasicOnce {
         }
 <span class="cstat-no" title="statement not covered" >        _this.storage.setItem(flagKey, (flag - 1).toString())</span>
         // 如果是异步函数则返回异步的结果
-<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(target, thisArg, args), <span class="fstat-no" title="function not covered" >res </span>=&gt; {</span>
+<span class="cstat-no" title="statement not covered" >        return compatibleAsync(Reflect.apply(target, thisArg, args), <span class="fstat-no" title="function not covered" >(r</span>es) =&gt; {</span>
 <span class="cstat-no" title="statement not covered" >          _this.storage.setItem(cacheKey, JSON.stringify(res))</span>
 <span class="cstat-no" title="statement not covered" >          return res</span>
         })
@@ -1112,11 +1143,11 @@ function bindObjectThis&lt;T extends object&gt;(obj: T): T {
   const prototypeKeys = Reflect.ownKeys(Reflect.getPrototypeOf(obj))
     //筛选掉构造函数
     .filter(
-      k =&gt; !new Set&lt;any&gt;(['constructor']).has(k),
+      (k) =&gt; !new Set&lt;any&gt;(['constructor']).has(k),
     ) as (keyof T)[]
   prototypeKeys
-    .filter(k =&gt; obj[k] instanceof Function)
-    .forEach(k =&gt; {
+    .filter((k) =&gt; obj[k] instanceof Function)
+    .forEach((k) =&gt; {
       obj[k] = (obj[k] as any).bind(obj)
     })
   return obj
@@ -1130,24 +1161,24 @@ export const OnceInstance = {
   LocalStorageOnce: bindObjectThis(new LocalStorageOnceClass()),
   SessionStorageOnce: bindObjectThis(new SessionStorageOnceClass()),
 }
-&nbsp;</pre></td></tr>
-</table></pre>
-<div class='push'></div><!-- for sticky footer -->
-</div><!-- /wrapper -->
-<div class='footer quiet pad2 space-top1 center small'>
-  Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Sep 24 2020 11:10:12 GMT+0800 (GMT+08:00)
-</div>
-</div>
-<script src="..\..\..\prettify.js"></script>
-<script>
-window.onload = function () {
-        if (typeof prettyPrint === 'function') {
-            prettyPrint();
-        }
-};
-</script>
-<script src="..\..\..\sorter.js"></script>
-<script src="..\..\..\block-navigation.js"></script>
-</body>
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Sun Oct 11 2020 04:53:12 GMT+0800 (GMT+08:00)
+            </div>
+        </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
 </html>
+    

@@ -1,31 +1,62 @@
+
 <!doctype html>
 <html lang="en">
+
 <head>
     <title>Code coverage report for src/module/function/curry.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="..\..\..\prettify.css" />
-    <link rel="stylesheet" href="..\..\..\base.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(..\..\..\sort-arrow-sprite.png);
+            background-image: url(../../../sort-arrow-sprite.png);
         }
     </style>
 </head>
+    
 <body>
 <div class='wrapper'>
-  <div class='pad1'>
-    <h1>
-      <a href="..\..\..\index.html">All files</a> / <a href="index.html">src/module/function</a> curry.ts
-    </h1>
-    <div class='clearfix'>
+    <div class='pad1'>
+        <h1><a href="../../../index.html">All files</a> / <a href="index.html">src/module/function</a> curry.ts</h1>
+        <div class='clearfix'>
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">91.3% </span>
+                <span class="quiet">Statements</span>
+                <span class='fraction'>21/23</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">100% </span>
+                <span class="quiet">Branches</span>
+                <span class='fraction'>7/7</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">75% </span>
+                <span class="quiet">Functions</span>
+                <span class='fraction'>6/8</span>
+            </div>
+        
+            
+            <div class='fl pad1y space-right2'>
+                <span class="strong">94.74% </span>
+                <span class="quiet">Lines</span>
+                <span class='fraction'>18/19</span>
+            </div>
+        
+            
+        </div>
+        <p class="quiet">
+            Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
+        </p>
     </div>
-    <p class="quiet">
-      Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
-    </p>
-  </div>
-  <div class='status-line high'></div>
-<pre><table class="coverage">
+    <div class='status-line high'></div>
+    <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
 <a name='L3'></a><a href='#L3'>3</a>
@@ -197,7 +228,7 @@ interface IRFunc extends Function {
  * @deprecated 由于之前的理解错误，该函数在下个大版本将会被废弃，请使用命名更合适的 {@link partial}
  */
 export function curry(fn: Function, ...args: any[]): IRFunc {
-  const realArgs = args.filter(arg =&gt; arg !== curry._)
+  const realArgs = args.filter((arg) =&gt; arg !== curry._)
   // 如果函数参数足够则调用传入的函数
   if (realArgs.length &gt;= fn.length) {
     return fn(...realArgs)
@@ -212,7 +243,7 @@ export function curry(fn: Function, ...args: any[]): IRFunc {
     // 记录需要移除补到前面的参数
     const removeIndexSet = new Set()
     let i = 0
-    const newArgs = args.map(arg =&gt; {
+    const newArgs = args.map((arg) =&gt; {
       if (
         arg !== curry._ ||
         otherArgs[i] === undefined ||
@@ -229,10 +260,10 @@ export function curry(fn: Function, ...args: any[]): IRFunc {
   }
   // 定义柯里化函数的剩余参数长度，便于在其他地方进行部分参数应用
   // 注: 不使用 length 属性的原因是 length 属性
-  innerFn._length = fn.length - args.filter(arg =&gt; arg !== curry._).length
+  innerFn._length = fn.length - args.filter((arg) =&gt; arg !== curry._).length
   // 自定义 toString 函数便于调试
   innerFn.toString = <span class="fstat-no" title="function not covered" >() =</span>&gt;
-<span class="cstat-no" title="statement not covered" >    `name: ${fn.name}, args: [${args.map(<span class="fstat-no" title="function not covered" >o </span>=&gt; <span class="cstat-no" title="statement not covered" >o.toString())</span>.join(', ')}]`</span>
+<span class="cstat-no" title="statement not covered" >    `name: ${fn.name}, args: [${args.map(<span class="fstat-no" title="function not covered" >(o</span>) =&gt; <span class="cstat-no" title="statement not covered" >o.toString())</span>.join(', ')}]`</span>
   innerFn._curry = true
   return innerFn
 }
@@ -242,24 +273,24 @@ export function curry(fn: Function, ...args: any[]): IRFunc {
  * 例如 {@link curry(fn)(curry._, 1)} 意味着函数 fn 的第二个参数将被确定为 1
  */
 curry._ = Symbol('_')
-&nbsp;</pre></td></tr>
-</table></pre>
-<div class='push'></div><!-- for sticky footer -->
-</div><!-- /wrapper -->
-<div class='footer quiet pad2 space-top1 center small'>
-  Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Thu Sep 24 2020 11:10:12 GMT+0800 (GMT+08:00)
-</div>
-</div>
-<script src="..\..\..\prettify.js"></script>
-<script>
-window.onload = function () {
-        if (typeof prettyPrint === 'function') {
-            prettyPrint();
-        }
-};
-</script>
-<script src="..\..\..\sorter.js"></script>
-<script src="..\..\..\block-navigation.js"></script>
-</body>
+&nbsp;</pre></td></tr></table></pre>
+
+                <div class='push'></div><!-- for sticky footer -->
+            </div><!-- /wrapper -->
+            <div class='footer quiet pad2 space-top1 center small'>
+                Code coverage generated by
+                <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
+                at Sun Oct 11 2020 04:53:12 GMT+0800 (GMT+08:00)
+            </div>
+        </div>
+        <script src="../../../prettify.js"></script>
+        <script>
+            window.onload = function () {
+                prettyPrint();
+            };
+        </script>
+        <script src="../../../sorter.js"></script>
+        <script src="../../../block-navigation.js"></script>
+    </body>
 </html>
+    
