@@ -129,6 +129,35 @@
     
 <!-- Properties -->
 <h4>Properties</h4>
+    <a id="BinaryUtil.ArrayBufferToJson" href="#BinaryUtil.ArrayBufferToJson">
+        <h5><code>
+                                static                                                ArrayBufferToJson                            </code></h5>
+    </a>
+    <!-- Signature -->
+<p>
+    <b>Type:
+        <code>
+            <!-- Type -->
+            undefined        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    
+    <!-- Tags -->
+    <div class="row">
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@deprecated:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>已废弃，请使用小谢驼峰的 arrayBufferToJson</p>
+</div>
+            </div>
 
 <!-- Methods -->
     <h4>Methods</h4>
@@ -482,9 +511,9 @@ copy as by base64-arraybuffer</p>
             <div class="col-sm-10"><p><a href="https://github.com/niklasvh/base64-arraybuffer/blob/master/lib/base64-arraybuffer.js">https://github.com/niklasvh/base64-arraybuffer/blob/master/lib/base64-arraybuffer.js</a></p>
 </div>
             </div>
-            <a id="BinaryUtil.ArrayBufferToJson" href="#BinaryUtil.ArrayBufferToJson">
+            <a id="BinaryUtil.arrayBufferToString" href="#BinaryUtil.arrayBufferToString">
             <h5><code>
-                                        static                                                            ArrayBufferToJson                                        (...)
+                                        static                                                            arrayBufferToString                                        (...)
                                     </code></h5>
         </a>
         
@@ -493,7 +522,7 @@ copy as by base64-arraybuffer</p>
     <b>
         <code>
             
-            function ArrayBufferToJson
+            function arrayBufferToString
             <!-- Type Parameters -->
             
                         <!-- Parameters -->
@@ -517,7 +546,67 @@ copy as by base64-arraybuffer</p>
 
             <!-- Return type -->
             :
-            Promise&lt;Object&gt;        </code>
+            Promise&lt;string&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>arrayBuffer 转 string</p>
+
+    <!-- Tags -->
+    <div class="row">
+            </div>
+            <a id="BinaryUtil.arrayBufferToJson" href="#BinaryUtil.arrayBufferToJson">
+            <h5><code>
+                                        static                                        async                    arrayBufferToJson                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function arrayBufferToJson
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arraybuffer
+                
+                <!-- type -->
+                :
+                ArrayBuffer
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;T&gt;        </code>
     </b>
 </p>
 

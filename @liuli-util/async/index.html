@@ -423,6 +423,89 @@
                         </div>
     <div class="card fluid">
         <!-- Name with anchor link -->
+        <a id="exhaustMap" href="#exhaustMap">
+            <h3><code>exhaustMap</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function exhaustMap
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : (...args: any[]) =&gt; Promise&lt;any&gt;        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            (...args: Parameters&lt;T&gt;) =&gt; Promise&lt;PromiseType&lt;ReturnType&lt;T&gt;&gt; | void&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>将一个异步函数包装为具有时序的异步函数
+注: 该函数会阻止的异步操作，非常类似于 asyncLimiting(1)，但不同之处在于它会直接抛弃掉并发的请求</p>
+
+    <!-- Tags -->
+    <div class="row">
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>fn 一个普通的异步函数</p>
+</div>
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@returns:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>包装后的函数</p>
+</div>
+            </div>
+                        </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
         <a id="mergeMap" href="#mergeMap">
             <h3><code>mergeMap</code></h3></a>
 
