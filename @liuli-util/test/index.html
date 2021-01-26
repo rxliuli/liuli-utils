@@ -131,8 +131,9 @@
     <b>
         Alias for:
         <code>
-            ExtractError&lt;
-  BaseExpect&lt;T, R&gt;
+            Extract&lt;
+  BaseExpect&lt;T, R&gt;,
+  Error
 &gt; extends never
   ? R
   : Error        </code>
@@ -141,8 +142,9 @@
 
 <!-- Docs -->
     <!-- Description -->
-    <p>断言类型，如果 T 和 R 等价，那么将返回 R，否则返回 Error
-最终判断是否能提取出 Error，如果不能则返回 R，否则返回 Error
+    <p>断言类型相等，如果 T 和 R 等价，那么将返回 R，否则返回 Error
+相比与通过 as 而言是比较类型是否相等而非比较 T 是 R 的子集类型</p>
+<p>最终判断是否能提取出 Error，如果不能则返回 R，否则返回 Error
 注意：如果反向判断是否为 Error 的话则不能正常生效，例如 {@code type E4&lt;T, R extends T&gt; = E2&lt;T, R&gt; extends Error ? Error : R} 是错误的，具体原因在 <a href="#https://www.typescriptlang.org/docs/handbook/basic-types.html#never"><code>https://www.typescriptlang.org/docs/handbook/basic-types.html#never</code></a> 中提到，never 是所有类型的子类，但其它类型不能赋值给它，例如 {@code never extends Error} 一定为真，反之则一定为假</p>
 
     <!-- Tags -->

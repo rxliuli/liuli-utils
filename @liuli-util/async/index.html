@@ -859,6 +859,1352 @@
 </div>
             </div>
                         </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="BaseAsyncArray" href="#BaseAsyncArray">
+            <h3><code>BaseAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Type -->
+            interface
+            <!-- Name -->
+            BaseAsyncArray
+            <!-- Type Parameters -->
+            
+            <!-- Extends -->
+                    </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>异步数组的基本接口
+仅声明一些纯函数，真正的链式异步调用在外层 API 实现</p>
+
+    <!-- Tags -->
+    <div class="row">
+            </div>
+
+<!-- Constructors -->
+
+<!-- Properties -->
+<h4>Properties</h4>
+
+<!-- Methods -->
+    <h4>Methods</h4>
+            <a id="BaseAsyncArray.reduce" href="#BaseAsyncArray.reduce">
+            <h5><code>
+                                                                                                    reduce                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function reduce
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (res: R, item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                res
+                
+                <!-- type -->
+                :
+                R
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="BaseAsyncArray.map" href="#BaseAsyncArray.map">
+            <h5><code>
+                                                                                                    map                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function map
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="BaseAsyncArray.filter" href="#BaseAsyncArray.filter">
+            <h5><code>
+                                                                                                    filter                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function filter
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;boolean&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;T[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="BaseAsyncArray.forEach" href="#BaseAsyncArray.forEach">
+            <h5><code>
+                                                                                                    forEach                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function forEach
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;void&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;void&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                            </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="BasicAsyncArray" href="#BasicAsyncArray">
+            <h3><code>BasicAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Type -->
+            class
+            <!-- Name -->
+            BasicAsyncArray
+            <!-- Type Parameters -->
+            
+            <!-- Extends -->
+                    </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+
+<!-- Constructors -->
+        <h4>Constructors</h4>
+    
+<!-- Properties -->
+<h4>Properties</h4>
+
+<!-- Methods -->
+    <h4>Methods</h4>
+            <a id="BasicAsyncArray.reduce" href="#BasicAsyncArray.reduce">
+            <h5><code>
+                                                                                                    reduce                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function reduce
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (res: R, item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                res
+                
+                <!-- type -->
+                :
+                R
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                            </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="SerialAsyncArray" href="#SerialAsyncArray">
+            <h3><code>SerialAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Type -->
+            class
+            <!-- Name -->
+            SerialAsyncArray
+            <!-- Type Parameters -->
+            
+            <!-- Extends -->
+                            extends BasicAsyncArray                    </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+
+<!-- Constructors -->
+        <h4>Constructors</h4>
+    
+<!-- Properties -->
+<h4>Properties</h4>
+
+<!-- Methods -->
+    <h4>Methods</h4>
+            <a id="SerialAsyncArray.map" href="#SerialAsyncArray.map">
+            <h5><code>
+                                                                                                    map                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function map
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="SerialAsyncArray.filter" href="#SerialAsyncArray.filter">
+            <h5><code>
+                                                                                async                    filter                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function filter
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;boolean&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;T[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="SerialAsyncArray.forEach" href="#SerialAsyncArray.forEach">
+            <h5><code>
+                                                                                async                    forEach                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function forEach
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;void&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;void&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                            </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="ParallelAsyncArray" href="#ParallelAsyncArray">
+            <h3><code>ParallelAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Type -->
+            class
+            <!-- Name -->
+            ParallelAsyncArray
+            <!-- Type Parameters -->
+            
+            <!-- Extends -->
+                            extends BasicAsyncArray                    </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+
+<!-- Constructors -->
+        <h4>Constructors</h4>
+    
+<!-- Properties -->
+<h4>Properties</h4>
+
+<!-- Methods -->
+    <h4>Methods</h4>
+            <a id="ParallelAsyncArray.map" href="#ParallelAsyncArray.map">
+            <h5><code>
+                                                                                                    map                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function map
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="ParallelAsyncArray.filter" href="#ParallelAsyncArray.filter">
+            <h5><code>
+                                                                                async                    filter                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function filter
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;boolean&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;T[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="ParallelAsyncArray.forEach" href="#ParallelAsyncArray.forEach">
+            <h5><code>
+                                                                                async                    forEach                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function forEach
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : any[]        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;void&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;void&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                            </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="serialAsyncArray" href="#serialAsyncArray">
+            <h3><code>serialAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Declaration Kind: const, let, or var -->
+            const
+            :
+
+            <!-- Variable type or any -->
+            any        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                        </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="parallelAsyncArray" href="#parallelAsyncArray">
+            <h3><code>parallelAsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Declaration Kind: const, let, or var -->
+            const
+            :
+
+            <!-- Variable type or any -->
+            any        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                        </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="AsyncArray" href="#AsyncArray">
+            <h3><code>AsyncArray</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Type -->
+            class
+            <!-- Name -->
+            AsyncArray
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+            <!-- Extends -->
+                    </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+
+<!-- Constructors -->
+        <h4>Constructors</h4>
+            <a id="AsyncArray.constructor" href="#AsyncArray.constructor">
+            <h5><code>constructor</code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function undefined
+            <!-- Type Parameters -->
+            
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                readonly                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            any        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+    
+<!-- Properties -->
+<h4>Properties</h4>
+
+<!-- Methods -->
+    <h4>Methods</h4>
+            <a id="AsyncArray.map" href="#AsyncArray.map">
+            <h5><code>
+                                                                                                    map                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function map
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            AsyncArray&lt;R&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="AsyncArray.filter" href="#AsyncArray.filter">
+            <h5><code>
+                                                                                                    filter                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function filter
+            <!-- Type Parameters -->
+            
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;boolean&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            this        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="AsyncArray.parallel" href="#AsyncArray.parallel">
+            <h5><code>
+                                                                                                    parallel                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function parallel
+            <!-- Type Parameters -->
+            
+                        <!-- Parameters -->
+            (
+                                    )
+
+            <!-- Return type -->
+            :
+            this        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="AsyncArray.serial" href="#AsyncArray.serial">
+            <h5><code>
+                                                                                                    serial                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function serial
+            <!-- Type Parameters -->
+            
+                        <!-- Parameters -->
+            (
+                                    )
+
+            <!-- Return type -->
+            :
+            this        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="AsyncArray.then" href="#AsyncArray.then">
+            <h5><code>
+                                                                                                    then                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function then
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        TResult1
+        <!-- Constraints -->
+        
+        <!-- Default -->
+                    = T[]        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        TResult2
+        <!-- Constraints -->
+        
+        <!-- Default -->
+                    = never        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                resolve
+                ?
+                <!-- type -->
+                :
+                | ((value: T[]) =&gt; PromiseLike&lt;TResult1&gt; | TResult1)
+| undefined
+| null
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                reject
+                ?
+                <!-- type -->
+                :
+                | ((reason: any) =&gt; PromiseLike&lt;TResult2&gt; | TResult2)
+| undefined
+| null
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            PromiseLike&lt;TResult1 | TResult2&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                            </div>
 </div>
 </div>
 </div>
