@@ -52,6 +52,10 @@
                         <code>
                             @liuli-util/dom                        </code>
                     </a>
+                                    <a href="/@liuli-util/idea">
+                        <code>
+                            @liuli-util/idea                        </code>
+                    </a>
                                     <a href="/@liuli-util/object">
                         <code>
                             @liuli-util/object                        </code>
@@ -1338,6 +1342,233 @@ common 两个数组共有的元素列表。注意: 这里的元素实质上是�
 
             <!-- Tag content -->
             <div class="col-sm-10"><p>映射产生的 map 集合</p>
+</div>
+            </div>
+                        </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="sortBy" href="#sortBy">
+            <h3><code>sortBy</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function undefined
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : CompareType        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                i
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                kFn
+                ?
+                <!-- type -->
+                :
+                (item: T, index: number, arr: T[]) =&gt; CompareType
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            T[]        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                                                
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function undefined
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : Exclude&lt;any, CompareType&gt;        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                i
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                kFn
+                
+                <!-- type -->
+                :
+                (item: T, index: number, arr: T[]) =&gt; CompareType
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            T[]        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                                                
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function sortBy
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                kFn
+                
+                <!-- type -->
+                :
+                (item: T, index: number, arr: T[]) =&gt; CompareType
+                <!-- Default value -->
+                                = (v) =&gt;
+    (v as unknown) as CompareType                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            T[]        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>对数组进行排序</p>
+
+    <!-- Tags -->
+    <div class="row">
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>arr 需要排序的数组</p>
+</div>
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>kFn 比较函数，默认是原值</p>
 </div>
             </div>
                         </div>

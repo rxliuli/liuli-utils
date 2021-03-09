@@ -52,6 +52,10 @@
                         <code>
                             @liuli-util/dom                        </code>
                     </a>
+                                    <a href="/@liuli-util/idea">
+                        <code>
+                            @liuli-util/idea                        </code>
+                    </a>
                                     <a href="/@liuli-util/object">
                         <code>
                             @liuli-util/object                        </code>
@@ -1190,6 +1194,84 @@
 <!-- Docs -->
     <!-- no docs :( -->
     <p><small>No docs provided</small></p>
+            <a id="AsyncArray.flatMap" href="#AsyncArray.flatMap">
+            <h5><code>
+                                        static                                        async                    flatMap                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function flatMap
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                arr
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R[]&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;R[]&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
             <a id="AsyncArray.forEach" href="#AsyncArray.forEach">
             <h5><code>
                                         static                                        async                    forEach                                        (...)
@@ -1316,6 +1398,62 @@
 <!-- Docs -->
     <!-- no docs :( -->
     <p><small>No docs provided</small></p>
+            <a id="AsyncArray.flatMap" href="#AsyncArray.flatMap">
+            <h5><code>
+                                                                                                    flatMap                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function flatMap
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R[]&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            AsyncArray&lt;R&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
             <a id="AsyncArray.filter" href="#AsyncArray.filter">
             <h5><code>
                                                                                                     filter                                        (...)
@@ -1352,6 +1490,62 @@
             <!-- Return type -->
             :
             this        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+            <a id="AsyncArray.forEach" href="#AsyncArray.forEach">
+            <h5><code>
+                                                                                async                    forEach                                        (...)
+                                    </code></h5>
+        </a>
+        
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            async
+            function forEach
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                fn
+                
+                <!-- type -->
+                :
+                (item: T, index: number) =&gt; Promise&lt;R&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            Promise&lt;void&gt;        </code>
     </b>
 </p>
 

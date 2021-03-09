@@ -79,23 +79,166 @@
                             </nav>
         </aside>
         <div class="col-sm-12 col-md-8 col-lg-6">
-<h1>日常使用的 TypeScript 工具库</h1>
-<p><a href="https://www.npmjs.com/org/liuli-util"><img src="https://img.shields.io/npm/v/@liuli-util/async.svg?color=red&amp;label=npm" alt="npm"></a> <a href="https://util.liuli.moe/"><img src="https://img.shields.io/badge/document-98%25-brightgreen.svg" alt="doc"></a> <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license-MIT-blue"></a></p>
-<h2>简介</h2>
-<p>吾辈使用的工具函数库，按照功能分割成不同的模块，都发布在 <a href="https://www.npmjs.com/org/liuli-util">@liuli-util</a> 组织下，可以单独引入指定模块。</p>
-<h2>变革</h2>
-<p>大约在 2018 年下半年，吾辈创建了这个工具库项目，初衷非常简单：<strong>“吾辈日常写传统前端时需要大量相同的函数，所以需要写一个能在浏览器上使用的库，仅此而已。 该库大部分代码已经通过单元测试，但还请谨慎用于生产环境。不包含单元测试的部分大部分是 DOM 操作相关函数，以及部分异步代码。如果在使用中遇到了什么问题，欢迎提 <a href="https://github.com/rxliuli/liuli-util/issues">issue</a>, 或者 <a href="https://github.com/rxliuli/liuli-util/pulls">PR</a> 亦可”</strong>。
-时光荏苒，吾辈已经从一个后端开发变为前端开发，这个项目中包含的功能越来越多，维护难度越来越大，在项目中的引入成本逐渐变高，甚至到了 nodejs 项目无法引入的程度 -- 即便有许多功能是环境无关的。</p>
-<p>所以这次升级 2.0 希望解决的几个问题如下</p>
-<ul>
-<li>[x] 清理不需要的功能</li>
-<li>[x] 使用 monorepo 增强项目的可维护性</li>
-<li>[x] 修改项目的名字（rx-util 看起来很像 <a href="https://rxjs-dev.firebaseapp.com/guide/overview">rx.js</a> 相关的工具包）</li>
-<li>[ ] 使用 monorepo 分割打包减小在项目中的引入成本 -- babel 的 567 三个版本转变的惨剧历历在目</li>
-<li>[ ] 找到对用户更友好的使用方式 <code>class vs function</code> -- 面向对象 vs 函数式</li>
-</ul>
-<h2>许可证</h2>
-<p><a href="./LICENSE">MIT</a></p>
+<h1><code>@liuli-util/idea</code></h1>
+
+<p>
+    Install using
+</p>
+<pre><code>npm install @liuli-util/idea</code></pre>
+
+<h2>Exported Members</h2>
+<p>You can access these members by importing the module:</p>
+<pre><code>import { <i>member</i> } from '@liuli-util/idea';</code></pre>
+
+<!-- Members -->
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="enhanceProxy" href="#enhanceProxy">
+            <h3><code>enhanceProxy</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function enhanceProxy
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : object        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                obj
+                
+                <!-- type -->
+                :
+                T
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                handler
+                
+                <!-- type -->
+                :
+                EnhanceProxyHandler&lt;T&gt;
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            any        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>增强 proxy
+添加参数 path 表示属性访问路径</p>
+
+    <!-- Tags -->
+    <div class="row">
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>obj</p>
+</div>
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>handler</p>
+</div>
+            </div>
+                        </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="EnhanceProxyHandler" href="#EnhanceProxyHandler">
+            <h3><code>EnhanceProxyHandler</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    <!-- Signature -->
+<p>
+    <b>
+        <code>
+            <!-- Name -->
+            type EnhanceProxyHandler
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : object        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+        </code>
+    </b>
+</p>
+
+<!-- Definition -->
+<p>
+    <b>
+        Alias for:
+        <code>
+            Overwrite&lt;
+  ProxyHandler&lt;T&gt;,
+  {
+    get?(target: T, path: PropertyKey[], receiver: any): any
+    set?(target: T, path: PropertyKey[], value: any, receiver: any): boolean
+    apply?(target: T, path: PropertyKey[], thisArg: any, argArray?: any): any
+  }
+&gt;        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- no docs :( -->
+    <p><small>No docs provided</small></p>
+                        </div>
 </div>
 </div>
 </div>
