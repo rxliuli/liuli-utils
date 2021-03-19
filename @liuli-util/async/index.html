@@ -475,7 +475,7 @@
 
             <!-- Return type -->
             :
-            (...args: Parameters&lt;T&gt;) =&gt; Promise&lt;PromiseType&lt;ReturnType&lt;T&gt;&gt; | void&gt;        </code>
+            (...args: Parameters&lt;T&gt;) =&gt; Promise&lt;PromiseValue&lt;ReturnType&lt;T&gt;&gt; | void&gt;        </code>
     </b>
 </p>
 
@@ -1016,7 +1016,7 @@
                 
                 <!-- type -->
                 :
-                (res: R, item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;R&gt;
+                (res: R, item: IterableElement&lt;T&gt;, index: number) =&gt; Promise&lt;R&gt;
                 <!-- Default value -->
                 
                 <!-- Comma if not last -->
@@ -1326,7 +1326,7 @@
                 
                 <!-- type -->
                 :
-                (item: ValuesType&lt;T&gt;, index: number) =&gt; Promise&lt;void&gt;
+                (item: IterableElement&lt;T&gt;, index: number) =&gt; Promise&lt;void&gt;
                 <!-- Default value -->
                 
                 <!-- Comma if not last -->
