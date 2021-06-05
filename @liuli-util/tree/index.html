@@ -600,6 +600,121 @@ path: T[C[&#39;id&#39;]][],
 </div>
             </div>
                         </div>
+    <div class="card fluid">
+        <!-- Name with anchor link -->
+        <a id="listToTree" href="#listToTree">
+            <h3><code>listToTree</code></h3></a>
+
+        <!-- Description, based on type -->
+                                    
+<!-- Signature -->
+<p>
+    <b>
+        <code>
+            
+            function listToTree
+            <!-- Type Parameters -->
+                <!-- opening angle bracket -->
+    &lt;
+
+            
+        <!-- Name -->
+        T
+        <!-- Constraints -->
+                    : object        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        C
+        <!-- Constraints -->
+                    : Pick&lt;TreeOption&lt;T&gt;, &#39;id&#39;&gt; &amp; {
+parentId: keyof T
+children: string &amp; keyof R
+}        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+        ,             
+        <!-- Name -->
+        R
+        <!-- Constraints -->
+                    : ReType&lt;T, C[&#39;children&#39;]&gt;        
+        <!-- Default -->
+        
+        <!-- Comma if not last -->
+            
+    <!-- Closing angle bracket -->
+    &gt;
+
+                        <!-- Parameters -->
+            (
+                            
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                list
+                
+                <!-- type -->
+                :
+                T[]
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                ,                             
+                <br>
+                &nbsp;&nbsp;
+
+                                
+                <!-- parameter name -->
+                options
+                
+                <!-- type -->
+                :
+                C
+                <!-- Default value -->
+                
+                <!-- Comma if not last -->
+                                                        <br>
+                        )
+
+            <!-- Return type -->
+            :
+            R[]        </code>
+    </b>
+</p>
+
+<!-- Docs -->
+    <!-- Description -->
+    <p>将列表转为树</p>
+
+    <!-- Tags -->
+    <div class="row">
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>list</p>
+</div>
+                    <!-- Tag name -->
+            <div class="col-sm-2">
+                <p>
+                    <mark class="tag">@param:</mark>
+                </p>
+            </div>
+
+            <!-- Tag content -->
+            <div class="col-sm-10"><p>options</p>
+</div>
+            </div>
+                        </div>
 </div>
 </div>
 </div>
