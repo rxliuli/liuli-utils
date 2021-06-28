@@ -1400,7 +1400,7 @@ common 两个数组共有的元素列表。注意: 这里的元素实质上是�
                 ?
                 <!-- type -->
                 :
-                (item: T, index: number, arr: T[]) =&gt; CompareType
+                (item: T) =&gt; CompareType
                 <!-- Default value -->
                 
                 <!-- Comma if not last -->
@@ -1465,7 +1465,7 @@ common 两个数组共有的元素列表。注意: 这里的元素实质上是�
                 
                 <!-- type -->
                 :
-                (item: T, index: number, arr: T[]) =&gt; CompareType
+                (item: T) =&gt; CompareType
                 <!-- Default value -->
                 
                 <!-- Comma if not last -->
@@ -1530,10 +1530,9 @@ common 两个数组共有的元素列表。注意: 这里的元素实质上是�
                 
                 <!-- type -->
                 :
-                (item: T, index: number, arr: T[]) =&gt; CompareType
+                (item: T) =&gt; CompareType
                 <!-- Default value -->
-                                = (v) =&gt;
-    (v as unknown) as CompareType                
+                                = (v) =&gt; (v as unknown) as CompareType                
                 <!-- Comma if not last -->
                                                         <br>
                         )
