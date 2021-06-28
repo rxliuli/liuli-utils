@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <meta charset='UTF-8'>
     <title>liuli-util</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
     <style>
@@ -10,10 +11,6 @@
 
         code {
             line-height: inherit;
-        }
-
-        :root {
-            scroll-behavior: smooth;
         }
 
         header {
@@ -84,8 +81,7 @@
 <h2>简介</h2>
 <p>吾辈使用的工具函数库，按照功能分割成不同的模块，都发布在 <a href="https://www.npmjs.com/org/liuli-util">@liuli-util</a> 组织下，可以单独引入指定模块。</p>
 <h2>变革</h2>
-<p>大约在 2018 年下半年，吾辈创建了这个工具库项目，初衷非常简单：<strong>“吾辈日常写传统前端时需要大量相同的函数，所以需要写一个能在浏览器上使用的库，仅此而已。 该库大部分代码已经通过单元测试，但还请谨慎用于生产环境。不包含单元测试的部分大部分是 DOM 操作相关函数，以及部分异步代码。如果在使用中遇到了什么问题，欢迎提 <a href="https://github.com/rxliuli/liuli-util/issues">issue</a>, 或者 <a href="https://github.com/rxliuli/liuli-util/pulls">PR</a> 亦可”</strong>。
-时光荏苒，吾辈已经从一个后端开发变为前端开发，这个项目中包含的功能越来越多，维护难度越来越大，在项目中的引入成本逐渐变高，甚至到了 nodejs 项目无法引入的程度 -- 即便有许多功能是环境无关的。</p>
+<p>大约在 2018 年下半年，吾辈创建了这个工具库项目，初衷非常简单：<strong>吾辈日常写传统前端时需要大量相同的函数，所以需要写一个能在浏览器上使用的库，仅此而已。</strong>。时光荏苒，吾辈已经从一个后端开发变为前端开发，这个项目中包含的功能越来越多，在项目中的引入成本逐渐变高，甚至到了 nodejs 项目无法引入的程度 -- 即便有许多功能是环境无关的。</p>
 <p>所以这次升级 2.0 希望解决的几个问题如下</p>
 <ul>
 <li>[x] 清理不需要的功能</li>
@@ -99,8 +95,8 @@
 </div>
 </div>
 </div>
-<script src="https://rawcdn.githack.com/nextapps-de/flexsearch/master/dist/flexsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fliegwerk/search-popup/dist/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.6.32/dist/flexsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fliegwerk/search-popup@2.0.0/dist/bundle.js"></script>
 <script>
     const searchIndex = new FlexSearch({
         encode: q => (q.replace(/([a-z])([A-Z])/g, "$1 $2")).toLowerCase() + ' ' + q.toLowerCase(),
@@ -122,7 +118,6 @@
 
     fetch('/search-index.json').then(r => r.json()).then(index => {
         searchIndex.add(index)
-
         const searchPopup = document.createElement('search-popup');
         searchPopup.setAttribute('search', 'search')
         document.body.appendChild(searchPopup);

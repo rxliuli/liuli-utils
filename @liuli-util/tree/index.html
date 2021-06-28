@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <meta charset='UTF-8'>
     <title>liuli-util</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css">
     <style>
@@ -10,10 +11,6 @@
 
         code {
             line-height: inherit;
-        }
-
-        :root {
-            scroll-behavior: smooth;
         }
 
         header {
@@ -718,8 +715,8 @@ children: string &amp; keyof R
 </div>
 </div>
 </div>
-<script src="https://rawcdn.githack.com/nextapps-de/flexsearch/master/dist/flexsearch.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fliegwerk/search-popup/dist/bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.6.32/dist/flexsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fliegwerk/search-popup@2.0.0/dist/bundle.js"></script>
 <script>
     const searchIndex = new FlexSearch({
         encode: q => (q.replace(/([a-z])([A-Z])/g, "$1 $2")).toLowerCase() + ' ' + q.toLowerCase(),
@@ -741,7 +738,6 @@ children: string &amp; keyof R
 
     fetch('/search-index.json').then(r => r.json()).then(index => {
         searchIndex.add(index)
-
         const searchPopup = document.createElement('search-popup');
         searchPopup.setAttribute('search', 'search')
         document.body.appendChild(searchPopup);
